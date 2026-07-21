@@ -1,0 +1,62 @@
+[
+  {
+    "id": "linkedin-geoff",
+    "name": "Geoff Woods",
+    "platform": "LinkedIn",
+    "handle": "geoff-woods",
+    "metricLabel": "followers",
+    "provider": "manual",
+    "color": "#2563eb",
+    "profileUrl": "https://www.linkedin.com/in/geoff-woods/"
+  },
+  {
+    "id": "instagram-geoff",
+    "name": "Geoff Woods",
+    "platform": "Instagram",
+    "handle": "geoffwoods",
+    "metricLabel": "followers",
+    "provider": "instagram",
+    "color": "#d946ef",
+    "profileUrl": "https://www.instagram.com/geoffwoods/"
+  },
+  {
+    "id": "x-geoff",
+    "name": "Geoff Woods",
+    "platform": "X",
+    "handle": "geoffwoods",
+    "metricLabel": "followers",
+    "provider": "x",
+    "color": "#111827",
+    "profileUrl": "https://x.com/geoffwoods"
+  },
+  {
+    "id": "linkedin-ai-leadership",
+    "name": "AI Leadership",
+    "platform": "LinkedIn",
+    "handle": "ai-leadership",
+    "metricLabel": "followers",
+    "provider": "linkedin",
+    "color": "#6d5dfb",
+    "profileUrl": "https://www.linkedin.com/company/ai-leadership/"
+  },
+  {
+    "id": "youtube-ai-driven-leader",
+    "name": "The AI-Driven Leader",
+    "platform": "YouTube",
+    "handle": "UCYlrqf_aa2O5bN8-KhibbSQ",
+    "metricLabel": "subscribers",
+    "provider": "youtube",
+    "color": "#ef4444",
+    "profileUrl": "https://www.youtube.com/channel/UCYlrqf_aa2O5bN8-KhibbSQ"
+  },
+  {
+    "id": "spotify-ai-driven-leader",
+    "name": "The AI-Driven Leader",
+    "platform": "Spotify",
+    "handle": "the-ai-driven-leader",
+    "metricLabel": "followers",
+    "provider": "manual",
+    "color": "#0f9f91",
+    "profileUrl": "https://open.spotify.com/"
+  }
+]

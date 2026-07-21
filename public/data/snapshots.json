@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-05-21",
+    "channelId": "x-geoff",
+    "audience": 4000,
+    "source": "public-baseline",
+    "precision": "rounded"
+  },
+  {
+    "date": "2026-06-22",
+    "channelId": "youtube-ai-driven-leader",
+    "audience": 1290,
+    "source": "public-baseline",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-07-14",
+    "channelId": "linkedin-geoff",
+    "audience": 17758,
+    "source": "public-baseline",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-07-21",
+    "channelId": "linkedin-ai-leadership",
+    "audience": 824,
+    "source": "public-baseline",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-07-21",
+    "channelId": "linkedin-geoff",
+    "audience": 17758,
+    "source": "carry-forward",
+    "precision": "stale"
+  },
+  {
+    "date": "2026-07-21",
+    "channelId": "x-geoff",
+    "audience": 4000,
+    "source": "carry-forward",
+    "precision": "stale"
+  },
+  {
+    "date": "2026-07-21",
+    "channelId": "youtube-ai-driven-leader",
+    "audience": 1290,
+    "source": "carry-forward",
+    "precision": "stale"
+  }
+]

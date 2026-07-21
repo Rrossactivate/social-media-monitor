@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-07-21T15:07:14.945Z",
+  "timezone": "America/Vancouver",
+  "providers": [
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "mode": "api",
+      "status": "needs-setup",
+      "detail": "Add YOUTUBE_API_KEY"
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "mode": "api",
+      "status": "needs-setup",
+      "detail": "Add X_BEARER_TOKEN"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "mode": "api",
+      "status": "needs-setup",
+      "detail": "Add Instagram user ID and access token"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn company",
+      "mode": "api",
+      "status": "needs-setup",
+      "detail": "Add an approved organization token and ID"
+    },
+    {
+      "id": "manual",
+      "label": "Manual fallbacks",
+      "mode": "manual",
+      "status": "ready",
+      "detail": "Verified values are preserved between runs"
+    }
+  ]
+}

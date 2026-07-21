@@ -1,0 +1,63 @@
+name: Update social tracker
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+      timezone: "America/Vancouver"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  update-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Update daily archive
+        env:
+          TRACKER_TIMEZONE: America/Vancouver
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_ORGANIZATION_ID: ${{ secrets.LINKEDIN_ORGANIZATION_ID }}
+          LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
+        run: node scripts/update-data.mjs
+      - name: Save new archive rows
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data
+          git diff --cached --quiet || git commit -m "data: archive daily social metrics [skip ci]"
+          git push
+      - name: Prepare GitHub Pages site
+        run: node scripts/prepare-static.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: update-and-build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

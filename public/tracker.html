@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#111827" />
+    <meta
+      name="description"
+      content="Daily audience growth and content performance for Geoff Woods and AI Leadership."
+    />
+    <title>Geoff Woods — Social Audience Tracker</title>
+    <link rel="stylesheet" href="./tracker.css" />
+    <script src="./tracker.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Geoff Woods Social Tracker home">
+          <span class="brand-mark" aria-hidden="true">GW</span>
+          <span>
+            <strong>Audience Intelligence</strong>
+            <small>Geoff Woods · AI Leadership</small>
+          </span>
+        </a>
+        <div class="nav-actions">
+          <span class="run-status" id="run-status"><i></i> Daily archive</span>
+          <button class="quiet-button" id="refresh-data" type="button">Refresh data</button>
+        </div>
+      </nav>
+
+      <div class="hero" id="top">
+        <div>
+          <p class="eyebrow">SOCIAL GROWTH COMMAND CENTER</p>
+          <h1>Know what’s growing.<br /><span>Know what caused it.</span></h1>
+          <p class="hero-copy">
+            A single daily view of audience momentum, publishing cadence, and the posts earning attention across every active channel.
+          </p>
+        </div>
+        <div class="hero-meta">
+          <span>Last data run</span>
+          <strong id="last-run">Loading…</strong>
+          <small id="coverage-note">Checking source coverage</small>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="Dashboard filters">
+        <div class="range-control" role="group" aria-label="Date range">
+          <button type="button" data-range="7">7D</button>
+          <button type="button" data-range="30" class="active" aria-pressed="true">30D</button>
+          <button type="button" data-range="90">90D</button>
+          <button type="button" data-range="0">All</button>
+        </div>
+        <label class="channel-filter">
+          <span>Channel</span>
+          <select id="channel-filter">
+            <option value="all">All channels</option>
+          </select>
+        </label>
+        <button class="download-button" id="download-data" type="button">Download archive</button>
+      </section>
+
+      <section class="kpi-grid" aria-label="Key performance indicators">
+        <article class="kpi-card violet">
+          <p>Known cross-channel count</p>
+          <strong id="kpi-audience">—</strong>
+          <span id="kpi-audience-note">Across tracked channels</span>
+        </article>
+        <article class="kpi-card blue">
+          <p>Follower growth</p>
+          <strong id="kpi-growth">—</strong>
+          <span id="kpi-growth-note">During selected period</span>
+        </article>
+        <article class="kpi-card teal">
+          <p>Posts published</p>
+          <strong id="kpi-posts">—</strong>
+          <span id="kpi-posts-note">During selected period</span>
+        </article>
+        <article class="kpi-card amber">
+          <p>Total engagements</p>
+          <strong id="kpi-engagements">—</strong>
+          <span id="kpi-engagement-rate">Engagement rate —</span>
+        </article>
+      </section>
+
+      <section class="panel chart-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">AUDIENCE HISTORY</p>
+            <h2>Follower and subscriber trend</h2>
+          </div>
+          <div class="legend" id="chart-legend" aria-label="Chart legend"></div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="trend-chart" role="img" aria-label="Audience counts over time by channel"></canvas>
+          <div class="empty-state" id="chart-empty" hidden>Add a second daily snapshot to reveal growth trends.</div>
+        </div>
+      </section>
+
+      <section class="two-column">
+        <article class="panel channel-panel">
+          <div class="panel-heading compact">
+            <div>
+              <p class="section-kicker">CHANNEL PULSE</p>
+              <h2>Current audience</h2>
+            </div>
+            <span class="subtle">Latest recorded value</span>
+          </div>
+          <div class="channel-list" id="channel-list"></div>
+        </article>
+
+        <aside class="panel automation-panel">
+          <div class="panel-heading compact">
+            <div>
+              <p class="section-kicker">DATA OPERATIONS</p>
+              <h2>Update coverage</h2>
+            </div>
+          </div>
+          <div class="coverage-meter" aria-hidden="true"><span id="coverage-bar"></span></div>
+          <p class="coverage-summary" id="coverage-summary">Loading provider status…</p>
+          <div class="provider-list" id="provider-list"></div>
+          <p class="automation-note">
+            Restricted channels keep their last verified value until a native API credential or manual override is supplied.
+          </p>
+        </aside>
+      </section>
+
+      <section class="panel content-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">CONTENT PERFORMANCE</p>
+            <h2>Posts earning attention</h2>
+          </div>
+          <span class="subtle" id="content-range">Selected period</span>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Published</th>
+                <th>Channel</th>
+                <th>Post</th>
+                <th>Views / impressions</th>
+                <th>Engagements</th>
+                <th>Engagement rate</th>
+              </tr>
+            </thead>
+            <tbody id="post-table"></tbody>
+          </table>
+        </div>
+        <div class="empty-content" id="post-empty" hidden>
+          <strong>No post metrics yet.</strong>
+          <span>The daily updater will add supported posts; restricted platforms can be entered in the repository data file.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Daily audience archive · Public counts may be rounded · Cross-channel totals are not unique people</p>
+      <a href="https://www.aileadership.com/" rel="noreferrer">AI Leadership</a>
+    </footer>
+
+    <noscript>This tracker needs JavaScript enabled to load its daily archive.</noscript>
+  </body>
+</html>
