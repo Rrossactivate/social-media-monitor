@@ -108,6 +108,19 @@ function sourceFreshness(date) {
   return `${age} days ago`;
 }
 
+function sourceLabel(source) {
+  const labels = {
+    "browser-verified": "profile verified",
+    "public-baseline": "public baseline",
+    "carry-forward": "last verified",
+    "instagram-api": "Instagram API",
+    "linkedin-api": "LinkedIn API",
+    "youtube-api": "YouTube API",
+    "x-api": "X API",
+  };
+  return labels[source] || source || "recorded";
+}
+
 function renderHeader() {
   const generated = state.status?.generatedAt ? new Date(state.status.generatedAt) : null;
   $("#last-run").textContent = generated && !Number.isNaN(generated.getTime()) ? longDateTime.format(generated) : "Not yet run";
@@ -152,7 +165,7 @@ function renderChannelList() {
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.handle)}</small></span>
         <span class="channel-activity"><strong>${activity}</strong><small>posts</small></span>
-        <span class="channel-value"><strong>${latest ? fullNumber.format(latest.audience) : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)}` : "Awaiting first value"}</small></span>
+        <span class="channel-value"><strong>${latest ? fullNumber.format(latest.audience) : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)} · ${sourceLabel(latest.source)}` : "Awaiting first value"}</small></span>
       </a>`;
     })
     .join("");

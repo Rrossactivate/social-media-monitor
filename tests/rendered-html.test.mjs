@@ -33,6 +33,16 @@ test("archive data has unique date and channel pairs", async () => {
   assert.equal(new Set(keys).size, keys.length);
   assert.ok(snapshots.every((snapshot) => ids.has(snapshot.channelId) && Number.isFinite(snapshot.audience)));
   assert.ok(Array.isArray(status.providers));
+
+  const latestVerified = Object.fromEntries(
+    snapshots
+      .filter((snapshot) => snapshot.date === "2026-07-21" && snapshot.source === "browser-verified")
+      .map((snapshot) => [snapshot.channelId, snapshot.audience]),
+  );
+  assert.deepEqual(latestVerified, {
+    "instagram-geoff": 5535,
+    "linkedin-geoff": 18390,
+  });
 });
 
 test("static packaging includes a Pages-ready index", async () => {
