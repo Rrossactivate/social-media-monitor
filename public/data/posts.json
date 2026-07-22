@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "youtube:F-H9d5oGoq0",
+    "channelId": "youtube-ai-driven-leader",
+    "publishedAt": "2026-07-20T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
+    "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
+    "views": 54,
+    "engagements": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-22T05:08:08.000Z"
+  },
+  {
+    "id": "youtube:pg0W81UXkxk",
+    "channelId": "youtube-ai-driven-leader",
+    "publishedAt": "2026-07-17T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "title": "The Only Skill That Survives AI",
+    "url": "https://www.youtube.com/watch?v=pg0W81UXkxk",
+    "views": 71,
+    "engagements": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-22T05:08:08.000Z"
+  },
+  {
+    "id": "youtube:poOGwDZRQkc",
+    "channelId": "youtube-ai-driven-leader",
+    "publishedAt": "2026-07-15T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "title": "Your Team Is Afraid AI Will Replace Them. Do This.",
+    "url": "https://www.youtube.com/watch?v=poOGwDZRQkc",
+    "views": 75,
+    "engagements": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-22T05:08:08.000Z"
+  },
+  {
+    "id": "youtube:p5ib_4xUXmg",
+    "channelId": "youtube-ai-driven-leader",
+    "publishedAt": "2026-07-13T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "title": "How Herbalife's CEO Uses AI to Lead a $5B Global Company | Stephan Gratziani",
+    "url": "https://www.youtube.com/watch?v=p5ib_4xUXmg",
+    "views": 311,
+    "engagements": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-22T05:08:08.000Z"
+  }
+]

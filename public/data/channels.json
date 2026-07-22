@@ -44,10 +44,11 @@
     "name": "The AI-Driven Leader",
     "platform": "YouTube",
     "handle": "UCYlrqf_aa2O5bN8-KhibbSQ",
+    "displayHandle": "@TheAI-DrivenLeader",
     "metricLabel": "subscribers",
     "provider": "youtube",
     "color": "#97C0F9",
-    "profileUrl": "https://www.youtube.com/channel/UCYlrqf_aa2O5bN8-KhibbSQ"
+    "profileUrl": "https://www.youtube.com/@TheAI-DrivenLeader"
   },
   {
     "id": "spotify-ai-driven-leader",

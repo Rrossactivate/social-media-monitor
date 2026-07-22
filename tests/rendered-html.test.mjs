@@ -43,7 +43,18 @@ test("archive data has unique date and channel pairs", async () => {
     "instagram-geoff": 5535,
     "linkedin-geoff": 18390,
     "x-geoff": 4094,
+    "youtube-ai-driven-leader": 1540,
   });
+
+  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-21" && snapshot.channelId === "youtube-ai-driven-leader");
+  assert.equal(youtubeSnapshot.precision, "rounded");
+});
+
+test("verified YouTube activity is archived without inventing engagement metrics", async () => {
+  const posts = await readFile(new URL("public/data/posts.json", root), "utf8").then(JSON.parse);
+  assert.equal(posts.length, 4);
+  assert.ok(posts.every((post) => post.channelId === "youtube-ai-driven-leader" && Number.isFinite(post.views)));
+  assert.ok(posts.every((post) => post.engagements === null && post.source === "browser-verified"));
 });
 
 test("static packaging includes a Pages-ready index", async () => {

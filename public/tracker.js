@@ -140,17 +140,19 @@ function renderKpis() {
     const last = latestFor(channel.id);
     return sum + (first && last ? last.audience - first.audience : 0);
   }, 0);
-  const engagements = posts.reduce((sum, post) => sum + (post.engagements || 0), 0);
-  const exposure = posts.reduce((sum, post) => sum + (post.views || post.impressions || 0), 0);
+  const measuredPosts = posts.filter((post) => Number.isFinite(post.engagements));
+  const engagements = measuredPosts.reduce((sum, post) => sum + post.engagements, 0);
+  const exposure = measuredPosts.reduce((sum, post) => sum + (post.views || post.impressions || 0), 0);
+  const audienceIsRounded = latest.some((item) => item.precision === "rounded" || item.precision === "api-rounded");
 
-  $("#kpi-audience").textContent = latest.length ? fullNumber.format(current) : "—";
+  $("#kpi-audience").textContent = latest.length ? `${audienceIsRounded ? "≈" : ""}${fullNumber.format(current)}` : "—";
   $("#kpi-audience-note").textContent = `${latest.length} of ${channels.length} selected channels reporting`;
   $("#kpi-growth").textContent = growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
   $("#kpi-growth-note").textContent = state.days ? `During the last ${state.days} days` : "Across the full archive";
   $("#kpi-posts").textContent = fullNumber.format(posts.length);
   $("#kpi-posts-note").textContent = state.days ? `During the last ${state.days} days` : "Across the full archive";
-  $("#kpi-engagements").textContent = fullNumber.format(engagements);
-  $("#kpi-engagement-rate").textContent = `Engagement rate ${percent(engagements, exposure)}`;
+  $("#kpi-engagements").textContent = measuredPosts.length ? fullNumber.format(engagements) : "—";
+  $("#kpi-engagement-rate").textContent = measuredPosts.length ? `Engagement rate ${percent(engagements, exposure)}` : "Engagement metrics awaiting API";
 }
 
 function renderChannelList() {
@@ -163,9 +165,9 @@ function renderChannelList() {
       const activity = posts[channel.id]?.length || 0;
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
-        <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.handle)}</small></span>
+        <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>
         <span class="channel-activity"><strong>${activity}</strong><small>posts</small></span>
-        <span class="channel-value"><strong>${latest ? fullNumber.format(latest.audience) : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)} · ${sourceLabel(latest.source)}` : "Awaiting first value"}</small></span>
+        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)} · ${sourceLabel(latest.source)}` : "Awaiting first value"}</small></span>
       </a>`;
     })
     .join("");
@@ -196,13 +198,14 @@ function renderPosts() {
       const channel = channelMap[post.channelId];
       const exposure = post.views || post.impressions || 0;
       const title = post.title || post.text || "View post";
+      const hasEngagements = Number.isFinite(post.engagements);
       return `<tr>
-        <td>${shortDate.format(new Date(post.publishedAt))}</td>
+        <td>${post.datePrecision === "relative-day" ? "≈" : ""}${shortDate.format(new Date(post.publishedAt))}</td>
         <td><span class="table-channel"><i style="--channel-color:${channel?.color || "#64748b"}"></i>${escapeHtml(channel?.platform || post.channelId)}</span></td>
         <td><a href="${safeUrl(post.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></td>
         <td>${fullNumber.format(exposure)}</td>
-        <td>${fullNumber.format(post.engagements || 0)}</td>
-        <td>${percent(post.engagements || 0, exposure)}</td>
+        <td>${hasEngagements ? fullNumber.format(post.engagements) : "—"}</td>
+        <td>${hasEngagements ? percent(post.engagements, exposure) : "—"}</td>
       </tr>`;
     })
     .join("");

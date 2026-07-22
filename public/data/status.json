@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T04:58:00.000Z",
+  "generatedAt": "2026-07-22T05:08:08.000Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "Instagram, LinkedIn personal, and X profiles verified July 21; values are preserved between runs"
+      "detail": "Instagram, LinkedIn personal, X, and YouTube profiles verified July 21; values are preserved between runs"
     }
   ]
 }

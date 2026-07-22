@@ -51,8 +51,8 @@
   {
     "date": "2026-07-21",
     "channelId": "youtube-ai-driven-leader",
-    "audience": 1290,
-    "source": "carry-forward",
-    "precision": "stale"
+    "audience": 1540,
+    "source": "browser-verified",
+    "precision": "rounded"
   }
 ]
