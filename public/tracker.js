@@ -232,7 +232,7 @@ function drawChart() {
   const x = (value) => pad.left + ((value - minX) / (maxX - minX)) * plotW;
   const y = (value) => pad.top + (1 - (value - minY) / (maxY - minY)) * plotH;
 
-  ctx.font = "11px Inter, sans-serif";
+  ctx.font = "11px Geist, sans-serif";
   ctx.textBaseline = "middle";
   for (let step = 0; step <= 4; step += 1) {
     const py = pad.top + (plotH * step) / 4;

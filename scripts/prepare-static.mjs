@@ -10,6 +10,8 @@ await cp(path.join(root, "public/tracker.html"), path.join(target, "index.html")
 await cp(path.join(root, "public/tracker.css"), path.join(target, "tracker.css"));
 await cp(path.join(root, "public/tracker.js"), path.join(target, "tracker.js"));
 await cp(path.join(root, "public/data"), path.join(target, "data"), { recursive: true });
+await cp(path.join(root, "public/fonts"), path.join(target, "fonts"), { recursive: true });
+await cp(path.join(root, "public/ail-mark.png"), path.join(target, "ail-mark.png"));
 try { await cp(path.join(root, "public/og.png"), path.join(target, "og.png")); } catch {}
 await writeFile(path.join(target, ".nojekyll"), "");
 console.log(`Static dashboard prepared in ${target}`);

@@ -13,7 +13,11 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /Social Audience Tracker/);
   assert.match(html, /id="trend-chart"/);
   assert.match(html, /id="post-table"/);
+  assert.match(html, /ail-mark\.png/);
+  assert.match(html, /geoff-woods-social-tracker\.robin-ross-6445\.chatgpt\.site\/og\.png/);
   assert.match(css, /@media \(max-width: 680px\)/);
+  assert.match(css, /font-family: "Geist"/);
+  assert.match(css, /#004fa6/i);
   assert.match(script, /data\/snapshots\.json/);
   assert.doesNotMatch(html, /react-loading-skeleton|Codex is working/);
 });
@@ -36,6 +40,9 @@ test("static packaging includes a Pages-ready index", async () => {
     access(new URL("_site/index.html", root)),
     access(new URL("_site/tracker.js", root)),
     access(new URL("_site/data/snapshots.json", root)),
+    access(new URL("_site/fonts/geist-latin.woff2", root)),
+    access(new URL("_site/ail-mark.png", root)),
+    access(new URL("_site/og.png", root)),
     access(new URL("_site/.nojekyll", root)),
   ]);
 });

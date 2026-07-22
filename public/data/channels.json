@@ -6,7 +6,7 @@
     "handle": "geoff-woods",
     "metricLabel": "followers",
     "provider": "manual",
-    "color": "#2563eb",
+    "color": "#004FA6",
     "profileUrl": "https://www.linkedin.com/in/geoff-woods/"
   },
   {
@@ -16,7 +16,7 @@
     "handle": "geoffwoods",
     "metricLabel": "followers",
     "provider": "instagram",
-    "color": "#d946ef",
+    "color": "#3688F8",
     "profileUrl": "https://www.instagram.com/geoffwoods/"
   },
   {
@@ -26,7 +26,7 @@
     "handle": "geoffwoods",
     "metricLabel": "followers",
     "provider": "x",
-    "color": "#111827",
+    "color": "#1C1B17",
     "profileUrl": "https://x.com/geoffwoods"
   },
   {
@@ -36,7 +36,7 @@
     "handle": "ai-leadership",
     "metricLabel": "followers",
     "provider": "linkedin",
-    "color": "#6d5dfb",
+    "color": "#0F254C",
     "profileUrl": "https://www.linkedin.com/company/ai-leadership/"
   },
   {
@@ -46,7 +46,7 @@
     "handle": "UCYlrqf_aa2O5bN8-KhibbSQ",
     "metricLabel": "subscribers",
     "provider": "youtube",
-    "color": "#ef4444",
+    "color": "#97C0F9",
     "profileUrl": "https://www.youtube.com/channel/UCYlrqf_aa2O5bN8-KhibbSQ"
   },
   {
@@ -56,7 +56,7 @@
     "handle": "the-ai-driven-leader",
     "metricLabel": "followers",
     "provider": "manual",
-    "color": "#0f9f91",
+    "color": "#B7D5FF",
     "profileUrl": "https://open.spotify.com/"
   }
 ]
