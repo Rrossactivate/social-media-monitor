@@ -42,6 +42,7 @@ test("archive data has unique date and channel pairs", async () => {
   assert.deepEqual(latestVerified, {
     "instagram-geoff": 5535,
     "linkedin-geoff": 18390,
+    "x-geoff": 4094,
   });
 });
 

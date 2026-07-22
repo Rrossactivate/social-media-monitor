@@ -44,9 +44,9 @@
   {
     "date": "2026-07-21",
     "channelId": "x-geoff",
-    "audience": 4000,
-    "source": "carry-forward",
-    "precision": "stale"
+    "audience": 4094,
+    "source": "browser-verified",
+    "precision": "exact"
   },
   {
     "date": "2026-07-21",
