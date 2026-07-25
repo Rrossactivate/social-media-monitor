@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:39:26.000Z",
+  "generatedAt": "2026-07-25T23:50:53.000Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "LinkedIn personal, Instagram, X, AI Leadership LinkedIn, YouTube, and Spotify activity checked July 25; recent captured posts added where visible"
+      "detail": "LinkedIn personal, Instagram, TikTok, X, AI Leadership LinkedIn, YouTube, and Spotify activity checked July 25; recent captured posts added where visible"
     }
   ]
 }

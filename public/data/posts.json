@@ -1,5 +1,22 @@
 [
   {
+    "id": "tiktok:7666478356954713357",
+    "channelId": "tiktok-geoff",
+    "publishedAt": "2026-07-25T08:50:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "If you're only using AI for the small stuff, watch this clip.",
+    "url": "https://www.tiktok.com/@realgeoffwoods/video/7666478356954713357",
+    "views": 143,
+    "engagements": 6,
+    "engagementsPrecision": "exact-visible",
+    "likes": 5,
+    "comments": 0,
+    "saves": 1,
+    "shares": 0,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
     "id": "instagram:DbOhOC7EwOX",
     "channelId": "instagram-geoff",
     "publishedAt": "2026-07-25T12:00:00-07:00",
@@ -73,6 +90,23 @@
     "shares": null,
     "source": "browser-verified",
     "updatedAt": "2026-07-25T23:39:26.000Z"
+  },
+  {
+    "id": "tiktok:7665781786542165261",
+    "channelId": "tiktok-geoff",
+    "publishedAt": "2026-07-23T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "title": "The best AI prompt isn't a prompt. It's a conversation where you answer the questions.",
+    "url": "https://www.tiktok.com/@realgeoffwoods/video/7665781786542165261",
+    "views": 858,
+    "engagements": 56,
+    "engagementsPrecision": "exact-visible",
+    "likes": 37,
+    "comments": 1,
+    "saves": 17,
+    "shares": 1,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-25T23:50:53.000Z"
   },
   {
     "id": "linkedin:7485695873746776064",

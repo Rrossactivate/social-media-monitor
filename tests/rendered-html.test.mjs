@@ -43,6 +43,7 @@ test("archive data has unique date and channel pairs", async () => {
     "instagram-geoff": 5672,
     "linkedin-ai-leadership": 990,
     "linkedin-geoff": 18523,
+    "tiktok-geoff": 14,
     "x-geoff": 4103,
     "youtube-ai-driven-leader": 1630,
   });
@@ -77,15 +78,16 @@ test("archive data has unique date and channel pairs", async () => {
 
 test("verified cross-channel activity is archived without inventing unavailable metrics", async () => {
   const posts = await readFile(new URL("public/data/posts.json", root), "utf8").then(JSON.parse);
-  assert.equal(posts.length, 12);
+  assert.equal(posts.length, 14);
   assert.deepEqual(
-    Object.fromEntries(["linkedin-geoff", "instagram-geoff", "youtube-ai-driven-leader"].map((id) => [id, posts.filter((post) => post.channelId === id).length])),
-    { "linkedin-geoff": 5, "instagram-geoff": 3, "youtube-ai-driven-leader": 4 },
+    Object.fromEntries(["linkedin-geoff", "instagram-geoff", "tiktok-geoff", "youtube-ai-driven-leader"].map((id) => [id, posts.filter((post) => post.channelId === id).length])),
+    { "linkedin-geoff": 5, "instagram-geoff": 3, "tiktok-geoff": 2, "youtube-ai-driven-leader": 4 },
   );
   assert.ok(posts.every((post) => post.source === "browser-verified"));
   assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && post.engagements === null));
+  assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => Number.isFinite(post.views) && Number.isFinite(post.engagements) && post.engagementsPrecision === "exact-visible"));
   assert.ok(posts.filter((post) => post.engagementsPrecision === "visible-minimum").every((post) => Number.isFinite(post.engagements)));
-  assert.ok(posts.filter((post) => post.channelId !== "youtube-ai-driven-leader").every((post) => !("views" in post) && !("impressions" in post)));
+  assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => !("views" in post) && !("impressions" in post)));
 });
 
 test("activity coverage distinguishes verified inactivity from untracked channels", async () => {
@@ -96,6 +98,7 @@ test("activity coverage distinguishes verified inactivity from untracked channel
   assert.ok(channels.every((channel) => channel.activityTracking?.status === "verified"));
   assert.match(script, /not tracked/);
   assert.match(script, /visible-minimum/);
+  assert.match(script, /const exposurePosts/);
   assert.match(script, /Number\.isFinite\(exposure\)/);
 });
 

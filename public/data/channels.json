@@ -45,6 +45,22 @@
     }
   },
   {
+    "id": "tiktok-geoff",
+    "name": "Geoff Woods",
+    "platform": "TikTok",
+    "handle": "realgeoffwoods",
+    "displayHandle": "@realgeoffwoods",
+    "metricLabel": "followers",
+    "provider": "tiktok",
+    "color": "#FE2C55",
+    "profileUrl": "https://www.tiktok.com/@realgeoffwoods",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:50:53.000Z",
+      "windowDays": 30
+    }
+  },
+  {
     "id": "linkedin-ai-leadership",
     "name": "AI Leadership",
     "platform": "LinkedIn",

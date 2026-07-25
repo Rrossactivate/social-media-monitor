@@ -162,6 +162,13 @@
   },
   {
     "date": "2026-07-25",
+    "channelId": "tiktok-geoff",
+    "audience": 14,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-07-25",
     "channelId": "x-geoff",
     "audience": 4103,
     "source": "browser-verified",

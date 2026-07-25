@@ -142,8 +142,11 @@ function renderKpis() {
   }, 0);
   const measuredPosts = posts.filter((post) => Number.isFinite(post.engagements));
   const engagements = measuredPosts.reduce((sum, post) => sum + post.engagements, 0);
-  const exposure = measuredPosts.reduce((sum, post) => sum + (post.views || post.impressions || 0), 0);
+  const exposurePosts = measuredPosts.filter((post) => Number.isFinite(post.views) || Number.isFinite(post.impressions));
+  const rateEngagements = exposurePosts.reduce((sum, post) => sum + post.engagements, 0);
+  const exposure = exposurePosts.reduce((sum, post) => sum + (Number.isFinite(post.views) ? post.views : post.impressions), 0);
   const engagementIsMinimum = measuredPosts.some((post) => post.engagementsPrecision === "visible-minimum");
+  const rateIsMinimum = exposurePosts.some((post) => post.engagementsPrecision === "visible-minimum");
   const audienceIsRounded = latest.some((item) => item.precision === "rounded" || item.precision === "api-rounded");
 
   $("#kpi-audience").textContent = latest.length ? `${audienceIsRounded ? "≈" : ""}${fullNumber.format(current)}` : "—";
@@ -154,7 +157,7 @@ function renderKpis() {
   $("#kpi-posts-note").textContent = state.days ? `Captured during the last ${state.days} days` : "Captured across the full archive";
   $("#kpi-engagements").textContent = measuredPosts.length ? `${engagementIsMinimum ? "≥" : ""}${fullNumber.format(engagements)}` : "—";
   $("#kpi-engagement-rate").textContent = exposure
-    ? `Engagement rate ${engagementIsMinimum ? "≥" : ""}${percent(engagements, exposure)}`
+    ? `Engagement rate ${rateIsMinimum ? "≥" : ""}${percent(rateEngagements, exposure)} on posts with visible reach`
     : measuredPosts.length ? "Reach metrics not visible" : "Engagement metrics not visible";
 }
 
