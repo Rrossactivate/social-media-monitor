@@ -209,11 +209,16 @@ function renderPosts() {
       const title = post.title || post.text || "View post";
       const hasEngagements = Number.isFinite(post.engagements);
       const engagementPrefix = post.engagementsPrecision === "visible-minimum" ? "≥" : "";
+      const exposureCell = Number.isFinite(exposure)
+        ? fullNumber.format(exposure)
+        : post.reachStatus === "not-visible"
+          ? `<span class="metric-unavailable" title="This platform did not expose reach during verification">Not visible</span>`
+          : "—";
       return `<tr>
         <td>${post.datePrecision?.startsWith("relative") ? "≈" : ""}${shortDate.format(new Date(post.publishedAt))}</td>
         <td><span class="table-channel"><i style="--channel-color:${channel?.color || "#64748b"}"></i>${escapeHtml(channel?.platform || post.channelId)}</span></td>
         <td><a href="${safeUrl(post.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></td>
-        <td>${Number.isFinite(exposure) ? fullNumber.format(exposure) : "—"}</td>
+        <td>${exposureCell}</td>
         <td>${hasEngagements ? `${engagementPrefix}${fullNumber.format(post.engagements)}` : "—"}</td>
         <td>${hasEngagements && exposure ? `${engagementPrefix}${percent(post.engagements, exposure)}` : "—"}</td>
       </tr>`;

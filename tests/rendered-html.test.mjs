@@ -13,6 +13,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /Social Audience Tracker/);
   assert.match(html, /id="trend-chart"/);
   assert.match(html, /id="post-table"/);
+  assert.match(html, /Reach coverage:/);
   assert.match(html, /ail-mark\.png/);
   assert.match(html, /geoff-woods-social-tracker\.robin-ross-6445\.chatgpt\.site\/og\.png/);
   assert.match(css, /@media \(max-width: 680px\)/);
@@ -87,7 +88,7 @@ test("verified cross-channel activity is archived without inventing unavailable 
   assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && post.engagements === null));
   assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => Number.isFinite(post.views) && Number.isFinite(post.engagements) && post.engagementsPrecision === "exact-visible"));
   assert.ok(posts.filter((post) => post.engagementsPrecision === "visible-minimum").every((post) => Number.isFinite(post.engagements)));
-  assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => !("views" in post) && !("impressions" in post)));
+  assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => post.reachStatus === "not-visible" && !("views" in post) && !("impressions" in post)));
 });
 
 test("activity coverage distinguishes verified inactivity from untracked channels", async () => {
@@ -98,6 +99,7 @@ test("activity coverage distinguishes verified inactivity from untracked channel
   assert.ok(channels.every((channel) => channel.activityTracking?.status === "verified"));
   assert.match(script, /not tracked/);
   assert.match(script, /visible-minimum/);
+  assert.match(script, /metric-unavailable/);
   assert.match(script, /const exposurePosts/);
   assert.match(script, /Number\.isFinite\(exposure\)/);
 });
