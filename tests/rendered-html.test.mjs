@@ -40,10 +40,10 @@ test("archive data has unique date and channel pairs", async () => {
       .map((snapshot) => [snapshot.channelId, snapshot.audience]),
   );
   assert.deepEqual(latestVerified, {
-    "instagram-geoff": 5664,
-    "linkedin-geoff": 18514,
-    "x-geoff": 4102,
-    "youtube-ai-driven-leader": 1620,
+    "instagram-geoff": 5672,
+    "linkedin-geoff": 18523,
+    "x-geoff": 4103,
+    "youtube-ai-driven-leader": 1630,
   });
 
   const july24Verified = Object.fromEntries(
@@ -79,7 +79,7 @@ test("verified YouTube activity is archived without inventing engagement metrics
   assert.equal(posts.length, 4);
   assert.ok(posts.every((post) => post.channelId === "youtube-ai-driven-leader" && Number.isFinite(post.views)));
   assert.ok(posts.every((post) => post.engagements === null && post.source === "browser-verified"));
-  assert.deepEqual(posts.map((post) => post.views), [135, 93, 84, 385]);
+  assert.deepEqual(posts.map((post) => post.views), [143, 100, 84, 392]);
 });
 
 test("static packaging includes a Pages-ready index", async () => {
