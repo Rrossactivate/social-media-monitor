@@ -7,7 +7,12 @@
     "metricLabel": "followers",
     "provider": "manual",
     "color": "#004FA6",
-    "profileUrl": "https://www.linkedin.com/in/geoff-woods-8534774/"
+    "profileUrl": "https://www.linkedin.com/in/geoff-woods-8534774/",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:39:26.000Z",
+      "windowDays": 30
+    }
   },
   {
     "id": "instagram-geoff",
@@ -17,7 +22,12 @@
     "metricLabel": "followers",
     "provider": "instagram",
     "color": "#3688F8",
-    "profileUrl": "https://www.instagram.com/geoffwoods/"
+    "profileUrl": "https://www.instagram.com/geoffwoods/",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:39:26.000Z",
+      "windowDays": 30
+    }
   },
   {
     "id": "x-geoff",
@@ -27,17 +37,27 @@
     "metricLabel": "followers",
     "provider": "x",
     "color": "#1C1B17",
-    "profileUrl": "https://x.com/geoffwoods"
+    "profileUrl": "https://x.com/geoffwoods",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:39:26.000Z",
+      "windowDays": 30
+    }
   },
   {
     "id": "linkedin-ai-leadership",
     "name": "AI Leadership",
     "platform": "LinkedIn",
-    "handle": "ai-leadership",
+    "handle": "ai-thought-leadership",
     "metricLabel": "followers",
     "provider": "linkedin",
     "color": "#0F254C",
-    "profileUrl": "https://www.linkedin.com/company/ai-leadership/"
+    "profileUrl": "https://www.linkedin.com/company/ai-thought-leadership/",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:39:26.000Z",
+      "windowDays": 30
+    }
   },
   {
     "id": "youtube-ai-driven-leader",
@@ -48,7 +68,12 @@
     "metricLabel": "subscribers",
     "provider": "youtube",
     "color": "#97C0F9",
-    "profileUrl": "https://www.youtube.com/@TheAI-DrivenLeader"
+    "profileUrl": "https://www.youtube.com/@TheAI-DrivenLeader",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:39:26.000Z",
+      "windowDays": 30
+    }
   },
   {
     "id": "spotify-ai-driven-leader",
@@ -58,6 +83,11 @@
     "metricLabel": "followers",
     "provider": "manual",
     "color": "#B7D5FF",
-    "profileUrl": "https://open.spotify.com/"
+    "profileUrl": "https://open.spotify.com/show/2qSY9ZFTBJisoKp9eACbeb",
+    "activityTracking": {
+      "status": "verified",
+      "checkedAt": "2026-07-25T23:39:26.000Z",
+      "windowDays": 30
+    }
   }
 ]

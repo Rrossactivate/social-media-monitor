@@ -143,6 +143,7 @@ function renderKpis() {
   const measuredPosts = posts.filter((post) => Number.isFinite(post.engagements));
   const engagements = measuredPosts.reduce((sum, post) => sum + post.engagements, 0);
   const exposure = measuredPosts.reduce((sum, post) => sum + (post.views || post.impressions || 0), 0);
+  const engagementIsMinimum = measuredPosts.some((post) => post.engagementsPrecision === "visible-minimum");
   const audienceIsRounded = latest.some((item) => item.precision === "rounded" || item.precision === "api-rounded");
 
   $("#kpi-audience").textContent = latest.length ? `${audienceIsRounded ? "≈" : ""}${fullNumber.format(current)}` : "—";
@@ -150,9 +151,11 @@ function renderKpis() {
   $("#kpi-growth").textContent = growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
   $("#kpi-growth-note").textContent = state.days ? `During the last ${state.days} days` : "Across the full archive";
   $("#kpi-posts").textContent = fullNumber.format(posts.length);
-  $("#kpi-posts-note").textContent = state.days ? `During the last ${state.days} days` : "Across the full archive";
-  $("#kpi-engagements").textContent = measuredPosts.length ? fullNumber.format(engagements) : "—";
-  $("#kpi-engagement-rate").textContent = measuredPosts.length ? `Engagement rate ${percent(engagements, exposure)}` : "Engagement metrics awaiting API";
+  $("#kpi-posts-note").textContent = state.days ? `Captured during the last ${state.days} days` : "Captured across the full archive";
+  $("#kpi-engagements").textContent = measuredPosts.length ? `${engagementIsMinimum ? "≥" : ""}${fullNumber.format(engagements)}` : "—";
+  $("#kpi-engagement-rate").textContent = exposure
+    ? `Engagement rate ${engagementIsMinimum ? "≥" : ""}${percent(engagements, exposure)}`
+    : measuredPosts.length ? "Reach metrics not visible" : "Engagement metrics not visible";
 }
 
 function renderChannelList() {
@@ -163,10 +166,13 @@ function renderChannelList() {
       const first = earliestInRange(channel.id);
       const delta = latest && first ? latest.audience - first.audience : 0;
       const activity = posts[channel.id]?.length || 0;
+      const activityVerified = channel.activityTracking?.status === "verified";
+      const activityValue = activity ? fullNumber.format(activity) : activityVerified ? "0" : "—";
+      const activityLabel = activity ? "captured" : activityVerified ? (state.days ? "recent" : "archived") : "not tracked";
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>
-        <span class="channel-activity"><strong>${activity}</strong><small>posts</small></span>
+        <span class="channel-activity"><strong>${activityValue}</strong><small>${activityLabel}</small></span>
         <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)} · ${sourceLabel(latest.source)}` : "Awaiting first value"}</small></span>
       </a>`;
     })
@@ -190,22 +196,23 @@ function renderCoverage() {
 
 function renderPosts() {
   const channelMap = Object.fromEntries(state.channels.map((channel) => [channel.id, channel]));
-  const posts = selectedPosts().sort((a, b) => (b.engagements || 0) - (a.engagements || 0));
+  const posts = selectedPosts().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || (b.engagements || 0) - (a.engagements || 0));
   $("#content-range").textContent = state.days ? `Last ${state.days} days` : "Full archive";
   $("#post-empty").hidden = Boolean(posts.length);
   $("#post-table").innerHTML = posts
     .map((post) => {
       const channel = channelMap[post.channelId];
-      const exposure = post.views || post.impressions || 0;
+      const exposure = Number.isFinite(post.views) ? post.views : Number.isFinite(post.impressions) ? post.impressions : null;
       const title = post.title || post.text || "View post";
       const hasEngagements = Number.isFinite(post.engagements);
+      const engagementPrefix = post.engagementsPrecision === "visible-minimum" ? "≥" : "";
       return `<tr>
-        <td>${post.datePrecision === "relative-day" ? "≈" : ""}${shortDate.format(new Date(post.publishedAt))}</td>
+        <td>${post.datePrecision?.startsWith("relative") ? "≈" : ""}${shortDate.format(new Date(post.publishedAt))}</td>
         <td><span class="table-channel"><i style="--channel-color:${channel?.color || "#64748b"}"></i>${escapeHtml(channel?.platform || post.channelId)}</span></td>
         <td><a href="${safeUrl(post.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></td>
-        <td>${fullNumber.format(exposure)}</td>
-        <td>${hasEngagements ? fullNumber.format(post.engagements) : "—"}</td>
-        <td>${hasEngagements ? percent(post.engagements, exposure) : "—"}</td>
+        <td>${Number.isFinite(exposure) ? fullNumber.format(exposure) : "—"}</td>
+        <td>${hasEngagements ? `${engagementPrefix}${fullNumber.format(post.engagements)}` : "—"}</td>
+        <td>${hasEngagements && exposure ? `${engagementPrefix}${percent(post.engagements, exposure)}` : "—"}</td>
       </tr>`;
     })
     .join("");

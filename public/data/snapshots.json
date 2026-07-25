@@ -155,6 +155,13 @@
   },
   {
     "date": "2026-07-25",
+    "channelId": "linkedin-ai-leadership",
+    "audience": 990,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-07-25",
     "channelId": "x-geoff",
     "audience": 4103,
     "source": "browser-verified",
