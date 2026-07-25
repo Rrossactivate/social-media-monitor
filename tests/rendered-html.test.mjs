@@ -36,17 +36,41 @@ test("archive data has unique date and channel pairs", async () => {
 
   const latestVerified = Object.fromEntries(
     snapshots
-      .filter((snapshot) => snapshot.date === "2026-07-22" && snapshot.source === "browser-verified")
+      .filter((snapshot) => snapshot.date === "2026-07-25" && snapshot.source === "browser-verified")
       .map((snapshot) => [snapshot.channelId, snapshot.audience]),
   );
   assert.deepEqual(latestVerified, {
-    "instagram-geoff": 5563,
-    "linkedin-geoff": 18408,
-    "x-geoff": 4096,
-    "youtube-ai-driven-leader": 1550,
+    "instagram-geoff": 5664,
+    "linkedin-geoff": 18514,
+    "x-geoff": 4102,
+    "youtube-ai-driven-leader": 1620,
   });
 
-  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-22" && snapshot.channelId === "youtube-ai-driven-leader");
+  const july24Verified = Object.fromEntries(
+    snapshots
+      .filter((snapshot) => snapshot.date === "2026-07-24" && snapshot.source === "browser-verified")
+      .map((snapshot) => [snapshot.channelId, snapshot.audience]),
+  );
+  assert.deepEqual(july24Verified, {
+    "instagram-geoff": 5628,
+    "linkedin-geoff": 18474,
+    "x-geoff": 4101,
+    "youtube-ai-driven-leader": 1600,
+  });
+
+  const july23Verified = Object.fromEntries(
+    snapshots
+      .filter((snapshot) => snapshot.date === "2026-07-23" && snapshot.source === "browser-verified")
+      .map((snapshot) => [snapshot.channelId, snapshot.audience]),
+  );
+  assert.deepEqual(july23Verified, {
+    "instagram-geoff": 5592,
+    "linkedin-geoff": 18415,
+    "x-geoff": 4096,
+    "youtube-ai-driven-leader": 1570,
+  });
+
+  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-25" && snapshot.channelId === "youtube-ai-driven-leader");
   assert.equal(youtubeSnapshot.precision, "rounded");
 });
 
@@ -55,7 +79,7 @@ test("verified YouTube activity is archived without inventing engagement metrics
   assert.equal(posts.length, 4);
   assert.ok(posts.every((post) => post.channelId === "youtube-ai-driven-leader" && Number.isFinite(post.views)));
   assert.ok(posts.every((post) => post.engagements === null && post.source === "browser-verified"));
-  assert.deepEqual(posts.map((post) => post.views), [66, 75, 75, 326]);
+  assert.deepEqual(posts.map((post) => post.views), [135, 93, 84, 385]);
 });
 
 test("static packaging includes a Pages-ready index", async () => {
