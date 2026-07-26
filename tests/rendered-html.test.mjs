@@ -23,6 +23,9 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(css, /#004fa6/i);
   assert.match(script, /data\/snapshots\.json/);
   assert.match(script, /data\/mentions\.json/);
+  assert.match(script, /fullNumber\.format\(Math\.round\(label\)\)/);
+  assert.doesNotMatch(script, /compactNumber/);
+  assert.match(css, /\[hidden\]\s*\{\s*display: none !important;/);
   assert.doesNotMatch(html, /react-loading-skeleton|Codex is working/);
 });
 

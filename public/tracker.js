@@ -17,7 +17,6 @@ const state = {
 };
 
 const $ = (selector) => document.querySelector(selector);
-const compactNumber = new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 });
 const fullNumber = new Intl.NumberFormat("en-US");
 const shortDate = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
 const longDateTime = new Intl.DateTimeFormat("en-US", {
@@ -332,7 +331,7 @@ function drawChart() {
     ctx.beginPath(); ctx.moveTo(pad.left, py); ctx.lineTo(width - pad.right, py); ctx.stroke();
     ctx.fillStyle = "#64748b";
     ctx.textAlign = "right";
-    ctx.fillText(compactNumber.format(label), pad.left - 10, py);
+    ctx.fillText(fullNumber.format(Math.round(label)), pad.left - 10, py);
   }
   [0, 0.5, 1].forEach((position) => {
     const value = minX + (maxX - minX) * position;
