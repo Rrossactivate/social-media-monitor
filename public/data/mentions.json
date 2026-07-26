@@ -1,0 +1,94 @@
+[
+  {
+    "id": "podcast:bigdeal:2026-07-15",
+    "publishedAt": "2026-07-15T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "BigDeal",
+    "platform": "Podcast",
+    "title": "How to Use AI to Make Money, Grow Your Business, and Be More Productive | Geoff Woods",
+    "url": "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod",
+    "platforms": [
+      "Spotify"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "podcast:using-ai-at-work:2026-07-13",
+    "publishedAt": "2026-07-13T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Using AI at Work",
+    "platform": "Podcast",
+    "title": "112: AI-Driven Leadership: Using the CRIT Framework Make Faster, Smarter Decisions with Geoff Woods",
+    "url": "https://podcasts.apple.com/us/podcast/112-ai-driven-leadership-using-the-crit-framework/id1724086897?i=1000776568465",
+    "platforms": [
+      "Apple Podcasts",
+      "Spotify"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "podcast:beyond-a-million:2026-07-09",
+    "publishedAt": "2026-07-09T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Beyond A Million",
+    "platform": "Podcast",
+    "title": "236: Why Most Founders Are Using AI All Wrong with Geoff Woods",
+    "url": "https://podcasts.apple.com/us/podcast/why-most-founders-are-using-ai-all-wrong-with-geoff-woods/id1604899711?i=1000776097468",
+    "platforms": [
+      "Apple Podcasts",
+      "YouTube"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "podcast:sparks-for-growth:2026-07-07",
+    "publishedAt": "2026-07-07T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Sparks for Growth",
+    "platform": "Podcast",
+    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions — Not Just Productivity",
+    "url": "https://podcasts.apple.com/us/podcast/the-crit-framework-geoff-woods-on-using-ai-for/id1525777023?i=1000775766271",
+    "platforms": [
+      "Apple Podcasts"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "podcast:talent-in-the-age-of-ai:2026-07-02",
+    "publishedAt": "2026-07-02T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Talent in the Age of AI",
+    "platform": "Podcast",
+    "title": "Stop Using AI Like Google: Turning AI Into Your Strategic Thought Partner with Geoff Woods",
+    "url": "https://podcasts.apple.com/ca/podcast/stop-using-ai-like-google-turning-ai-into-your-strategic/id1859097258?i=1000775106820",
+    "platforms": [
+      "Apple Podcasts"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-25T23:50:53.000Z"
+  }
+]

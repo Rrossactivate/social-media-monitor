@@ -3,6 +3,7 @@ const DATA_FILES = {
   snapshots: "./data/snapshots.json",
   posts: "./data/posts.json",
   status: "./data/status.json",
+  mentions: "./data/mentions.json",
 };
 
 const state = {
@@ -10,6 +11,7 @@ const state = {
   snapshots: [],
   posts: [],
   status: null,
+  mentions: [],
   days: 30,
   channelId: "all",
 };
@@ -71,6 +73,11 @@ function selectedPosts() {
   const ids = new Set(selectedChannels().map((channel) => channel.id));
   const start = rangeStart();
   return state.posts.filter((item) => ids.has(item.channelId) && (!start || dateValue(item.publishedAt.slice(0, 10)) >= start));
+}
+
+function selectedMentions() {
+  const start = rangeStart();
+  return state.mentions.filter((item) => !start || dateValue(item.publishedAt.slice(0, 10)) >= start);
 }
 
 function byChannel(items) {
@@ -226,6 +233,59 @@ function renderPosts() {
     .join("");
 }
 
+function mentionTypeLabel(type) {
+  const labels = {
+    "podcast-guest": "Podcast guest",
+    interview: "Interview",
+    "social-mention": "Social mention",
+    repost: "Repost",
+    article: "Article",
+    "book-mention": "Book mention",
+  };
+  return labels[type] || type || "Mention";
+}
+
+function renderMentions() {
+  const mentions = selectedMentions().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+  const appearances = mentions.filter((item) => ["podcast-guest", "interview"].includes(item.type));
+  const visibleReach = mentions
+    .map((item) => Number.isFinite(item.views) ? item.views : Number.isFinite(item.impressions) ? item.impressions : null)
+    .filter(Number.isFinite);
+  const totalReach = visibleReach.reduce((sum, value) => sum + value, 0);
+
+  $("#mention-range").textContent = state.days ? `Last ${state.days} days` : "Full archive";
+  $("#mention-count").textContent = fullNumber.format(mentions.length);
+  $("#mention-guest-count").textContent = fullNumber.format(appearances.length);
+  $("#mention-reach").textContent = visibleReach.length ? fullNumber.format(totalReach) : "—";
+  $("#mention-empty").hidden = Boolean(mentions.length);
+  $("#mention-list").innerHTML = mentions
+    .map((mention) => {
+      const reach = Number.isFinite(mention.views)
+        ? mention.views
+        : Number.isFinite(mention.impressions)
+          ? mention.impressions
+          : null;
+      const platforms = Array.isArray(mention.platforms) && mention.platforms.length
+        ? mention.platforms.join(" · ")
+        : mention.platform || "Public web";
+      const reachLabel = Number.isFinite(reach)
+        ? fullNumber.format(reach)
+        : mention.reachStatus === "not-visible"
+          ? "Not visible"
+          : "—";
+      return `<article class="mention-row">
+        <time datetime="${escapeHtml(mention.publishedAt)}">${mention.datePrecision?.startsWith("relative") ? "≈" : ""}${shortDate.format(new Date(mention.publishedAt))}</time>
+        <span class="mention-type">${escapeHtml(mentionTypeLabel(mention.type))}</span>
+        <span class="mention-main">
+          <a href="${safeUrl(mention.url)}" target="_blank" rel="noreferrer">${escapeHtml(mention.title || "View mention")}</a>
+          <small>${escapeHtml(mention.publisher)} · ${escapeHtml(platforms)}</small>
+        </span>
+        <span class="mention-reach ${Number.isFinite(reach) ? "" : "unavailable"}"><small>Public reach</small><strong>${reachLabel}</strong></span>
+      </article>`;
+    })
+    .join("");
+}
+
 function drawChart() {
   const canvas = $("#trend-chart");
   const empty = $("#chart-empty");
@@ -309,6 +369,7 @@ function render() {
   renderChannelList();
   renderCoverage();
   renderPosts();
+  renderMentions();
   drawChart();
 }
 
@@ -318,7 +379,7 @@ async function loadData() {
     const cacheBust = `?v=${Date.now()}`;
     const responses = await Promise.all(Object.values(DATA_FILES).map((url) => fetch(url + cacheBust)));
     if (responses.some((response) => !response.ok)) throw new Error("One or more data files could not be loaded.");
-    [state.channels, state.snapshots, state.posts, state.status] = await Promise.all(responses.map((response) => response.json()));
+    [state.channels, state.snapshots, state.posts, state.status, state.mentions] = await Promise.all(responses.map((response) => response.json()));
     const select = $("#channel-filter");
     select.innerHTML = `<option value="all">All channels</option>${state.channels.map((channel) => `<option value="${escapeHtml(channel.id)}">${escapeHtml(channel.platform)} · ${escapeHtml(channel.name)}</option>`).join("")}`;
     select.value = state.channelId;
@@ -350,6 +411,28 @@ function downloadArchive() {
   URL.revokeObjectURL(link.href);
 }
 
+function downloadMentions() {
+  const rows = [["date", "type", "publisher", "title", "distribution", "url", "views", "impressions", "engagements", "source"]];
+  state.mentions.forEach((item) => rows.push([
+    item.publishedAt.slice(0, 10),
+    mentionTypeLabel(item.type),
+    item.publisher,
+    item.title,
+    (item.platforms || [item.platform]).filter(Boolean).join(" | "),
+    item.url,
+    item.views,
+    item.impressions,
+    item.engagements,
+    item.source,
+  ]));
+  const csv = rows.map((row) => row.map((value) => `"${String(value ?? "").replaceAll('"', '""')}"`).join(",")).join("\n");
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+  link.download = `geoff-earned-mentions-${new Date().toISOString().slice(0, 10)}.csv`;
+  link.click();
+  URL.revokeObjectURL(link.href);
+}
+
 document.querySelectorAll("[data-range]").forEach((button) => {
   button.addEventListener("click", () => {
     document.querySelectorAll("[data-range]").forEach((item) => {
@@ -364,5 +447,6 @@ document.querySelectorAll("[data-range]").forEach((button) => {
 $("#channel-filter").addEventListener("change", (event) => { state.channelId = event.target.value; render(); });
 $("#refresh-data").addEventListener("click", loadData);
 $("#download-data").addEventListener("click", downloadArchive);
+$("#download-mentions").addEventListener("click", downloadMentions);
 new ResizeObserver(drawChart).observe($("#trend-chart").parentElement);
 loadData();

@@ -9,10 +9,13 @@ The interface follows the [AITP design system](https://www.figma.com/design/mvyp
 - A follower or subscriber snapshot for each connected channel, once per day
 - Follower growth over 7, 30, 90, or all archived days
 - Recent post counts, views or impressions, engagements, and engagement rate
+- Non-owned mentions, podcast guest appearances, interviews, reposts, and articles as a separate earned-media timeline
 - Source status so an API error never silently looks like fresh data
 - Manual overrides for channels whose official APIs do not expose the required metric
 
 The seeded figures are public baseline observations, not live API results. A value marked `carry-forward` is deliberately stale: it keeps the daily archive continuous without claiming the platform was re-measured.
+
+Earned media is never added to Geoff’s owned audience total. One appearance is counted once even when it is syndicated to multiple platforms, and third-party reach stays blank unless the publisher exposes a verifiable public metric.
 
 ## Publish with GitHub Pages
 
@@ -99,6 +102,7 @@ The website opens at `http://localhost:3000/`. The standalone GitHub Pages build
 - `public/data/channels.json`: channel catalog and profile links
 - `public/data/snapshots.json`: append-only audience archive
 - `public/data/posts.json`: latest known post metrics
+- `public/data/mentions.json`: verified non-owned mentions and guest appearances
 - `public/data/status.json`: latest provider run status
 - `config/manual-overrides.json`: hand-entered values merged by every run
 - `.github/workflows/daily-tracker.yml`: daily automation and Pages deployment

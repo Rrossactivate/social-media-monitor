@@ -13,6 +13,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /Social Audience Tracker/);
   assert.match(html, /id="trend-chart"/);
   assert.match(html, /id="post-table"/);
+  assert.match(html, /id="mention-list"/);
+  assert.match(html, /Mentions &amp; guest appearances/);
   assert.match(html, /Reach coverage:/);
   assert.match(html, /ail-mark\.png/);
   assert.match(html, /geoff-woods-social-tracker\.robin-ross-6445\.chatgpt\.site\/og\.png/);
@@ -20,7 +22,19 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(css, /font-family: "Geist"/);
   assert.match(css, /#004fa6/i);
   assert.match(script, /data\/snapshots\.json/);
+  assert.match(script, /data\/mentions\.json/);
   assert.doesNotMatch(html, /react-loading-skeleton|Codex is working/);
+});
+
+test("earned mentions are verified, deduplicated, and explicit about unavailable reach", async () => {
+  const mentions = await readFile(new URL("public/data/mentions.json", root), "utf8").then(JSON.parse);
+  assert.equal(mentions.length, 5);
+  assert.equal(new Set(mentions.map((mention) => mention.id)).size, mentions.length);
+  assert.equal(new Set(mentions.map((mention) => mention.url)).size, mentions.length);
+  assert.ok(mentions.every((mention) => mention.source === "web-verified"));
+  assert.ok(mentions.every((mention) => mention.datePrecision === "day" && mention.type === "podcast-guest"));
+  assert.ok(mentions.every((mention) => Array.isArray(mention.platforms) && mention.platforms.length));
+  assert.ok(mentions.every((mention) => mention.reachStatus === "not-visible" && mention.views === null && mention.engagements === null));
 });
 
 test("archive data has unique date and channel pairs", async () => {
@@ -109,6 +123,7 @@ test("static packaging includes a Pages-ready index", async () => {
     access(new URL("_site/index.html", root)),
     access(new URL("_site/tracker.js", root)),
     access(new URL("_site/data/snapshots.json", root)),
+    access(new URL("_site/data/mentions.json", root)),
     access(new URL("_site/fonts/geist-latin.woff2", root)),
     access(new URL("_site/ail-mark.png", root)),
     access(new URL("_site/og.png", root)),

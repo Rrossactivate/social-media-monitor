@@ -404,9 +404,14 @@ main {
 
 .chart-panel,
 .content-panel,
+.earned-panel,
 .channel-panel,
 .automation-panel {
   padding: 24px;
+}
+
+.earned-panel {
+  margin-top: 18px;
 }
 
 .panel-heading {
@@ -431,6 +436,29 @@ main {
 .subtle {
   color: var(--muted);
   font-size: 12px;
+}
+
+.earned-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.panel-button {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0 12px;
+  background: #f7faff;
+  color: var(--navy);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 760;
+}
+
+.panel-button:hover {
+  border-color: #97c0f9;
+  background: #ecf3fd;
 }
 
 .legend {
@@ -720,6 +748,131 @@ td a:hover {
   color: var(--ink);
 }
 
+.earned-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.earned-summary article {
+  min-height: 86px;
+  border: 1px solid #e6edf8;
+  border-radius: 12px;
+  padding: 15px;
+  background: #f8fbff;
+}
+
+.earned-summary span,
+.earned-summary strong {
+  display: block;
+}
+
+.earned-summary span {
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 760;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.earned-summary strong {
+  margin-top: 8px;
+  color: var(--navy);
+  font-size: 24px;
+  letter-spacing: -0.035em;
+}
+
+.mention-list {
+  display: grid;
+}
+
+.mention-row {
+  display: grid;
+  grid-template-columns: 72px 106px minmax(0, 1fr) 112px;
+  gap: 14px;
+  align-items: center;
+  min-height: 84px;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.mention-row time {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.mention-type {
+  justify-self: start;
+  border-radius: 999px;
+  padding: 6px 9px;
+  background: #ecf3fd;
+  color: #004fa6;
+  font-size: 10px;
+  font-weight: 780;
+  white-space: nowrap;
+}
+
+.mention-main {
+  min-width: 0;
+}
+
+.mention-main a,
+.mention-main small {
+  display: block;
+}
+
+.mention-main a {
+  overflow: hidden;
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mention-main a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.mention-main small {
+  margin-top: 5px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.mention-reach {
+  text-align: right;
+}
+
+.mention-reach small,
+.mention-reach strong {
+  display: block;
+}
+
+.mention-reach small {
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 760;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.mention-reach strong {
+  margin-top: 5px;
+  color: var(--navy);
+  font-size: 12px;
+}
+
+.mention-reach.unavailable strong {
+  color: var(--muted);
+  font-weight: 650;
+}
+
 .empty-content {
   display: flex;
   min-height: 110px;
@@ -768,6 +921,14 @@ footer a {
 
   .two-column {
     grid-template-columns: 1fr;
+  }
+
+  .mention-row {
+    grid-template-columns: 68px 100px minmax(0, 1fr);
+  }
+
+  .mention-reach {
+    display: none;
   }
 }
 
@@ -827,6 +988,34 @@ footer a {
 
   .panel-heading {
     flex-direction: column;
+  }
+
+  .earned-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .earned-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .earned-summary article {
+    min-height: 72px;
+  }
+
+  .mention-row {
+    grid-template-columns: 62px minmax(0, 1fr);
+    gap: 8px 12px;
+    padding: 14px 0;
+  }
+
+  .mention-type {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .mention-main {
+    grid-column: 1 / -1;
   }
 
   .legend {
