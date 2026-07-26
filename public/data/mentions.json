@@ -56,6 +56,25 @@
     "discoveredAt": "2026-07-25T23:50:53.000Z"
   },
   {
+    "id": "podcast:beyond-the-prompt:2026-07-08",
+    "publishedAt": "2026-07-08T05:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Beyond The Prompt",
+    "platform": "Podcast",
+    "title": "Are You Qualified to Challenge Your Team on AI? - with Geoff Woods, Author of The AI-Driven Leader",
+    "url": "https://podcasts.apple.com/au/podcast/are-you-qualified-to-challenge-your-team-on-ai-with/id1721313249?i=1000775913237",
+    "platforms": [
+      "Apple Podcasts",
+      "Spotify"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-26T13:17:40.416Z"
+  },
+  {
     "id": "podcast:sparks-for-growth:2026-07-07",
     "publishedAt": "2026-07-07T12:00:00Z",
     "datePrecision": "day",

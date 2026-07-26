@@ -31,7 +31,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
 
 test("earned mentions are verified, deduplicated, and explicit about unavailable reach", async () => {
   const mentions = await readFile(new URL("public/data/mentions.json", root), "utf8").then(JSON.parse);
-  assert.equal(mentions.length, 5);
+  assert.equal(mentions.length, 6);
   assert.equal(new Set(mentions.map((mention) => mention.id)).size, mentions.length);
   assert.equal(new Set(mentions.map((mention) => mention.url)).size, mentions.length);
   assert.ok(mentions.every((mention) => mention.source === "web-verified"));
@@ -54,16 +54,16 @@ test("archive data has unique date and channel pairs", async () => {
 
   const latestVerified = Object.fromEntries(
     snapshots
-      .filter((snapshot) => snapshot.date === "2026-07-25" && snapshot.source === "browser-verified")
+      .filter((snapshot) => snapshot.date === "2026-07-26" && snapshot.source === "browser-verified")
       .map((snapshot) => [snapshot.channelId, snapshot.audience]),
   );
   assert.deepEqual(latestVerified, {
-    "instagram-geoff": 5672,
+    "instagram-geoff": 5683,
     "linkedin-ai-leadership": 990,
-    "linkedin-geoff": 18523,
-    "tiktok-geoff": 14,
+    "linkedin-geoff": 18537,
+    "tiktok-geoff": 15,
     "x-geoff": 4103,
-    "youtube-ai-driven-leader": 1630,
+    "youtube-ai-driven-leader": 1650,
   });
 
   const july24Verified = Object.fromEntries(
@@ -90,7 +90,7 @@ test("archive data has unique date and channel pairs", async () => {
     "youtube-ai-driven-leader": 1570,
   });
 
-  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-25" && snapshot.channelId === "youtube-ai-driven-leader");
+  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-26" && snapshot.channelId === "youtube-ai-driven-leader");
   assert.equal(youtubeSnapshot.precision, "rounded");
 });
 
