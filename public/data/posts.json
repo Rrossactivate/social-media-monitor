@@ -1,20 +1,84 @@
 [
   {
+    "id": "instagram:DbTq429EdJc",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-07-27T12:24:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "You've seen a lot of leadership trainings. What made this one different?",
+    "url": "https://www.instagram.com/geoffwoods/reel/DbTq429EdJc/",
+    "reachStatus": "not-visible",
+    "engagements": 3,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 2,
+    "comments": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-27T23:24:05.367Z"
+  },
+  {
+    "id": "linkedin:7487560139634413569",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-07-27T11:24:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "You've seen a lot of leadership trainings over your career. What made this one different?",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7487560139634413569/",
+    "reachStatus": "not-visible",
+    "engagements": 7,
+    "engagementsPrecision": "exact-visible",
+    "reactions": 5,
+    "comments": 1,
+    "shares": 1,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-27T23:24:05.367Z"
+  },
+  {
+    "id": "youtube:KVzHu1HV9oI",
+    "channelId": "youtube-ai-driven-leader",
+    "publishedAt": "2026-07-27T09:24:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "The Hard Truth About AI and Jobs | Shane Driggers",
+    "url": "https://www.youtube.com/watch?v=KVzHu1HV9oI",
+    "views": 33,
+    "engagements": 2,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 2,
+    "comments": null,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-27T23:24:05.367Z"
+  },
+  {
+    "id": "instagram:DbRF7ynEu8U",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-07-26T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "title": "It's not that you have nine months left. It's that you already lost three.",
+    "url": "https://www.instagram.com/geoffwoods/reel/DbRF7ynEu8U/",
+    "reachStatus": "not-visible",
+    "engagements": 8,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 7,
+    "comments": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-07-27T23:24:05.367Z"
+  },
+  {
     "id": "tiktok:7666478356954713357",
     "channelId": "tiktok-geoff",
     "publishedAt": "2026-07-25T08:50:00-07:00",
     "datePrecision": "relative-hour",
     "title": "If you're only using AI for the small stuff, watch this clip.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7666478356954713357",
-    "views": 192,
+    "views": 202,
     "engagements": 6,
-    "engagementsPrecision": "exact-visible",
+    "engagementsPrecision": "visible-minimum",
     "likes": 5,
     "comments": 0,
     "saves": 1,
-    "shares": 0,
+    "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -24,13 +88,13 @@
     "title": "It should have taken months of consulting. It took two hours.",
     "url": "https://www.instagram.com/geoffwoods/reel/DbOhOC7EwOX/",
     "reachStatus": "not-visible",
-    "engagements": 6,
+    "engagements": 7,
     "engagementsPrecision": "visible-minimum",
-    "likes": 4,
+    "likes": 5,
     "comments": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "linkedin:7486420303498199040",
@@ -40,13 +104,13 @@
     "title": "Either you work for AI, or AI works for you.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7486420303498199040/",
     "reachStatus": "not-visible",
-    "engagements": 27,
+    "engagements": 30,
     "engagementsPrecision": "exact-visible",
-    "reactions": 20,
+    "reactions": 22,
     "comments": 4,
-    "shares": 3,
+    "shares": 4,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "instagram:DbL8ZvljGBN",
@@ -72,13 +136,13 @@
     "title": "Your ability to think is a muscle.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7486058058264203264/",
     "reachStatus": "not-visible",
-    "engagements": 42,
+    "engagements": 44,
     "engagementsPrecision": "exact-visible",
-    "reactions": 34,
+    "reactions": 36,
     "comments": 4,
     "shares": 4,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "instagram:DbJXp3BjSbi",
@@ -103,7 +167,7 @@
     "datePrecision": "relative-day",
     "title": "The best AI prompt isn't a prompt. It's a conversation where you answer the questions.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7665781786542165261",
-    "views": 860,
+    "views": 862,
     "engagements": 56,
     "engagementsPrecision": "exact-visible",
     "likes": 37,
@@ -111,7 +175,7 @@
     "saves": 17,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "linkedin:7485695873746776064",
@@ -127,7 +191,7 @@
     "comments": 8,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "linkedin:7485333586615767040",
@@ -137,13 +201,13 @@
     "title": "Your job is just two things: the skills you apply and the processes you follow.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7485333586615767040/",
     "reachStatus": "not-visible",
-    "engagements": 41,
+    "engagements": 43,
     "engagementsPrecision": "exact-visible",
-    "reactions": 32,
+    "reactions": 34,
     "comments": 7,
     "shares": 2,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "youtube:F-H9d5oGoq0",
@@ -152,10 +216,10 @@
     "datePrecision": "relative-day",
     "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
     "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
-    "views": 152,
+    "views": 201,
     "engagements": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "linkedin:7485000570496536579",
@@ -180,10 +244,10 @@
     "datePrecision": "relative-day",
     "title": "The Only Skill That Survives AI",
     "url": "https://www.youtube.com/watch?v=pg0W81UXkxk",
-    "views": 103,
+    "views": 112,
     "engagements": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "youtube:poOGwDZRQkc",
@@ -192,10 +256,10 @@
     "datePrecision": "relative-day",
     "title": "Your Team Is Afraid AI Will Replace Them. Do This.",
     "url": "https://www.youtube.com/watch?v=poOGwDZRQkc",
-    "views": 86,
+    "views": 92,
     "engagements": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "youtube:p5ib_4xUXmg",
@@ -204,9 +268,9 @@
     "datePrecision": "relative-day",
     "title": "How Herbalife's CEO Uses AI to Lead a $5B Global Company | Stephan Gratziani",
     "url": "https://www.youtube.com/watch?v=p5ib_4xUXmg",
-    "views": 396,
+    "views": 422,
     "engagements": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-27T23:24:05.367Z"
   }
 ]

@@ -1,5 +1,23 @@
 [
   {
+    "id": "linkedin:paska-j:7483206015560085505",
+    "publishedAt": "2026-07-26T20:24:00-07:00",
+    "datePrecision": "relative-hour",
+    "type": "social-mention",
+    "publisher": "Paska J.",
+    "platform": "LinkedIn",
+    "title": "What does it actually mean to be an AI-driven leader?",
+    "url": "https://www.linkedin.com/posts/paskajuma_ai-leadership-artificialintelligence-activity-7483206015560085505-rY5g",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-27T23:24:05.367Z"
+  },
+  {
     "id": "podcast:bigdeal:2026-07-15",
     "publishedAt": "2026-07-15T12:00:00Z",
     "datePrecision": "day",
@@ -91,6 +109,25 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "book:simon-and-schuster:2026-07-07",
+    "publishedAt": "2026-07-07T12:00:00Z",
+    "datePrecision": "day",
+    "type": "book-mention",
+    "publisher": "Simon & Schuster",
+    "platform": "Web",
+    "title": "The AI-Driven Leader: Harnessing AI to Make Faster, Smarter Decisions",
+    "url": "https://www.simonandschuster.com/books/The-AI-Driven-Leader/Geoff-Woods/9798893313109",
+    "platforms": [
+      "Simon & Schuster",
+      "Google Books"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-27T23:24:05.367Z"
   },
   {
     "id": "podcast:talent-in-the-age-of-ai:2026-07-02",

@@ -31,11 +31,12 @@ test("dashboard ships the required static assets and data hooks", async () => {
 
 test("earned mentions are verified, deduplicated, and explicit about unavailable reach", async () => {
   const mentions = await readFile(new URL("public/data/mentions.json", root), "utf8").then(JSON.parse);
-  assert.equal(mentions.length, 6);
+  assert.equal(mentions.length, 8);
   assert.equal(new Set(mentions.map((mention) => mention.id)).size, mentions.length);
   assert.equal(new Set(mentions.map((mention) => mention.url)).size, mentions.length);
   assert.ok(mentions.every((mention) => mention.source === "web-verified"));
-  assert.ok(mentions.every((mention) => mention.datePrecision === "day" && mention.type === "podcast-guest"));
+  assert.ok(mentions.every((mention) => ["day", "relative-hour"].includes(mention.datePrecision)));
+  assert.ok(mentions.every((mention) => ["podcast-guest", "social-mention", "book-mention"].includes(mention.type)));
   assert.ok(mentions.every((mention) => Array.isArray(mention.platforms) && mention.platforms.length));
   assert.ok(mentions.every((mention) => mention.reachStatus === "not-visible" && mention.views === null && mention.engagements === null));
 });
@@ -54,16 +55,16 @@ test("archive data has unique date and channel pairs", async () => {
 
   const latestVerified = Object.fromEntries(
     snapshots
-      .filter((snapshot) => snapshot.date === "2026-07-26" && snapshot.source === "browser-verified")
+      .filter((snapshot) => snapshot.date === "2026-07-27" && snapshot.source === "browser-verified")
       .map((snapshot) => [snapshot.channelId, snapshot.audience]),
   );
   assert.deepEqual(latestVerified, {
-    "instagram-geoff": 5683,
-    "linkedin-ai-leadership": 990,
-    "linkedin-geoff": 18537,
+    "instagram-geoff": 5716,
+    "linkedin-ai-leadership": 993,
+    "linkedin-geoff": 18578,
     "tiktok-geoff": 15,
-    "x-geoff": 4103,
-    "youtube-ai-driven-leader": 1650,
+    "x-geoff": 4104,
+    "youtube-ai-driven-leader": 1700,
   });
 
   const july24Verified = Object.fromEntries(
@@ -90,20 +91,20 @@ test("archive data has unique date and channel pairs", async () => {
     "youtube-ai-driven-leader": 1570,
   });
 
-  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-26" && snapshot.channelId === "youtube-ai-driven-leader");
+  const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-27" && snapshot.channelId === "youtube-ai-driven-leader");
   assert.equal(youtubeSnapshot.precision, "rounded");
 });
 
 test("verified cross-channel activity is archived without inventing unavailable metrics", async () => {
   const posts = await readFile(new URL("public/data/posts.json", root), "utf8").then(JSON.parse);
-  assert.equal(posts.length, 14);
+  assert.equal(posts.length, 18);
   assert.deepEqual(
     Object.fromEntries(["linkedin-geoff", "instagram-geoff", "tiktok-geoff", "youtube-ai-driven-leader"].map((id) => [id, posts.filter((post) => post.channelId === id).length])),
-    { "linkedin-geoff": 5, "instagram-geoff": 3, "tiktok-geoff": 2, "youtube-ai-driven-leader": 4 },
+    { "linkedin-geoff": 6, "instagram-geoff": 5, "tiktok-geoff": 2, "youtube-ai-driven-leader": 5 },
   );
   assert.ok(posts.every((post) => post.source === "browser-verified"));
-  assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && post.engagements === null));
-  assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => Number.isFinite(post.views) && Number.isFinite(post.engagements) && post.engagementsPrecision === "exact-visible"));
+  assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && (post.engagements === null || Number.isFinite(post.engagements))));
+  assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => Number.isFinite(post.views) && Number.isFinite(post.engagements) && ["exact-visible", "visible-minimum"].includes(post.engagementsPrecision)));
   assert.ok(posts.filter((post) => post.engagementsPrecision === "visible-minimum").every((post) => Number.isFinite(post.engagements)));
   assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => post.reachStatus === "not-visible" && !("views" in post) && !("impressions" in post)));
 });

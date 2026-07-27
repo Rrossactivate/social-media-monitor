@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T13:17:40.416Z",
+  "generatedAt": "2026-07-27T23:24:05.367Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -35,14 +35,14 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "Six audience profiles and six owned activity feeds checked July 26; visible post metrics refreshed. Spotify follower count and reliable recent ordering were not exposed, so its prior verified record was preserved"
+      "detail": "Six audience profiles and six owned activity feeds checked July 27; four new posts or videos and refreshed visible metrics were archived. Spotify follower count and reliable recent ordering were not exposed, so its prior verified record was preserved"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, and social searches checked July 26; six verified guest appearances archived, including one newly discovered July 8 appearance"
+      "detail": "Public podcast, directory, web, and social searches checked July 27; eight verified earned references are archived, including one new LinkedIn mention and one official book listing"
     }
   ]
 }
