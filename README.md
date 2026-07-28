@@ -4,6 +4,14 @@ A static, mobile-friendly dashboard that keeps a dated archive of audience count
 
 The interface follows the [AITP design system](https://www.figma.com/design/mvypBgzGL0MnZnlqK9wFyI/AITP-DS--TailwindCSS-v4.1.6--?node-id=2006-6102): Leadership Blue, Deep Blue, Electric Blue, Geist product typography, tight headline hierarchy, and consistent product-like spacing.
 
+## Public dashboard
+
+The public dashboard is published through GitHub Pages at:
+
+<https://rrossactivate.github.io/social-media-monitor/>
+
+The Pages workflow only packages and publishes the already verified static dashboard. It does not collect platform data or rewrite the daily archive.
+
 ## What it tracks
 
 - A follower or subscriber snapshot for each connected channel, once per day
@@ -21,7 +29,7 @@ Earned media is never added to Geoff’s owned audience total. One appearance is
 
 The Codex daily automation is the single collection path. It verifies owned-channel audience and activity using available signed-in sessions, searches for earned-media mentions, preserves previously verified values when a platform is unavailable, validates the dashboard, saves one dated archive update, and publishes the private Sites version.
 
-GitHub does not run a second scheduled update. It is an optional private backup, so a push cannot overwrite a browser-verified measurement or trigger a duplicate deployment.
+GitHub does not run a second data update. A push publishes the already verified static dashboard to GitHub Pages without overwriting browser-verified measurements.
 
 ## Credentials
 
@@ -100,4 +108,5 @@ The website opens at `http://localhost:3000/`. The standalone GitHub Pages build
 - `public/data/mentions.json`: verified non-owned mentions and guest appearances
 - `public/data/status.json`: latest provider run status
 - `config/manual-overrides.json`: hand-entered values merged by every run
+- `.github/workflows/pages.yml`: publishing-only GitHub Pages deployment
 - `.openai/hosting.json`: existing private Sites project

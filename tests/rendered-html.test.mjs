@@ -33,7 +33,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /Reach coverage:/);
   assert.doesNotMatch(html, />Posts captured</);
   assert.match(html, /ail-mark\.png/);
-  assert.match(html, /geoff-woods-social-tracker\.robin-ross-6445\.chatgpt\.site\/og\.png/);
+  assert.match(html, /rrossactivate\.github\.io\/social-media-monitor\/og\.png/);
   assert.match(css, /@media \(max-width: 680px\)/);
   assert.match(css, /font-family: "Geist"/);
   assert.match(css, /#004fa6/i);
