@@ -128,6 +128,11 @@ function sourceLabel(source) {
   return labels[source] || source || "recorded";
 }
 
+function comparisonLabel() {
+  if (!state.days) return "all-time change";
+  return `${state.days}D change`;
+}
+
 function renderHeader() {
   const generated = state.status?.generatedAt ? new Date(state.status.generatedAt) : null;
   const generatedLabel = generated && !Number.isNaN(generated.getTime()) ? longDateTime.format(generated) : "Not yet run";
@@ -198,7 +203,7 @@ function renderChannelList() {
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>
-        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)} · ${sourceLabel(latest.source)}` : "Awaiting first value"}</small></span>
+        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${comparisonLabel()} · ${sourceLabel(latest.source)} ${sourceFreshness(latest.date)}` : "Awaiting first value"}</small></span>
       </a>`;
     })
     .join("");

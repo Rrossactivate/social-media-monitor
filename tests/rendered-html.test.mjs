@@ -41,6 +41,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(script, /data\/mentions\.json/);
   assert.match(script, /fullNumber\.format\(Math\.round\(label\)\)/);
   assert.match(script, /includeComparison/);
+  assert.match(script, /all-time change/);
+  assert.match(script, /\$\{state\.days\}D change/);
   assert.match(script, /Compared with the previous daily snapshot/);
   assert.match(script, /mention-reach-summary"\)\.hidden = !hasVisibleReach/);
   assert.doesNotMatch(script, /channel-activity/);
@@ -51,14 +53,21 @@ test("dashboard ships the required static assets and data hooks", async () => {
 
 test("earned mentions are verified, deduplicated, and explicit about unavailable reach", async () => {
   const mentions = await readFile(new URL("public/data/mentions.json", root), "utf8").then(JSON.parse);
-  assert.equal(mentions.length, 8);
+  assert.ok(mentions.length >= 8);
   assert.equal(new Set(mentions.map((mention) => mention.id)).size, mentions.length);
   assert.equal(new Set(mentions.map((mention) => mention.url)).size, mentions.length);
   assert.ok(mentions.every((mention) => mention.source === "web-verified"));
   assert.ok(mentions.every((mention) => ["day", "relative-hour"].includes(mention.datePrecision)));
   assert.ok(mentions.every((mention) => ["podcast-guest", "social-mention", "book-mention"].includes(mention.type)));
   assert.ok(mentions.every((mention) => Array.isArray(mention.platforms) && mention.platforms.length));
-  assert.ok(mentions.every((mention) => mention.reachStatus === "not-visible" && mention.views === null && mention.engagements === null));
+  assert.ok(mentions.every((mention) => mention.reachStatus === "not-visible" && mention.views === null));
+  assert.ok(
+    mentions.every(
+      (mention) =>
+        mention.engagements === null ||
+        (Number.isFinite(mention.engagements) && ["exact-visible", "visible-minimum"].includes(mention.engagementsPrecision)),
+    ),
+  );
 });
 
 test("archive data has unique date and channel pairs", async () => {

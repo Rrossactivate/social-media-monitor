@@ -74,6 +74,27 @@
     "discoveredAt": "2026-07-25T23:50:53.000Z"
   },
   {
+    "id": "linkedin:boardy:7480641950979608576",
+    "publishedAt": "2026-07-08T15:20:24Z",
+    "datePrecision": "day",
+    "type": "social-mention",
+    "publisher": "Boardy",
+    "platform": "LinkedIn",
+    "title": "On July 15th, I will be hosting a live webinar with Geoff Woods",
+    "url": "https://www.linkedin.com/posts/boardy_on-july-15th-i-will-be-hosting-a-live-webinar-activity-7480641950979608576-tmnx",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 92,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 87,
+    "comments": 5,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-28T13:37:19.407Z"
+  },
+  {
     "id": "podcast:beyond-the-prompt:2026-07-08",
     "publishedAt": "2026-07-08T05:00:00Z",
     "datePrecision": "day",
@@ -121,7 +142,8 @@
     "url": "https://www.simonandschuster.com/books/The-AI-Driven-Leader/Geoff-Woods/9798893313109",
     "platforms": [
       "Simon & Schuster",
-      "Google Books"
+      "Google Books",
+      "Hachette Australia"
     ],
     "views": null,
     "engagements": null,
