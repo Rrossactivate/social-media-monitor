@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-27T23:24:05.367Z",
+  "generatedAt": "2026-07-28T04:03:37.714Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
       "id": "youtube",
       "label": "YouTube",
       "mode": "api",
-      "status": "needs-setup",
-      "detail": "Add YOUTUBE_API_KEY"
+      "status": "ready",
+      "detail": "Audience and recent video metrics updated"
     },
     {
       "id": "x",
