@@ -177,7 +177,7 @@ function renderKpis() {
   $("#kpi-growth").textContent = growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
   $("#kpi-growth-note").textContent = state.days ? `During the last ${state.days} days` : "Across the full archive";
   $("#kpi-posts").textContent = fullNumber.format(posts.length);
-  $("#kpi-posts-note").textContent = state.days ? `Captured during the last ${state.days} days` : "Captured across the full archive";
+  $("#kpi-posts-note").textContent = state.days ? `Tracked during the last ${state.days} days` : "Tracked across the full archive";
   $("#kpi-engagements").textContent = measuredPosts.length ? `${engagementIsMinimum ? "≥" : ""}${fullNumber.format(engagements)}` : "—";
   $("#kpi-engagement-rate").textContent = exposure
     ? `Engagement rate ${rateIsMinimum ? "≥" : ""}${percent(rateEngagements, exposure)} on posts with visible reach`
@@ -194,7 +194,7 @@ function renderChannelList() {
       const activity = posts[channel.id]?.length || 0;
       const activityVerified = channel.activityTracking?.status === "verified";
       const activityValue = activity ? fullNumber.format(activity) : activityVerified ? "0" : "—";
-      const activityLabel = activity ? "captured" : activityVerified ? (state.days ? "recent" : "archived") : "not tracked";
+      const activityLabel = activity || activityVerified ? "posts tracked" : "not tracked";
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>

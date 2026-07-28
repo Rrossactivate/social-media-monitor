@@ -19,6 +19,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /aria-controls="status-view"/);
   assert.match(html, /Mentions &amp; guest appearances/);
   assert.match(html, /Reach coverage:/);
+  assert.match(html, /Posts tracked is the number of recent posts or videos saved/);
+  assert.doesNotMatch(html, />Posts captured</);
   assert.match(html, /ail-mark\.png/);
   assert.match(html, /geoff-woods-social-tracker\.robin-ross-6445\.chatgpt\.site\/og\.png/);
   assert.match(css, /@media \(max-width: 680px\)/);
