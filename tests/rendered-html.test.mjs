@@ -17,6 +17,11 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /role="tablist"/);
   assert.match(html, /id="status-view"/);
   assert.match(html, /aria-controls="status-view"/);
+  assert.match(html, /data-range="1">1D</);
+  assert.match(html, /data-range="7">7D</);
+  assert.match(html, /data-range="30" class="active"/);
+  assert.match(html, /data-range="0">All</);
+  assert.doesNotMatch(html, /data-range="90"/);
   assert.match(html, /Mentions &amp; guest appearances/);
   assert.match(html, /Reach coverage:/);
   assert.match(html, /Posts tracked is the number of recent posts or videos saved/);
@@ -29,6 +34,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(script, /data\/snapshots\.json/);
   assert.match(script, /data\/mentions\.json/);
   assert.match(script, /fullNumber\.format\(Math\.round\(label\)\)/);
+  assert.match(script, /includeComparison/);
+  assert.match(script, /Compared with the previous daily snapshot/);
   assert.doesNotMatch(script, /compactNumber/);
   assert.match(css, /\[hidden\]\s*\{\s*display: none !important;/);
   assert.doesNotMatch(html, /react-loading-skeleton|Codex is working/);

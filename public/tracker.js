@@ -49,11 +49,12 @@ function dateValue(value) {
   return new Date(`${value}T12:00:00Z`);
 }
 
-function rangeStart() {
+function rangeStart({ includeComparison = false } = {}) {
   if (!state.days) return null;
   const dates = state.snapshots.map((item) => dateValue(item.date).getTime());
   const newest = dates.length ? Math.max(...dates) : Date.now();
-  return new Date(newest - (state.days - 1) * 86400000);
+  const daysBack = state.days === 1 && includeComparison ? 1 : state.days - 1;
+  return new Date(newest - daysBack * 86400000);
 }
 
 function selectedChannels() {
@@ -64,7 +65,7 @@ function selectedChannels() {
 
 function selectedSnapshots() {
   const ids = new Set(selectedChannels().map((channel) => channel.id));
-  const start = rangeStart();
+  const start = rangeStart({ includeComparison: true });
   return state.snapshots.filter((item) => ids.has(item.channelId) && (!start || dateValue(item.date) >= start));
 }
 
@@ -94,7 +95,7 @@ function latestFor(channelId) {
 }
 
 function earliestInRange(channelId) {
-  const start = rangeStart();
+  const start = rangeStart({ includeComparison: true });
   const all = state.snapshots
     .filter((item) => item.channelId === channelId)
     .sort((a, b) => a.date.localeCompare(b.date));
@@ -171,9 +172,17 @@ function renderKpis() {
   $("#kpi-audience").textContent = latest.length ? `${audienceIsRounded ? "≈" : ""}${fullNumber.format(current)}` : "—";
   $("#kpi-audience-note").textContent = `${latest.length} of ${channels.length} selected channels reporting`;
   $("#kpi-growth").textContent = growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
-  $("#kpi-growth-note").textContent = state.days ? `During the last ${state.days} days` : "Across the full archive";
+  $("#kpi-growth-note").textContent = state.days === 1
+    ? "Compared with the previous daily snapshot"
+    : state.days
+      ? `During the last ${state.days} days`
+      : "Across the full archive";
   $("#kpi-posts").textContent = fullNumber.format(posts.length);
-  $("#kpi-posts-note").textContent = state.days ? `Tracked during the last ${state.days} days` : "Tracked across the full archive";
+  $("#kpi-posts-note").textContent = state.days === 1
+    ? "Tracked during the latest day"
+    : state.days
+      ? `Tracked during the last ${state.days} days`
+      : "Tracked across the full archive";
   $("#kpi-engagements").textContent = measuredPosts.length ? `${engagementIsMinimum ? "≥" : ""}${fullNumber.format(engagements)}` : "—";
   $("#kpi-engagement-rate").textContent = exposure
     ? `Engagement rate ${rateIsMinimum ? "≥" : ""}${percent(rateEngagements, exposure)} on posts with visible reach`
@@ -219,7 +228,7 @@ function renderCoverage() {
 function renderPosts() {
   const channelMap = Object.fromEntries(state.channels.map((channel) => [channel.id, channel]));
   const posts = selectedPosts().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || (b.engagements || 0) - (a.engagements || 0));
-  $("#content-range").textContent = state.days ? `Last ${state.days} days` : "Full archive";
+  $("#content-range").textContent = state.days === 1 ? "Last 1 day" : state.days ? `Last ${state.days} days` : "Full archive";
   $("#post-empty").hidden = Boolean(posts.length);
   $("#post-table").innerHTML = posts
     .map((post) => {
@@ -265,7 +274,7 @@ function renderMentions() {
     .filter(Number.isFinite);
   const totalReach = visibleReach.reduce((sum, value) => sum + value, 0);
 
-  $("#mention-range").textContent = state.days ? `Last ${state.days} days` : "Full archive";
+  $("#mention-range").textContent = state.days === 1 ? "Last 1 day" : state.days ? `Last ${state.days} days` : "Full archive";
   $("#mention-count").textContent = fullNumber.format(mentions.length);
   $("#mention-guest-count").textContent = fullNumber.format(appearances.length);
   $("#mention-reach").textContent = visibleReach.length ? fullNumber.format(totalReach) : "—";
