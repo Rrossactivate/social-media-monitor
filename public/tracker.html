@@ -51,6 +51,32 @@
     </header>
 
     <main>
+      <div class="view-tabs" role="tablist" aria-label="Tracker views">
+        <button
+          class="view-tab active"
+          id="dashboard-tab"
+          type="button"
+          role="tab"
+          aria-selected="true"
+          aria-controls="dashboard-view"
+          data-view="dashboard"
+        >
+          Dashboard
+        </button>
+        <button
+          class="view-tab"
+          id="status-tab"
+          type="button"
+          role="tab"
+          aria-selected="false"
+          aria-controls="status-view"
+          data-view="status"
+        >
+          Data status
+        </button>
+      </div>
+
+      <div id="dashboard-view" role="tabpanel" aria-labelledby="dashboard-tab">
       <section class="toolbar" aria-label="Dashboard filters">
         <div class="range-control" role="group" aria-label="Date range">
           <button type="button" data-range="7">7D</button>
@@ -104,7 +130,7 @@
         </div>
       </section>
 
-      <section class="two-column">
+      <section class="channel-section">
         <article class="panel channel-panel">
           <div class="panel-heading compact">
             <div>
@@ -115,21 +141,6 @@
           </div>
           <div class="channel-list" id="channel-list"></div>
         </article>
-
-        <aside class="panel automation-panel">
-          <div class="panel-heading compact">
-            <div>
-              <p class="section-kicker">DATA OPERATIONS</p>
-              <h2>Update coverage</h2>
-            </div>
-          </div>
-          <div class="coverage-meter" aria-hidden="true"><span id="coverage-bar"></span></div>
-          <p class="coverage-summary" id="coverage-summary">Loading provider status…</p>
-          <div class="provider-list" id="provider-list"></div>
-          <p class="automation-note">
-            Restricted channels keep their last verified value until a native API credential or manual override is supplied.
-          </p>
-        </aside>
       </section>
 
       <section class="panel content-panel">
@@ -197,6 +208,33 @@
         <p class="metric-disclosure">
           <strong>How this is counted:</strong> One guest appearance is counted once even when the publisher distributes it to Spotify, Apple Podcasts, and YouTube. The date range applies here; the owned-channel filter does not.
         </p>
+      </section>
+      </div>
+
+      <section id="status-view" class="status-view" role="tabpanel" aria-labelledby="status-tab" hidden>
+        <div class="status-intro">
+          <div>
+            <p class="section-kicker">DATA CONFIDENCE</p>
+            <h2>Data status</h2>
+            <p>Verification, automation coverage, and collection notes for the people maintaining this tracker.</p>
+          </div>
+          <span class="status-updated">Last data run <strong id="status-last-run">Loading…</strong></span>
+        </div>
+
+        <aside class="panel automation-panel">
+          <div class="panel-heading compact">
+            <div>
+              <p class="section-kicker">DATA OPERATIONS</p>
+              <h2>Update coverage</h2>
+            </div>
+          </div>
+          <div class="coverage-meter" aria-hidden="true"><span id="coverage-bar"></span></div>
+          <p class="coverage-summary" id="coverage-summary">Loading provider status…</p>
+          <div class="provider-list" id="provider-list"></div>
+          <p class="automation-note">
+            Restricted channels keep their last verified value until a native API credential or manual override is supplied.
+          </p>
+        </aside>
       </section>
     </main>
 

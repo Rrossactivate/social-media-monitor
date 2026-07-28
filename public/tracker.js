@@ -129,11 +129,28 @@ function sourceLabel(source) {
 
 function renderHeader() {
   const generated = state.status?.generatedAt ? new Date(state.status.generatedAt) : null;
-  $("#last-run").textContent = generated && !Number.isNaN(generated.getTime()) ? longDateTime.format(generated) : "Not yet run";
+  const generatedLabel = generated && !Number.isNaN(generated.getTime()) ? longDateTime.format(generated) : "Not yet run";
+  $("#last-run").textContent = generatedLabel;
+  $("#status-last-run").textContent = generatedLabel;
   const ready = state.status?.providers?.filter((item) => item.status === "ready").length || 0;
   const total = state.status?.providers?.length || 0;
   $("#coverage-note").textContent = `${ready} of ${total} update paths ready`;
   $("#run-status").classList.toggle("attention", ready < total);
+}
+
+function setView(view, { updateHash = true } = {}) {
+  const activeView = view === "status" ? "status" : "dashboard";
+  document.querySelectorAll("[data-view]").forEach((button) => {
+    const isActive = button.dataset.view === activeView;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-selected", isActive ? "true" : "false");
+  });
+  $("#dashboard-view").hidden = activeView !== "dashboard";
+  $("#status-view").hidden = activeView !== "status";
+  if (updateHash) {
+    history.replaceState(null, "", activeView === "status" ? "#data-status" : "#top");
+  }
+  if (activeView === "dashboard") requestAnimationFrame(drawChart);
 }
 
 function renderKpis() {
@@ -447,5 +464,10 @@ $("#channel-filter").addEventListener("change", (event) => { state.channelId = e
 $("#refresh-data").addEventListener("click", loadData);
 $("#download-data").addEventListener("click", downloadArchive);
 $("#download-mentions").addEventListener("click", downloadMentions);
+document.querySelectorAll("[data-view]").forEach((button) => {
+  button.addEventListener("click", () => setView(button.dataset.view));
+});
+window.addEventListener("hashchange", () => setView(location.hash === "#data-status" ? "status" : "dashboard", { updateHash: false }));
 new ResizeObserver(drawChart).observe($("#trend-chart").parentElement);
+setView(location.hash === "#data-status" ? "status" : "dashboard", { updateHash: false });
 loadData();
