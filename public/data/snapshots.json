@@ -304,7 +304,7 @@
     "date": "2026-07-28",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1710,
-    "source": "browser-verified",
-    "precision": "rounded"
+    "source": "youtube-api",
+    "precision": "api-rounded"
   }
 ]
