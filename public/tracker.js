@@ -132,10 +132,6 @@ function renderHeader() {
   const generatedLabel = generated && !Number.isNaN(generated.getTime()) ? longDateTime.format(generated) : "Not yet run";
   $("#last-run").textContent = generatedLabel;
   $("#status-last-run").textContent = generatedLabel;
-  const ready = state.status?.providers?.filter((item) => item.status === "ready").length || 0;
-  const total = state.status?.providers?.length || 0;
-  $("#coverage-note").textContent = `${ready} of ${total} update paths ready`;
-  $("#run-status").classList.toggle("attention", ready < total);
 }
 
 function setView(view, { updateHash = true } = {}) {
@@ -401,7 +397,7 @@ async function loadData() {
     select.value = state.channelId;
     render();
   } catch (error) {
-    $("#coverage-note").textContent = "Data could not be loaded";
+    $("#last-run").textContent = "Unavailable";
     $("#coverage-summary").textContent = error.message;
   } finally {
     $("#refresh-data").disabled = false;
