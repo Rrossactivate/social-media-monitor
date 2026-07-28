@@ -49,7 +49,6 @@ API notes:
 - YouTube's channel statistics include subscriber count, but YouTube reports it with limited precision for public display. See the [official Channels API](https://developers.google.com/youtube/v3/docs/channels).
 - LinkedIn organization follower data requires the right product access and organization permissions. See the [official follower statistics documentation](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/organizations/follower-statistics).
 - TikTok follower and recent-video metrics are captured through the daily signed-in browser verification and remain marked `browser-verified`.
-- Spotify's public show endpoints expose episode data but not podcast follower counts, so Spotify remains a manual entry. See [Get Show](https://developer.spotify.com/documentation/web-api/reference/get-a-show).
 - A personal LinkedIn follower count generally needs a manual override unless Geoff's approved LinkedIn access includes the relevant member capability.
 
 ## Manual entries

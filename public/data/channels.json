@@ -90,20 +90,5 @@
       "checkedAt": "2026-07-27T23:24:05.367Z",
       "windowDays": 30
     }
-  },
-  {
-    "id": "spotify-ai-driven-leader",
-    "name": "The AI-Driven Leader",
-    "platform": "Spotify",
-    "handle": "the-ai-driven-leader",
-    "metricLabel": "followers",
-    "provider": "manual",
-    "color": "#B7D5FF",
-    "profileUrl": "https://open.spotify.com/show/2qSY9ZFTBJisoKp9eACbeb",
-    "activityTracking": {
-      "status": "verified",
-      "checkedAt": "2026-07-25T23:39:26.000Z",
-      "windowDays": 30
-    }
   }
 ]
