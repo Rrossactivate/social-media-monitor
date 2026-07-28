@@ -170,7 +170,7 @@ function renderKpis() {
   const audienceIsRounded = latest.some((item) => item.precision === "rounded" || item.precision === "api-rounded");
 
   $("#kpi-audience").textContent = latest.length ? `${audienceIsRounded ? "≈" : ""}${fullNumber.format(current)}` : "—";
-  $("#kpi-audience-note").textContent = `${latest.length} of ${channels.length} selected channels reporting`;
+  $("#kpi-audience-note").textContent = `${latest.length} of ${channels.length} channels reporting · audiences may overlap`;
   $("#kpi-growth").textContent = growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
   $("#kpi-growth-note").textContent = state.days === 1
     ? "Compared with the previous daily snapshot"
@@ -190,20 +190,14 @@ function renderKpis() {
 }
 
 function renderChannelList() {
-  const posts = byChannel(selectedPosts());
   $("#channel-list").innerHTML = selectedChannels()
     .map((channel) => {
       const latest = latestFor(channel.id);
       const first = earliestInRange(channel.id);
       const delta = latest && first ? latest.audience - first.audience : 0;
-      const activity = posts[channel.id]?.length || 0;
-      const activityVerified = channel.activityTracking?.status === "verified";
-      const activityValue = activity ? fullNumber.format(activity) : activityVerified ? "0" : "—";
-      const activityLabel = activity || activityVerified ? "posts tracked" : "not tracked";
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>
-        <span class="channel-activity"><strong>${activityValue}</strong><small>${activityLabel}</small></span>
         <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${sourceFreshness(latest.date)} · ${sourceLabel(latest.source)}` : "Awaiting first value"}</small></span>
       </a>`;
     })
@@ -273,11 +267,14 @@ function renderMentions() {
     .map((item) => Number.isFinite(item.views) ? item.views : Number.isFinite(item.impressions) ? item.impressions : null)
     .filter(Number.isFinite);
   const totalReach = visibleReach.reduce((sum, value) => sum + value, 0);
+  const hasVisibleReach = Boolean(visibleReach.length);
 
   $("#mention-range").textContent = state.days === 1 ? "Last 1 day" : state.days ? `Last ${state.days} days` : "Full archive";
   $("#mention-count").textContent = fullNumber.format(mentions.length);
   $("#mention-guest-count").textContent = fullNumber.format(appearances.length);
   $("#mention-reach").textContent = visibleReach.length ? fullNumber.format(totalReach) : "—";
+  $("#mention-reach-summary").hidden = !hasVisibleReach;
+  $("#earned-summary").classList.toggle("has-reach", hasVisibleReach);
   $("#mention-empty").hidden = Boolean(mentions.length);
   $("#mention-list").innerHTML = mentions
     .map((mention) => {
@@ -294,14 +291,17 @@ function renderMentions() {
         : mention.reachStatus === "not-visible"
           ? "Not visible"
           : "—";
-      return `<article class="mention-row">
+      const reachMarkup = hasVisibleReach
+        ? `<span class="mention-reach ${Number.isFinite(reach) ? "" : "unavailable"}"><small>Public reach</small><strong>${reachLabel}</strong></span>`
+        : "";
+      return `<article class="mention-row${hasVisibleReach ? " has-reach" : ""}">
         <time datetime="${escapeHtml(mention.publishedAt)}">${mention.datePrecision?.startsWith("relative") ? "≈" : ""}${shortDate.format(new Date(mention.publishedAt))}</time>
         <span class="mention-type">${escapeHtml(mentionTypeLabel(mention.type))}</span>
         <span class="mention-main">
           <a href="${safeUrl(mention.url)}" target="_blank" rel="noreferrer">${escapeHtml(mention.title || "View mention")}</a>
           <small>${escapeHtml(mention.publisher)} · ${escapeHtml(platforms)}</small>
         </span>
-        <span class="mention-reach ${Number.isFinite(reach) ? "" : "unavailable"}"><small>Public reach</small><strong>${reachLabel}</strong></span>
+        ${reachMarkup}
       </article>`;
     })
     .join("");

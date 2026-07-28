@@ -78,7 +78,7 @@
 
       <section class="kpi-grid" aria-label="Key performance indicators">
         <article class="kpi-card violet">
-          <p>Known cross-channel count</p>
+          <p>Tracked audience total</p>
           <strong id="kpi-audience">—</strong>
           <span id="kpi-audience-note">Across tracked channels</span>
         </article>
@@ -93,7 +93,7 @@
           <span id="kpi-posts-note">During selected period</span>
         </article>
         <article class="kpi-card amber">
-          <p>Total engagements</p>
+          <p>Visible engagements</p>
           <strong id="kpi-engagements">—</strong>
           <span id="kpi-engagement-rate">Engagement rate —</span>
         </article>
@@ -119,9 +119,6 @@
             <div>
               <p class="section-kicker">CHANNEL PULSE</p>
               <h2>Current audience</h2>
-              <p class="panel-description">
-                Posts tracked is the number of recent posts or videos saved in this dashboard for the selected date range. It is separate from audience size.
-              </p>
             </div>
             <span class="subtle">Latest recorded value</span>
           </div>
@@ -167,12 +164,9 @@
             <p class="section-kicker">EARNED MEDIA</p>
             <h2>Mentions &amp; guest appearances</h2>
           </div>
-          <div class="earned-actions">
-            <span class="subtle" id="mention-range">Selected period</span>
-            <button class="panel-button" id="download-mentions" type="button">Download mentions</button>
-          </div>
+          <span class="subtle" id="mention-range">Selected period</span>
         </div>
-        <div class="earned-summary" aria-label="Earned media summary">
+        <div class="earned-summary" id="earned-summary" aria-label="Earned media summary">
           <article>
             <span>Mentions found</span>
             <strong id="mention-count">—</strong>
@@ -181,7 +175,7 @@
             <span>Guest appearances</span>
             <strong id="mention-guest-count">—</strong>
           </article>
-          <article>
+          <article id="mention-reach-summary" hidden>
             <span>Visible public reach</span>
             <strong id="mention-reach">—</strong>
           </article>
@@ -206,7 +200,10 @@
           </div>
           <div class="status-actions">
             <span class="status-updated">Last data run <strong id="status-last-run">Loading…</strong></span>
-            <button class="panel-button" id="download-data" type="button">Export audience data</button>
+            <div class="status-export-actions">
+              <button class="panel-button" id="download-data" type="button">Export audience data</button>
+              <button class="panel-button" id="download-mentions" type="button">Export mentions</button>
+            </div>
           </div>
         </div>
 

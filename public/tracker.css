@@ -493,6 +493,13 @@ main {
   min-height: 40px;
 }
 
+.status-export-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .status-view .automation-panel {
   max-width: 780px;
 }
@@ -504,7 +511,7 @@ main {
 
 .channel-row {
   display: grid;
-  grid-template-columns: 10px minmax(0, 1.6fr) 0.5fr 1fr;
+  grid-template-columns: 10px minmax(0, 1.6fr) 1fr;
   gap: 16px;
   align-items: center;
   min-height: 61px;
@@ -527,8 +534,6 @@ main {
 
 .channel-identity strong,
 .channel-identity small,
-.channel-activity strong,
-.channel-activity small,
 .channel-value strong,
 .channel-value small {
   display: block;
@@ -544,19 +549,16 @@ main {
 }
 
 .channel-identity small,
-.channel-activity small,
 .channel-value small {
   margin-top: 3px;
   color: var(--muted);
   font-size: 11px;
 }
 
-.channel-activity,
 .channel-value {
   text-align: right;
 }
 
-.channel-activity strong,
 .channel-value strong {
   color: var(--navy);
   font-size: 14px;
@@ -736,9 +738,13 @@ td a:hover {
 
 .earned-summary {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin-bottom: 8px;
+}
+
+.earned-summary.has-reach {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .earned-summary article {
@@ -775,11 +781,15 @@ td a:hover {
 
 .mention-row {
   display: grid;
-  grid-template-columns: 72px 106px minmax(0, 1fr) 112px;
+  grid-template-columns: 72px 106px minmax(0, 1fr);
   gap: 14px;
   align-items: center;
   min-height: 84px;
   border-bottom: 1px solid #edf0f5;
+}
+
+.mention-row.has-reach {
+  grid-template-columns: 72px 106px minmax(0, 1fr) 112px;
 }
 
 .mention-row time {
@@ -895,7 +905,8 @@ footer a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .mention-row {
+  .mention-row,
+  .mention-row.has-reach {
     grid-template-columns: 68px 100px minmax(0, 1fr);
   }
 
@@ -946,6 +957,10 @@ footer a {
     align-items: flex-start;
   }
 
+  .status-export-actions {
+    justify-content: flex-start;
+  }
+
   .range-control {
     flex: 1 1 100%;
   }
@@ -980,7 +995,8 @@ footer a {
     justify-content: space-between;
   }
 
-  .earned-summary {
+  .earned-summary,
+  .earned-summary.has-reach {
     grid-template-columns: 1fr;
   }
 
@@ -988,7 +1004,8 @@ footer a {
     min-height: 72px;
   }
 
-  .mention-row {
+  .mention-row,
+  .mention-row.has-reach {
     grid-template-columns: 62px minmax(0, 1fr);
     gap: 8px 12px;
     padding: 14px 0;
@@ -1016,10 +1033,6 @@ footer a {
   .channel-row {
     grid-template-columns: 9px minmax(0, 1fr) 0.9fr;
     gap: 10px;
-  }
-
-  .channel-activity {
-    display: none;
   }
 
   footer {

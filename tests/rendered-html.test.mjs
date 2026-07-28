@@ -18,7 +18,12 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /id="status-view"/);
   assert.match(html, /aria-controls="status-view"/);
   assert.match(html, /id="download-data"[^>]*>Export audience data</);
+  assert.match(html, /id="download-mentions"[^>]*>Export mentions</);
   assert.doesNotMatch(html, />Download archive</);
+  assert.match(html, />Tracked audience total</);
+  assert.match(html, />Visible engagements</);
+  assert.doesNotMatch(html, />Known cross-channel count</);
+  assert.doesNotMatch(html, /Posts tracked is the number of recent posts/);
   assert.match(html, /data-range="1">1D</);
   assert.match(html, /data-range="7">7D</);
   assert.match(html, /data-range="30" class="active"/);
@@ -26,7 +31,6 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.doesNotMatch(html, /data-range="90"/);
   assert.match(html, /Mentions &amp; guest appearances/);
   assert.match(html, /Reach coverage:/);
-  assert.match(html, /Posts tracked is the number of recent posts or videos saved/);
   assert.doesNotMatch(html, />Posts captured</);
   assert.match(html, /ail-mark\.png/);
   assert.match(html, /geoff-woods-social-tracker\.robin-ross-6445\.chatgpt\.site\/og\.png/);
@@ -38,6 +42,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(script, /fullNumber\.format\(Math\.round\(label\)\)/);
   assert.match(script, /includeComparison/);
   assert.match(script, /Compared with the previous daily snapshot/);
+  assert.match(script, /mention-reach-summary"\)\.hidden = !hasVisibleReach/);
+  assert.doesNotMatch(script, /channel-activity/);
   assert.doesNotMatch(script, /compactNumber/);
   assert.match(css, /\[hidden\]\s*\{\s*display: none !important;/);
   assert.doesNotMatch(html, /react-loading-skeleton|Codex is working/);
@@ -130,13 +136,13 @@ test("verified cross-channel activity is archived without inventing unavailable 
   assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => post.reachStatus === "not-visible" && !("views" in post) && !("impressions" in post)));
 });
 
-test("activity coverage distinguishes verified inactivity from untracked channels", async () => {
+test("activity coverage remains verified while audience rows stay focused", async () => {
   const [channels, script] = await Promise.all([
     readFile(new URL("public/data/channels.json", root), "utf8").then(JSON.parse),
     readFile(new URL("public/tracker.js", root), "utf8"),
   ]);
   assert.ok(channels.every((channel) => channel.activityTracking?.status === "verified"));
-  assert.match(script, /not tracked/);
+  assert.doesNotMatch(script, /channel-activity/);
   assert.match(script, /visible-minimum/);
   assert.match(script, /metric-unavailable/);
   assert.match(script, /const exposurePosts/);
