@@ -86,7 +86,8 @@ test("archive data has unique date and channel pairs", async () => {
       "youtube-ai-driven-leader",
     ]),
   );
-  assert.ok(latestVerified.every((snapshot) => ["browser-verified", "youtube-api"].includes(snapshot.source)));
+  assert.ok(latestVerified.every((snapshot) => ["browser-verified", "youtube-api", "carry-forward"].includes(snapshot.source)));
+  assert.ok(latestVerified.filter((snapshot) => snapshot.source === "carry-forward").every((snapshot) => snapshot.precision === "stale"));
 
   const july24Verified = Object.fromEntries(
     snapshots
