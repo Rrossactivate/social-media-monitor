@@ -1,13 +1,13 @@
 # AIL Social Media Monitoring
 
-A static, mobile-friendly dashboard that keeps a dated archive of audience counts, recent post performance, and earned-media mentions for Geoff Woods and AI Leadership. It is designed for GitHub Pages and includes a scheduled GitHub Actions workflow.
+A static, mobile-friendly dashboard that keeps a dated archive of audience counts, recent post performance, and earned-media mentions for Geoff Woods and AI Leadership. The private dashboard is hosted through Sites, while GitHub is retained only as a private source backup and change history.
 
 The interface follows the [AITP design system](https://www.figma.com/design/mvypBgzGL0MnZnlqK9wFyI/AITP-DS--TailwindCSS-v4.1.6--?node-id=2006-6102): Leadership Blue, Deep Blue, Electric Blue, Geist product typography, tight headline hierarchy, and consistent product-like spacing.
 
 ## What it tracks
 
 - A follower or subscriber snapshot for each connected channel, once per day
-- Follower growth over 7, 30, 90, or all archived days
+- Follower growth over 1, 7, 30, or all archived days
 - Recent post counts, views or impressions, engagements, and engagement rate
 - Non-owned mentions, podcast guest appearances, interviews, reposts, and articles as a separate earned-media timeline
 - Source status so an API error never silently looks like fresh data
@@ -17,19 +17,15 @@ The seeded figures are public baseline observations, not live API results. A val
 
 Earned media is never added to Geoff’s owned audience total. One appearance is counted once even when it is syndicated to multiple platforms, and third-party reach stays blank unless the publisher exposes a verifiable public metric.
 
-## Publish with GitHub Pages
+## Daily update process
 
-1. Create a GitHub repository and copy this project into it.
-2. Use `main` as the default branch.
-3. In **Settings → Pages**, set **Source** to **GitHub Actions**.
-4. In **Settings → Secrets and variables → Actions**, add whichever credentials you have from the list below.
-5. Run **Actions → Update social tracker → Run workflow** once.
+The Codex daily automation is the single collection path. It verifies owned-channel audience and activity using available signed-in sessions, searches for earned-media mentions, preserves previously verified values when a platform is unavailable, validates the dashboard, saves one dated archive update, and publishes the private Sites version.
 
-The workflow runs every day at 6:17 a.m. in `America/Vancouver`, commits the updated JSON archive, and publishes the dashboard. GitHub documents both [scheduled workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#onschedule) and [custom Pages workflows](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+GitHub does not run a second scheduled update. It is an optional private backup, so a push cannot overwrite a browser-verified measurement or trigger a duplicate deployment.
 
 ## Credentials
 
-All credentials are optional. Missing credentials leave the most recent verified value in place and mark that provider as needing setup.
+All credentials are optional and are used only when running `npm run update-data` manually. Missing credentials leave the most recent verified value in place and mark that provider as needing setup.
 
 | Secret or variable | Used for |
 | --- | --- |
@@ -42,7 +38,7 @@ All credentials are optional. Missing credentials leave the most recent verified
 | `META_GRAPH_VERSION` | Optional repository variable; defaults to `v24.0` |
 | `LINKEDIN_VERSION` | Optional repository variable; defaults to `202606` |
 
-Never put credentials in `public/`, the HTML, or the JSON files. GitHub injects them only while the private workflow runner is updating the archive.
+Never put credentials in `public/`, the HTML, or the JSON files. Supply them only as temporary environment variables during a manual update.
 
 API notes:
 
@@ -104,4 +100,4 @@ The website opens at `http://localhost:3000/`. The standalone GitHub Pages build
 - `public/data/mentions.json`: verified non-owned mentions and guest appearances
 - `public/data/status.json`: latest provider run status
 - `config/manual-overrides.json`: hand-entered values merged by every run
-- `.github/workflows/daily-tracker.yml`: daily automation and Pages deployment
+- `.openai/hosting.json`: existing private Sites project

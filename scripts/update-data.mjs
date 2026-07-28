@@ -26,8 +26,17 @@ function markProvider(id, status, detail) {
   statusById.set(id, { ...provider, status, detail });
 }
 
+function sourcePriority(source = "") {
+  if (source === "manual-override") return 4;
+  if (source === "browser-verified") return 3;
+  if (source.endsWith("-api")) return 2;
+  if (source === "carry-forward") return 1;
+  return 0;
+}
+
 function upsertSnapshot(snapshot) {
   const index = snapshots.findIndex((item) => item.date === snapshot.date && item.channelId === snapshot.channelId);
+  if (index >= 0 && sourcePriority(snapshots[index].source) > sourcePriority(snapshot.source)) return;
   if (index >= 0) snapshots[index] = { ...snapshots[index], ...snapshot };
   else snapshots.push(snapshot);
 }
@@ -76,8 +85,9 @@ async function updateYouTube() {
         const videoQuery = new URLSearchParams({ part: "snippet,statistics", id: ids.join(","), key: process.env.YOUTUBE_API_KEY });
         const videoData = await getJson(`https://www.googleapis.com/youtube/v3/videos?${videoQuery}`);
         for (const video of videoData.items || []) {
-          const likes = Number(video.statistics.likeCount || 0);
-          const comments = Number(video.statistics.commentCount || 0);
+          const likes = video.statistics.likeCount == null ? null : Number(video.statistics.likeCount);
+          const comments = video.statistics.commentCount == null ? null : Number(video.statistics.commentCount);
+          const visibleEngagements = [likes, comments].filter(Number.isFinite);
           upsertPost({
             id: `youtube:${video.id}`,
             channelId: channel.id,
@@ -85,7 +95,7 @@ async function updateYouTube() {
             title: video.snippet.title,
             url: `https://www.youtube.com/watch?v=${video.id}`,
             views: Number(video.statistics.viewCount || 0),
-            engagements: likes + comments,
+            engagements: visibleEngagements.length ? visibleEngagements.reduce((sum, value) => sum + value, 0) : null,
             likes,
             comments,
             source: "youtube-api",
@@ -118,13 +128,14 @@ async function updateX() {
     const timeline = await getJson(`https://api.x.com/2/users/${user.data.id}/tweets?${query}`, { headers });
     for (const tweet of timeline.data || []) {
       const metrics = tweet.public_metrics || {};
+      const impressions = metrics.impression_count == null ? null : Number(metrics.impression_count);
       upsertPost({
         id: `x:${tweet.id}`,
         channelId: channel.id,
         publishedAt: tweet.created_at,
         text: tweet.text,
         url: `https://x.com/${channel.handle}/status/${tweet.id}`,
-        impressions: Number(metrics.impression_count || 0),
+        ...(Number.isFinite(impressions) ? { impressions, reachStatus: "visible" } : { reachStatus: "not-visible" }),
         engagements: Number(metrics.like_count || 0) + Number(metrics.reply_count || 0) + Number(metrics.retweet_count || 0) + Number(metrics.quote_count || 0),
         likes: Number(metrics.like_count || 0),
         comments: Number(metrics.reply_count || 0),
@@ -167,7 +178,7 @@ async function updateInstagram() {
         publishedAt: item.timestamp,
         text: item.caption || item.media_type,
         url: item.permalink,
-        impressions: 0,
+        reachStatus: "not-visible",
         engagements: likes + comments,
         likes,
         comments,
