@@ -127,35 +127,22 @@ footer {
   font-size: 11px;
 }
 
+.brand small span {
+  color: white;
+  font-weight: 700;
+}
+
 .nav-actions {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.last-run-status,
 .quiet-button {
   display: inline-flex;
   align-items: center;
   min-height: 38px;
   border-radius: 999px;
-}
-
-.last-run-status {
-  gap: 7px;
-  padding: 0 15px;
-  background: rgba(255, 255, 255, 0.1);
-  color: #d9e8ff;
-  font-size: 12px;
-}
-
-.last-run-status span {
-  color: #b7d5ff;
-}
-
-.last-run-status strong {
-  color: white;
-  font-weight: 700;
 }
 
 .quiet-button {
@@ -931,22 +918,6 @@ footer a {
 
   .nav-shell {
     min-height: 72px;
-  }
-
-  .last-run-status {
-    min-height: auto;
-    padding: 0;
-    background: transparent;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 1px;
-  }
-
-  .last-run-status strong {
-    max-width: 145px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   .quiet-button {
