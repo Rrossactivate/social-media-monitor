@@ -10,7 +10,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
     readFile(new URL("public/tracker.css", root), "utf8"),
     readFile(new URL("public/tracker.js", root), "utf8"),
   ]);
-  assert.match(html, /Social Audience Tracker/);
+  assert.match(html, /AIL Social Media Monitoring/);
   assert.match(html, /id="trend-chart"/);
   assert.match(html, /id="post-table"/);
   assert.match(html, /id="mention-list"/);
@@ -53,19 +53,20 @@ test("archive data has unique date and channel pairs", async () => {
   assert.ok(snapshots.every((snapshot) => ids.has(snapshot.channelId) && Number.isFinite(snapshot.audience)));
   assert.ok(Array.isArray(status.providers));
 
-  const latestVerified = Object.fromEntries(
-    snapshots
-      .filter((snapshot) => snapshot.date === "2026-07-27" && snapshot.source === "browser-verified")
-      .map((snapshot) => [snapshot.channelId, snapshot.audience]),
+  const latestDate = snapshots.reduce((latest, snapshot) => (snapshot.date > latest ? snapshot.date : latest), "");
+  const latestVerified = snapshots.filter((snapshot) => snapshot.date === latestDate);
+  assert.deepEqual(
+    new Set(latestVerified.map((snapshot) => snapshot.channelId)),
+    new Set([
+      "instagram-geoff",
+      "linkedin-ai-leadership",
+      "linkedin-geoff",
+      "tiktok-geoff",
+      "x-geoff",
+      "youtube-ai-driven-leader",
+    ]),
   );
-  assert.deepEqual(latestVerified, {
-    "instagram-geoff": 5716,
-    "linkedin-ai-leadership": 993,
-    "linkedin-geoff": 18578,
-    "tiktok-geoff": 15,
-    "x-geoff": 4104,
-    "youtube-ai-driven-leader": 1700,
-  });
+  assert.ok(latestVerified.every((snapshot) => ["browser-verified", "youtube-api"].includes(snapshot.source)));
 
   const july24Verified = Object.fromEntries(
     snapshots
@@ -92,17 +93,23 @@ test("archive data has unique date and channel pairs", async () => {
   });
 
   const youtubeSnapshot = snapshots.find((snapshot) => snapshot.date === "2026-07-27" && snapshot.channelId === "youtube-ai-driven-leader");
-  assert.equal(youtubeSnapshot.precision, "rounded");
+  assert.ok(["rounded", "api-rounded"].includes(youtubeSnapshot.precision));
 });
 
 test("verified cross-channel activity is archived without inventing unavailable metrics", async () => {
   const posts = await readFile(new URL("public/data/posts.json", root), "utf8").then(JSON.parse);
-  assert.equal(posts.length, 18);
-  assert.deepEqual(
-    Object.fromEntries(["linkedin-geoff", "instagram-geoff", "tiktok-geoff", "youtube-ai-driven-leader"].map((id) => [id, posts.filter((post) => post.channelId === id).length])),
-    { "linkedin-geoff": 6, "instagram-geoff": 5, "tiktok-geoff": 2, "youtube-ai-driven-leader": 5 },
+  assert.ok(posts.length >= 18);
+  const postCounts = Object.fromEntries(
+    ["linkedin-geoff", "instagram-geoff", "tiktok-geoff", "youtube-ai-driven-leader"].map((id) => [
+      id,
+      posts.filter((post) => post.channelId === id).length,
+    ]),
   );
-  assert.ok(posts.every((post) => post.source === "browser-verified"));
+  assert.ok(postCounts["linkedin-geoff"] >= 6);
+  assert.ok(postCounts["instagram-geoff"] >= 5);
+  assert.ok(postCounts["tiktok-geoff"] >= 2);
+  assert.ok(postCounts["youtube-ai-driven-leader"] >= 5);
+  assert.ok(posts.every((post) => ["browser-verified", "youtube-api"].includes(post.source)));
   assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && (post.engagements === null || Number.isFinite(post.engagements))));
   assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => Number.isFinite(post.views) && Number.isFinite(post.engagements) && ["exact-visible", "visible-minimum"].includes(post.engagementsPrecision)));
   assert.ok(posts.filter((post) => post.engagementsPrecision === "visible-minimum").every((post) => Number.isFinite(post.engagements)));

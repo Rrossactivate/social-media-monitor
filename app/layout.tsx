@@ -3,12 +3,12 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://geoff-woods-social-tracker.robin-ross-6445.chatgpt.site"),
-  title: "Geoff Woods — Social Audience Tracker",
+  title: "AIL Social Media Monitoring",
   description:
-    "A daily view of audience growth and content performance across Geoff Woods and AI Leadership channels.",
+    "Daily social audience growth, content performance, and earned-media monitoring for Geoff Woods and AI Leadership.",
   openGraph: {
-    title: "Geoff Woods — Social Audience Tracker",
-    description: "Daily audience growth and content performance across Geoff Woods and AI Leadership channels.",
+    title: "AIL Social Media Monitoring",
+    description: "Daily social audience growth, content performance, and earned-media monitoring for Geoff Woods and AI Leadership.",
     images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };

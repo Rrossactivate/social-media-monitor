@@ -1,6 +1,6 @@
-# Geoff Woods Social Audience Tracker
+# AIL Social Media Monitoring
 
-A static, mobile-friendly dashboard that keeps a dated archive of audience counts and recent post performance for Geoff Woods and AI Leadership. It is designed for GitHub Pages and includes a scheduled GitHub Actions workflow.
+A static, mobile-friendly dashboard that keeps a dated archive of audience counts, recent post performance, and earned-media mentions for Geoff Woods and AI Leadership. It is designed for GitHub Pages and includes a scheduled GitHub Actions workflow.
 
 The interface follows the [AITP design system](https://www.figma.com/design/mvypBgzGL0MnZnlqK9wFyI/AITP-DS--TailwindCSS-v4.1.6--?node-id=2006-6102): Leadership Blue, Deep Blue, Electric Blue, Geist product typography, tight headline hierarchy, and consistent product-like spacing.
 

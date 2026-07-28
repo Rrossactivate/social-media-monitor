@@ -1,4 +1,4 @@
-name: Update social tracker
+name: Update AIL social media monitoring
 
 on:
   schedule:
