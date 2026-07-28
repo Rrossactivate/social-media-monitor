@@ -74,7 +74,6 @@
             <option value="all">All channels</option>
           </select>
         </label>
-        <button class="download-button" id="download-data" type="button">Download archive</button>
       </section>
 
       <section class="kpi-grid" aria-label="Key performance indicators">
@@ -205,7 +204,10 @@
             <h2>Data status</h2>
             <p>Verification, automation coverage, and collection notes for the people maintaining this tracker.</p>
           </div>
-          <span class="status-updated">Last data run <strong id="status-last-run">Loading…</strong></span>
+          <div class="status-actions">
+            <span class="status-updated">Last data run <strong id="status-last-run">Loading…</strong></span>
+            <button class="panel-button" id="download-data" type="button">Export audience data</button>
+          </div>
         </div>
 
         <aside class="panel automation-panel">

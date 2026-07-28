@@ -17,6 +17,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /role="tablist"/);
   assert.match(html, /id="status-view"/);
   assert.match(html, /aria-controls="status-view"/);
+  assert.match(html, /id="download-data"[^>]*>Export audience data</);
+  assert.doesNotMatch(html, />Download archive</);
   assert.match(html, /data-range="1">1D</);
   assert.match(html, /data-range="7">7D</);
   assert.match(html, /data-range="30" class="active"/);

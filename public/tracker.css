@@ -259,23 +259,6 @@ main {
   font-weight: 700;
 }
 
-.download-button {
-  min-height: 50px;
-  margin-left: auto;
-  border: 0;
-  border-radius: 14px;
-  padding: 0 18px;
-  background: #004fa6;
-  color: white;
-  cursor: pointer;
-  font-weight: 760;
-  box-shadow: 0 10px 24px rgba(0, 79, 166, 0.2);
-}
-
-.download-button:hover {
-  background: #003f87;
-}
-
 .kpi-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -496,6 +479,18 @@ main {
   margin-top: 5px;
   color: var(--navy);
   font-size: 13px;
+}
+
+.status-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.status-actions .panel-button {
+  min-height: 40px;
 }
 
 .status-view .automation-panel {
@@ -947,6 +942,10 @@ footer a {
     text-align: left;
   }
 
+  .status-actions {
+    align-items: flex-start;
+  }
+
   .range-control {
     flex: 1 1 100%;
   }
@@ -962,10 +961,6 @@ footer a {
 
   .channel-filter select {
     max-width: 165px;
-  }
-
-  .download-button {
-    margin-left: 0;
   }
 
   .kpi-grid {
