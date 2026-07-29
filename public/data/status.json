@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T14:07:24.113Z",
+  "generatedAt": "2026-07-29T13:17:57.478Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics updated"
+      "detail": "Audience and recent video metrics browser-verified July 29"
     },
     {
       "id": "x",
@@ -35,14 +35,14 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "Six audience profiles and six owned activity feeds checked July 28; Instagram, TikTok, LinkedIn, and YouTube visible metrics were refreshed, while X and the AI Leadership page had no posts in the last 30 days"
+      "detail": "Six audience profiles and six owned activity feeds checked July 29; Instagram, TikTok, LinkedIn, and YouTube visible metrics were refreshed, while X and the AI Leadership page had no posts in the last 30 days"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, and social searches checked July 28; nine verified earned references are archived, including a newly captured Boardy webinar mention and a verified Hachette Australia book listing"
+      "detail": "Public podcast, directory, web, and social searches checked July 29; ten verified earned references are archived, including a newly captured CEO.com Podcast appearance and Spotify Audiobooks distribution"
     }
   ]
 }
