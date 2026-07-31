@@ -187,5 +187,23 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "linkedin:talent-in-age-of-ai:7478447425200984064",
+    "publishedAt": "2026-07-25T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "type": "social-mention",
+    "publisher": "Talent in the Age of AI",
+    "platform": "LinkedIn",
+    "title": "Geoff Woods on AI Leadership and Strategic Thought Partnering",
+    "url": "https://www.linkedin.com/posts/talent-in-the-age-of-ai_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%96-%F0%9D%90%8F%F0%9D%90%8E%F0%9D%90%83%F0%9D%90%82%F0%9D%90%80%F0%9D%90%92%F0%9D%90%93-%F0%9D%90%84%F0%9D%90%8F%F0%9D%90%88%F0%9D%90%92%F0%9D%90%83%F0%9D%90%84-activity-7478447425200984064-8YrP",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-31T13:23:11.860Z"
   }
 ]

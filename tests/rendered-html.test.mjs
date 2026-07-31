@@ -57,7 +57,11 @@ test("earned mentions are verified, deduplicated, and explicit about unavailable
   assert.equal(new Set(mentions.map((mention) => mention.id)).size, mentions.length);
   assert.equal(new Set(mentions.map((mention) => mention.url)).size, mentions.length);
   assert.ok(mentions.every((mention) => mention.source === "web-verified"));
-  assert.ok(mentions.every((mention) => ["day", "relative-hour"].includes(mention.datePrecision)));
+  assert.ok(
+    mentions.every((mention) =>
+      ["day", "relative-hour", "relative-day"].includes(mention.datePrecision),
+    ),
+  );
   assert.ok(mentions.every((mention) => ["podcast-guest", "social-mention", "book-mention"].includes(mention.type)));
   assert.ok(mentions.every((mention) => Array.isArray(mention.platforms) && mention.platforms.length));
   assert.ok(mentions.every((mention) => mention.reachStatus === "not-visible" && mention.views === null));
