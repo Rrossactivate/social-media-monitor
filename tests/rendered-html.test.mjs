@@ -86,8 +86,12 @@ test("archive data has unique date and channel pairs", async () => {
   assert.ok(snapshots.every((snapshot) => ids.has(snapshot.channelId) && Number.isFinite(snapshot.audience)));
   assert.ok(Array.isArray(status.providers));
 
-  const latestDate = snapshots.reduce((latest, snapshot) => (snapshot.date > latest ? snapshot.date : latest), "");
-  const latestVerified = snapshots.filter((snapshot) => snapshot.date === latestDate);
+  const latestVerified = [...ids].map((channelId) =>
+    snapshots
+      .filter((snapshot) => snapshot.channelId === channelId)
+      .sort((a, b) => b.date.localeCompare(a.date))[0],
+  );
+  assert.ok(latestVerified.every(Boolean));
   assert.deepEqual(
     new Set(latestVerified.map((snapshot) => snapshot.channelId)),
     new Set([

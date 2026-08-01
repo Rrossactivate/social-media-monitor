@@ -1,5 +1,21 @@
 [
   {
+    "id": "instagram:Dbd-F4ZjnQC",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-07-31T12:00:00-07:00",
+    "datePrecision": "day",
+    "title": "I'm not technical. Neither is Shane Driggers.",
+    "url": "https://www.instagram.com/geoffwoods/reel/Dbd-F4ZjnQC/",
+    "reachStatus": "not-visible",
+    "engagements": 1,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 0,
+    "comments": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-01T13:18:10.273Z"
+  },
+  {
     "id": "instagram:DbbZP0YEVFD",
     "channelId": "instagram-geoff",
     "publishedAt": "2026-07-30T19:03:17.000Z",
@@ -22,7 +38,7 @@
     "datePrecision": "relative-day",
     "title": "Stop writing perfect instructions. Start handing over real problems.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7668104104287145230",
-    "views": 330,
+    "views": 333,
     "engagements": 2,
     "engagementsPrecision": "exact-visible",
     "likes": 1,
@@ -30,7 +46,7 @@
     "saves": 0,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "linkedin:7488594991590617089",
@@ -120,14 +136,14 @@
     "datePrecision": "exact",
     "title": "The Hard Truth About AI and Jobs | Shane Driggers",
     "url": "https://www.youtube.com/watch?v=KVzHu1HV9oI",
-    "views": 188,
-    "engagements": 2,
+    "views": 214,
+    "engagements": 5,
     "engagementsPrecision": "visible-minimum",
-    "likes": 2,
+    "likes": 5,
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "instagram:DbTq429EdJc",
@@ -183,12 +199,12 @@
     "publishedAt": "2026-07-25T19:00:27Z",
     "title": "Your CEO, CFO, COO and general managers in one room. 45 minutes spent on email. #leadership",
     "url": "https://www.youtube.com/watch?v=iZxR73HF9UI",
-    "views": 70,
+    "views": 72,
     "engagements": 1,
     "likes": 1,
     "comments": 0,
     "source": "youtube-api",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -213,7 +229,7 @@
     "datePrecision": "relative-day",
     "title": "If you're only using AI for the small stuff, watch this clip.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7666478356954713357",
-    "views": 207,
+    "views": 208,
     "engagements": 6,
     "engagementsPrecision": "visible-minimum",
     "likes": 5,
@@ -221,7 +237,7 @@
     "saves": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "youtube:OMqAZfQ5Vgc",
@@ -229,12 +245,12 @@
     "publishedAt": "2026-07-24T19:00:31Z",
     "title": "The most powerful AI habit I've seen a CEO build costs two sticky notes and a Sharpie. #leadership",
     "url": "https://www.youtube.com/watch?v=OMqAZfQ5Vgc",
-    "views": 145,
+    "views": 149,
     "engagements": 2,
     "likes": 2,
     "comments": 0,
     "source": "youtube-api",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "linkedin:7486420303498199040",
@@ -274,12 +290,12 @@
     "publishedAt": "2026-07-23T19:00:06Z",
     "title": "It's not that you have nine months left. It's that you lost three. #aidrivenleader #ai #leadership",
     "url": "https://www.youtube.com/watch?v=qbORaNbYLD8",
-    "views": 151,
+    "views": 153,
     "engagements": 3,
     "likes": 3,
     "comments": 0,
     "source": "youtube-api",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "linkedin:7486058058264203264",
@@ -304,7 +320,7 @@
     "datePrecision": "relative-day",
     "title": "The best AI prompt isn't a prompt. It's a conversation where you answer the questions.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7665781786542165261",
-    "views": 866,
+    "views": 870,
     "engagements": 56,
     "engagementsPrecision": "exact-visible",
     "likes": 37,
@@ -312,7 +328,7 @@
     "saves": 17,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "instagram:DbJXp3BjSbi",
@@ -336,12 +352,12 @@
     "publishedAt": "2026-07-22T19:00:14Z",
     "title": "It should have taken months of consulting. It took two hours. #aidrivenleader #ai #leadership",
     "url": "https://www.youtube.com/watch?v=e5kQX38Fb1I",
-    "views": 645,
+    "views": 647,
     "engagements": 6,
     "likes": 5,
     "comments": 1,
     "source": "youtube-api",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-08-01T13:18:10.273Z"
   },
   {
     "id": "linkedin:7485695873746776064",
@@ -395,10 +411,10 @@
     "datePrecision": "relative-day",
     "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
     "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
-    "views": 268,
+    "views": 283,
     "engagements": 10,
     "source": "youtube-api",
-    "updatedAt": "2026-07-31T13:23:11.860Z",
+    "updatedAt": "2026-08-01T13:18:10.273Z",
     "likes": 10,
     "comments": 0
   },
