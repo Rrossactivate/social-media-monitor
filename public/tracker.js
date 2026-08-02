@@ -14,6 +14,7 @@ const state = {
   mentions: [],
   days: 30,
   channelId: "all",
+  postSort: "newest",
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -226,7 +227,26 @@ function renderCoverage() {
 
 function renderPosts() {
   const channelMap = Object.fromEntries(state.channels.map((channel) => [channel.id, channel]));
-  const posts = selectedPosts().sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || (b.engagements || 0) - (a.engagements || 0));
+  const metricValue = (post, metric) => {
+    if (metric === "views") {
+      if (Number.isFinite(post.views)) return post.views;
+      if (Number.isFinite(post.impressions)) return post.impressions;
+      return null;
+    }
+    return Number.isFinite(post.engagements) ? post.engagements : null;
+  };
+  const posts = selectedPosts().sort((a, b) => {
+    if (state.postSort === "newest") {
+      return b.publishedAt.localeCompare(a.publishedAt) || (b.engagements || 0) - (a.engagements || 0);
+    }
+    const aValue = metricValue(a, state.postSort);
+    const bValue = metricValue(b, state.postSort);
+    const aHasMetric = Number.isFinite(aValue);
+    const bHasMetric = Number.isFinite(bValue);
+    if (aHasMetric !== bHasMetric) return aHasMetric ? -1 : 1;
+    if (aHasMetric && bHasMetric && aValue !== bValue) return bValue - aValue;
+    return b.publishedAt.localeCompare(a.publishedAt);
+  });
   $("#content-range").textContent = state.days === 1 ? "Last 1 day" : state.days ? `Last ${state.days} days` : "Full archive";
   $("#post-empty").hidden = Boolean(posts.length);
   $("#post-table").innerHTML = posts
@@ -471,6 +491,7 @@ document.querySelectorAll("[data-range]").forEach((button) => {
 });
 
 $("#channel-filter").addEventListener("change", (event) => { state.channelId = event.target.value; render(); });
+$("#post-sort").addEventListener("change", (event) => { state.postSort = event.target.value; renderPosts(); });
 $("#refresh-data").addEventListener("click", loadData);
 $("#download-data").addEventListener("click", downloadArchive);
 $("#download-mentions").addEventListener("click", downloadMentions);

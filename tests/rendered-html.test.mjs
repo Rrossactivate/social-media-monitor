@@ -13,6 +13,9 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /AIL Social Media Monitoring/);
   assert.match(html, /id="trend-chart"/);
   assert.match(html, /id="post-table"/);
+  assert.match(html, /id="post-sort"/);
+  assert.match(html, /value="views">Most views/);
+  assert.match(html, /value="engagements">Most engagement/);
   assert.match(html, /id="mention-list"/);
   assert.match(html, /role="tablist"/);
   assert.match(html, /id="status-view"/);
@@ -45,6 +48,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(script, /\$\{state\.days\}D change/);
   assert.match(script, /Compared with the previous daily snapshot/);
   assert.match(script, /mention-reach-summary"\)\.hidden = !hasVisibleReach/);
+  assert.match(script, /state\.postSort === "newest"/);
+  assert.match(script, /aHasMetric !== bHasMetric/);
   assert.doesNotMatch(script, /channel-activity/);
   assert.doesNotMatch(script, /compactNumber/);
   assert.match(css, /\[hidden\]\s*\{\s*display: none !important;/);

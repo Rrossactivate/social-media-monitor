@@ -366,6 +366,37 @@ main {
   font-size: 12px;
 }
 
+.content-heading-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.content-sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  padding: 0 11px;
+  background: #f7faff;
+}
+
+.content-sort span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.content-sort select {
+  border: 0;
+  background: transparent;
+  color: var(--navy);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 760;
+}
+
 .earned-actions {
   display: flex;
   align-items: center;
@@ -988,6 +1019,11 @@ footer a {
 
   .panel-heading {
     flex-direction: column;
+  }
+
+  .content-heading-actions {
+    width: 100%;
+    justify-content: space-between;
   }
 
   .earned-actions {
