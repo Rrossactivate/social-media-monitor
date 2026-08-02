@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T13:18:10.273Z",
+  "generatedAt": "2026-08-02T13:17:28.386Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 1"
+      "detail": "Audience and recent video metrics browser-verified August 2"
     },
     {
       "id": "x",
@@ -35,14 +35,14 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "Instagram, TikTok, X, and YouTube profiles and activity feeds were verified August 1; both LinkedIn profiles were temporarily unavailable, so their July 31 records were preserved; X had no posts in the last 30 days"
+      "detail": "All six audience profiles and activity feeds were verified August 2; one new LinkedIn post was archived, the AI Leadership company page had no posts in the last 30 days, and X had no posts in the last 30 days"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, and social searches checked August 1; eleven verified earned references remain archived and no new distinct mention was found"
+      "detail": "Public podcast, directory, web, YouTube, and social searches checked August 2; eleven verified earned references remain archived and no new distinct mention was found"
     }
   ]
 }
