@@ -1,5 +1,54 @@
 [
   {
+    "id": "tiktok:7669974809916214559",
+    "channelId": "tiktok-geoff",
+    "publishedAt": "2026-08-03T18:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "See how CRIT can change your life and unlock your full potential.",
+    "url": "https://www.tiktok.com/@realgeoffwoods/video/7669974809916214559",
+    "views": 99,
+    "engagements": 0,
+    "engagementsPrecision": "exact-visible",
+    "likes": 0,
+    "comments": 0,
+    "saves": 0,
+    "shares": 0,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-04T13:18:27.437Z"
+  },
+  {
+    "id": "linkedin:7490044619359989762",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-08-03T06:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "A CEO, a CFO, a COO, and the general managers walked into their executive committee meeting.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7490044619359989762/",
+    "reachStatus": "not-visible",
+    "engagements": 13,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 12,
+    "comments": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-04T13:18:27.437Z"
+  },
+  {
+    "id": "instagram:DbjHg0BEmRZ",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-08-02T19:02:09.000Z",
+    "datePrecision": "exact",
+    "title": "Better than I expected. Unbelievable.",
+    "url": "https://www.instagram.com/geoffwoods/reel/DbjHg0BEmRZ/",
+    "reachStatus": "not-visible",
+    "engagements": 4,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 4,
+    "comments": 0,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-04T13:18:27.437Z"
+  },
+  {
     "id": "instagram:Dbd-F4ZjnQC",
     "channelId": "instagram-geoff",
     "publishedAt": "2026-07-31T19:03:42.000Z",
@@ -54,7 +103,7 @@
     "datePrecision": "relative-day",
     "title": "Stop writing perfect instructions. Start handing over real problems.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7668104104287145230",
-    "views": 335,
+    "views": 338,
     "engagements": 2,
     "engagementsPrecision": "exact-visible",
     "likes": 1,
@@ -62,7 +111,7 @@
     "saves": 0,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-04T13:18:27.437Z"
   },
   {
     "id": "linkedin:7488594991590617089",
@@ -152,14 +201,14 @@
     "datePrecision": "exact",
     "title": "The Hard Truth About AI and Jobs | Shane Driggers",
     "url": "https://www.youtube.com/watch?v=KVzHu1HV9oI",
-    "views": 233,
+    "views": 271,
     "engagements": 6,
     "engagementsPrecision": "visible-minimum",
     "likes": 6,
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-04T13:18:27.437Z"
   },
   {
     "id": "instagram:DbTq429EdJc",
@@ -215,12 +264,12 @@
     "publishedAt": "2026-07-25T19:00:27Z",
     "title": "Your CEO, CFO, COO and general managers in one room. 45 minutes spent on email. #leadership",
     "url": "https://www.youtube.com/watch?v=iZxR73HF9UI",
-    "views": 74,
+    "views": 77,
     "engagements": 1,
     "likes": 1,
     "comments": 0,
     "source": "youtube-api",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-04T13:18:27.437Z"
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -336,15 +385,15 @@
     "datePrecision": "relative-day",
     "title": "The best AI prompt isn't a prompt. It's a conversation where you answer the questions.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7665781786542165261",
-    "views": 871,
-    "engagements": 56,
+    "views": 909,
+    "engagements": 58,
     "engagementsPrecision": "exact-visible",
-    "likes": 37,
+    "likes": 38,
     "comments": 1,
-    "saves": 17,
+    "saves": 18,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-04T13:18:27.437Z"
   },
   {
     "id": "instagram:DbJXp3BjSbi",
@@ -427,11 +476,11 @@
     "datePrecision": "relative-day",
     "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
     "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
-    "views": 300,
-    "engagements": 10,
+    "views": 338,
+    "engagements": 11,
     "source": "youtube-api",
-    "updatedAt": "2026-08-02T13:17:28.386Z",
-    "likes": 10,
+    "updatedAt": "2026-08-04T13:18:27.437Z",
+    "likes": 11,
     "comments": 0
   },
   {
