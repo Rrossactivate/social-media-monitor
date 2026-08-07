@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T13:18:27.437Z",
+  "generatedAt": "2026-08-07T13:19:53.830Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 4"
+      "detail": "Audience and recent video metrics browser-verified August 7"
     },
     {
       "id": "x",
@@ -35,14 +35,14 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and activity feeds were verified August 4; one new Instagram reel, one new LinkedIn post, and one new TikTok video were archived across the August 3-4 runs; the AI Leadership company page and X had no posts in the last 30 days"
+      "detail": "All six audience profiles and activity feeds were verified August 7; one new Instagram reel, one new TikTok video, three new LinkedIn posts, and two new YouTube videos were archived; the AI Leadership company page and X had no posts in the last 30 days"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked August 4; eleven verified earned references remain archived and no new distinct mention was found"
+      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked August 7; eleven verified earned references remain archived and no new distinct mention was found"
     }
   ]
 }
