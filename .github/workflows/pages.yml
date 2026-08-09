@@ -3,10 +3,13 @@ name: Publish AIL social media monitoring
 on:
   push:
     branches: [main]
+  schedule:
+    # 03:30 Pacific in winter / 04:30 Pacific in summer, before the signed-in verification run.
+    - cron: "30 11 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -23,6 +26,48 @@ jobs:
     steps:
       - name: Check out dashboard
         uses: actions/checkout@v6
+
+      - name: Use Node.js 22
+        if: github.event_name != 'push'
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dashboard dependencies
+        if: github.event_name != 'push'
+        run: npm ci
+
+      - name: Refresh API-backed archive data
+        if: github.event_name != 'push'
+        env:
+          TRACKER_TIMEZONE: America/Vancouver
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_ORGANIZATION_ID: ${{ secrets.LINKEDIN_ORGANIZATION_ID }}
+          META_GRAPH_VERSION: ${{ vars.META_GRAPH_VERSION }}
+          LINKEDIN_VERSION: ${{ vars.LINKEDIN_VERSION }}
+        run: npm run update-data
+
+      - name: Validate refreshed dashboard
+        if: github.event_name != 'push'
+        run: npm test && npm run lint
+
+      - name: Save the daily archive to GitHub
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/snapshots.json public/data/posts.json public/data/status.json
+          if git diff --cached --quiet; then
+            echo "No archive changes to commit."
+          else
+            git commit -m "Update tracker archive for $(date -u +%F)"
+            git push
+          fi
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
