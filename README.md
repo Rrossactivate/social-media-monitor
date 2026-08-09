@@ -20,7 +20,7 @@ It publishes every push to `main`. It also runs a daily API-backed baseline at 1
 
 - A follower or subscriber snapshot for each connected channel, once per day
 - Follower growth over 1, 7, 30, or all archived days
-- Recent post counts, views or impressions, engagements, and engagement rate
+- Recent post counts, views or impressions, visible engagement components including comments, total engagements, and engagement rate
 - Non-owned mentions, podcast guest appearances, interviews, reposts, and articles as a separate earned-media timeline
 - Source status so an API error never silently looks like fresh data
 - Manual overrides for channels whose official APIs do not expose the required metric
@@ -87,6 +87,7 @@ The `channelId` must match an entry in `public/data/channels.json`. Manual posts
   "text": "Short post description",
   "url": "https://www.linkedin.com/feed/update/...",
   "impressions": 12000,
+  "comments": 18,
   "engagements": 540
 }
 ```

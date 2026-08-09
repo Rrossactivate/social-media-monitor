@@ -16,6 +16,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /id="post-sort"/);
   assert.match(html, /value="views">Most views/);
   assert.match(html, /value="engagements">Most engagement/);
+  assert.match(html, /value="comments">Most comments/);
+  assert.match(html, /<th>Comments<\/th>/);
   assert.match(html, /id="mention-list"/);
   assert.match(html, /role="tablist"/);
   assert.match(html, /id="status-view"/);
@@ -33,7 +35,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /data-range="0">All</);
   assert.doesNotMatch(html, /data-range="90"/);
   assert.match(html, /Mentions &amp; guest appearances/);
-  assert.match(html, /Reach coverage:/);
+  assert.match(html, /Metric coverage:/);
   assert.doesNotMatch(html, />Posts captured</);
   assert.match(html, /ail-mark\.png/);
   assert.match(html, /rrossactivate\.github\.io\/social-media-monitor\/og\.png/);
@@ -50,6 +52,8 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(script, /mention-reach-summary"\)\.hidden = !hasVisibleReach/);
   assert.match(script, /state\.postSort === "newest"/);
   assert.match(script, /aHasMetric !== bHasMetric/);
+  assert.match(script, /Number\.isFinite\(post\.comments\)/);
+  assert.match(script, /Comment count was not visible during the latest verification/);
   assert.doesNotMatch(script, /channel-activity/);
   assert.doesNotMatch(script, /compactNumber/);
   assert.match(css, /\[hidden\]\s*\{\s*display: none !important;/);
@@ -156,6 +160,7 @@ test("verified cross-channel activity is archived without inventing unavailable 
   assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && (post.engagements === null || Number.isFinite(post.engagements))));
   assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => Number.isFinite(post.views) && Number.isFinite(post.engagements) && ["exact-visible", "visible-minimum"].includes(post.engagementsPrecision)));
   assert.ok(posts.filter((post) => post.engagementsPrecision === "visible-minimum").every((post) => Number.isFinite(post.engagements)));
+  assert.ok(posts.every((post) => post.comments == null || (Number.isInteger(post.comments) && post.comments >= 0)));
   assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => post.reachStatus === "not-visible" && !("views" in post) && !("impressions" in post)));
 });
 
