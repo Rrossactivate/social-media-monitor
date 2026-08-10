@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T21:01:51.000Z",
+  "generatedAt": "2026-08-10T13:07:41.000Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 9; newest episode refreshed to 106 visible views"
+      "detail": "Audience and recent video metrics browser-verified August 10; channel displays 1.9K subscribers and the newest episode has 119 visible views"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were browser-verified August 9; audience counts were unchanged, no new owned posts appeared, and only visible metrics were retained; the AI Leadership company page and X had no posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were browser-verified August 10; one new Geoff Woods LinkedIn post was archived with 30 visible engagements; the AI Leadership company page and X had no posts in the last 30 days"
     },
     {
       "id": "mentions",
