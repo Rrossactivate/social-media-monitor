@@ -1,19 +1,52 @@
 [
   {
+    "id": "linkedin:7492530776169754624",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-08-10T04:18:11-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Sharing a cool experience that has me feeling a lot of gratitude this morning.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7492530776169754624/",
+    "reachStatus": "not-visible",
+    "engagements": 32,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 29,
+    "comments": 2,
+    "reposts": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-10T13:18:11.711Z"
+  },
+  {
+    "id": "instagram:Db22ABmDmFt",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-08-10T04:18:11-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Sharing a cool experience that has me feeling a lot of gratitude this morning.",
+    "url": "https://www.instagram.com/geoffwoods/p/Db22ABmDmFt/",
+    "reachStatus": "not-visible",
+    "engagements": 17,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 16,
+    "comments": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-10T13:18:11.711Z"
+  },
+  {
     "id": "youtube:cya1G4ywHrA",
     "channelId": "youtube-ai-driven-leader",
     "publishedAt": "2026-08-06T09:00:27-07:00",
     "datePrecision": "exact",
     "title": "The Hard Truth About AI and Jobs | Shane Driggers",
     "url": "https://www.youtube.com/watch?v=cya1G4ywHrA",
-    "views": 104,
+    "views": 119,
     "engagements": 7,
     "engagementsPrecision": "visible-minimum",
     "likes": 7,
-    "comments": null,
+    "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "linkedin:7491131742893002753",
@@ -23,13 +56,13 @@
     "title": "I'm not technical. Neither is Shane Driggers.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7491131742893002753/",
     "reachStatus": "not-visible",
-    "engagements": 21,
+    "engagements": 22,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 18,
+    "reactions": 19,
     "comments": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "tiktok:7670715814961564941",
@@ -71,14 +104,14 @@
     "datePrecision": "exact",
     "title": "New Podcast Out Now",
     "url": "https://www.youtube.com/shorts/arQzClF_UOE",
-    "views": 254,
+    "views": 257,
     "engagements": 1,
     "engagementsPrecision": "visible-minimum",
     "likes": 1,
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "linkedin:7490769412191490049",
@@ -103,14 +136,14 @@
     "datePrecision": "exact",
     "title": "This Boring Metric Proves Your AI Is Actually Working | John McMonagle",
     "url": "https://www.youtube.com/watch?v=KZNp5YiJxSI",
-    "views": 224,
-    "engagements": 8,
+    "views": 226,
+    "engagements": 9,
     "engagementsPrecision": "visible-minimum",
-    "likes": 5,
+    "likes": 6,
     "comments": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "linkedin:7490436402602663936",
@@ -120,14 +153,14 @@
     "title": "Most CFOs are asking the wrong question about AI.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7490436402602663936/",
     "reachStatus": "not-visible",
-    "engagements": 28,
+    "engagements": 29,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 23,
+    "reactions": 24,
     "comments": 1,
     "reposts": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "tiktok:7669974809916214559",
@@ -394,12 +427,12 @@
     "publishedAt": "2026-07-25T19:00:27Z",
     "title": "Your CEO, CFO, COO and general managers in one room. 45 minutes spent on email. #leadership",
     "url": "https://www.youtube.com/watch?v=iZxR73HF9UI",
-    "views": 82,
+    "views": 84,
     "engagements": 1,
     "likes": 1,
     "comments": 0,
-    "source": "youtube-api",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "source": "browser-verified",
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -440,12 +473,12 @@
     "publishedAt": "2026-07-24T19:00:31Z",
     "title": "The most powerful AI habit I've seen a CEO build costs two sticky notes and a Sharpie. #leadership",
     "url": "https://www.youtube.com/watch?v=OMqAZfQ5Vgc",
-    "views": 154,
+    "views": 157,
     "engagements": 2,
     "likes": 2,
     "comments": 0,
-    "source": "youtube-api",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "source": "browser-verified",
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "linkedin:7486420303498199040",
@@ -485,12 +518,12 @@
     "publishedAt": "2026-07-23T19:00:06Z",
     "title": "It's not that you have nine months left. It's that you lost three. #aidrivenleader #ai #leadership",
     "url": "https://www.youtube.com/watch?v=qbORaNbYLD8",
-    "views": 161,
+    "views": 162,
     "engagements": 3,
     "likes": 3,
     "comments": 0,
-    "source": "youtube-api",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "source": "browser-verified",
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "linkedin:7486058058264203264",
@@ -551,8 +584,8 @@
     "engagements": 6,
     "likes": 5,
     "comments": 1,
-    "source": "youtube-api",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "source": "browser-verified",
+    "updatedAt": "2026-08-10T13:18:11.711Z"
   },
   {
     "id": "linkedin:7485695873746776064",
@@ -606,10 +639,10 @@
     "datePrecision": "relative-day",
     "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
     "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
-    "views": 415,
+    "views": 419,
     "engagements": 11,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z",
+    "updatedAt": "2026-08-10T13:18:11.711Z",
     "likes": 11,
     "comments": 0
   },
