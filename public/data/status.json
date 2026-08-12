@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T13:05:42.000Z",
+  "generatedAt": "2026-08-12T13:05:32.000Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 11; channel displays 1.91K subscribers and the newest episode has 143 visible views"
+      "detail": "Audience and recent video metrics browser-verified August 12; channel displays 1.93K subscribers; the previously newest episode is no longer listed, so its last verified metrics were preserved"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were browser-verified August 11; one new Geoff Woods LinkedIn reshare and one new TikTok video were archived with only visible metrics; the AI Leadership company page and X had no posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were browser-verified August 12; no new owned post appeared and visible engagement was refreshed; the AI Leadership company page and X had no posts in the last 30 days"
     },
     {
       "id": "mentions",
