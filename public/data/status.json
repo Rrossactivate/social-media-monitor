@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:05:32.000Z",
+  "generatedAt": "2026-08-13T13:00:29.949Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 12; channel displays 1.93K subscribers; the previously newest episode is no longer listed, so its last verified metrics were preserved"
+      "detail": "Audience and recent video metrics browser-verified August 13; channel displays 1.94K subscribers; the newest listed full episode has 315 views and the latest Short has 262 views"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were browser-verified August 12; no new owned post appeared and visible engagement was refreshed; the AI Leadership company page and X had no posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were browser-verified August 13; new LinkedIn and Instagram posts were added, visible engagement was refreshed, and unavailable Instagram like totals were not inferred; the AI Leadership company page and X had no posts in the last 30 days"
     },
     {
       "id": "mentions",
