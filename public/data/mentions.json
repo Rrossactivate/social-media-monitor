@@ -1,5 +1,27 @@
 [
   {
+    "id": "linkedin:michelle-gansle:7493724391319511040",
+    "publishedAt": "2026-08-13T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "type": "social-mention",
+    "publisher": "Michelle Gansle",
+    "platform": "LinkedIn",
+    "title": "With every company we work with at AI Leadership, we see the same three gaps.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7493724391319511040/",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 61,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 55,
+    "comments": 5,
+    "reposts": 1,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-16T20:35:28.741Z"
+  },
+  {
     "id": "linkedin:carolyn-altomare:7492665689888104448",
     "publishedAt": "2026-08-10T12:19:50-07:00",
     "datePrecision": "relative-hour",

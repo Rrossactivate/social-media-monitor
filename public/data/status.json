@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T13:01:17.721Z",
+  "generatedAt": "2026-08-16T20:35:28.741Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 16; channel displays 1.96K subscribers; the newest listed full episode has 381 views and the latest Short has 263 views"
+      "detail": "Audience and recent video metrics browser-verified August 16; channel displays 1.97K subscribers; the newest listed full episode has 387 views and the last verified Short remains at 263 views"
     },
     {
       "id": "x",
@@ -35,14 +35,14 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were browser-verified August 16; no new owned post appeared and visible post metrics were refreshed; unavailable Instagram like totals and TikTok saves were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were browser-verified August 16; one new LinkedIn post was archived, a LinkedIn repost was captured, and visible Instagram, TikTok, LinkedIn, and YouTube metrics were refreshed; the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked August 12; twelve verified earned references remain archived and no new distinct mention was found"
+      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked August 16; thirteen verified earned references are archived, including one newly captured LinkedIn mention by Michelle Gansle"
     }
   ]
 }
