@@ -1,29 +1,95 @@
 [
   {
-    "id": "linkedin:7492779895757115392",
+    "id": "tiktok:7673994894167248141",
+    "channelId": "tiktok-geoff",
+    "publishedAt": "2026-08-14T14:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Either you work for AI, or AI works for you.",
+    "url": "https://www.tiktok.com/@realgeoffwoods/video/7673994894167248141",
+    "views": 391,
+    "engagements": 19,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 19,
+    "comments": 0,
+    "saves": null,
+    "shares": 0,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-16T13:01:17.721Z"
+  },
+  {
+    "id": "linkedin:2026-08-13-cfo-adopt-ai",
     "channelId": "linkedin-geoff",
-    "publishedAt": "2026-08-10T20:19:50-07:00",
+    "publishedAt": "2026-08-13T07:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Most CFOs ask AI the same three questions.",
+    "url": "https://www.linkedin.com/in/geoff-woods-8534774/recent-activity/all/",
+    "reachStatus": "not-visible",
+    "engagements": 6,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 4,
+    "comments": 1,
+    "reposts": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-16T13:01:17.721Z"
+  },
+  {
+    "id": "linkedin:2026-08-12-agent-ownership",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-08-12T07:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "People brag to me that they built 20 agents over the weekend.",
+    "url": "https://www.linkedin.com/in/geoff-woods-8534774/recent-activity/all/",
+    "reachStatus": "not-visible",
+    "engagements": 23,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 21,
+    "comments": 1,
+    "reposts": 1,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-16T13:01:17.721Z"
+  },
+  {
+    "id": "instagram:Db83fKWEw5M",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-08-12T12:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Most CFOs ask AI the same three questions.",
+    "url": "https://www.instagram.com/geoffwoods/reel/Db83fKWEw5M/",
+    "reachStatus": "not-visible",
+    "engagements": null,
+    "likes": null,
+    "comments": 0,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-08-16T13:01:17.721Z"
+  },
+  {
+    "id": "linkedin:2026-08-11-carolyn-signed-book",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-08-10T21:00:00-07:00",
     "datePrecision": "relative-hour",
     "title": "This totally made my day.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7492779895757115392/",
+    "url": "https://www.linkedin.com/in/geoff-woods-8534774/recent-activity/all/",
     "reachStatus": "not-visible",
-    "engagements": 13,
+    "engagements": 41,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 13,
+    "reactions": 41,
     "comments": null,
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "tiktok:7672436233821228301",
     "channelId": "tiktok-geoff",
-    "publishedAt": "2026-08-10T09:19:50-07:00",
+    "publishedAt": "2026-08-10T10:00:00-07:00",
     "datePrecision": "relative-hour",
-    "title": "You’re probably been using AI at only 20% of its capacity.",
+    "title": "You've probably been using AI at only 20% of its capacity.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7672436233821228301",
-    "views": 37,
+    "views": 56,
     "engagements": 1,
     "engagementsPrecision": "exact-visible",
     "likes": 1,
@@ -31,40 +97,24 @@
     "saves": 0,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
-    "id": "linkedin:7492530776169754624",
+    "id": "linkedin:2026-08-10-hudson-airport-bookstores",
     "channelId": "linkedin-geoff",
-    "publishedAt": "2026-08-10T04:18:11-07:00",
+    "publishedAt": "2026-08-10T04:00:00-07:00",
     "datePrecision": "relative-hour",
     "title": "Sharing a cool experience that has me feeling a lot of gratitude this morning.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7492530776169754624/",
+    "url": "https://www.linkedin.com/in/geoff-woods-8534774/recent-activity/all/",
     "reachStatus": "not-visible",
-    "engagements": 125,
+    "engagements": 177,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 109,
-    "comments": 11,
+    "reactions": 150,
+    "comments": 22,
     "reposts": 5,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
-  },
-  {
-    "id": "instagram:Db22ABmDmFt",
-    "channelId": "instagram-geoff",
-    "publishedAt": "2026-08-10T04:18:11-07:00",
-    "datePrecision": "relative-hour",
-    "title": "Sharing a cool experience that has me feeling a lot of gratitude this morning.",
-    "url": "https://www.instagram.com/geoffwoods/p/Db22ABmDmFt/",
-    "reachStatus": "not-visible",
-    "engagements": 51,
-    "engagementsPrecision": "visible-minimum",
-    "likes": 44,
-    "comments": 7,
-    "shares": null,
-    "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "youtube:cya1G4ywHrA",
@@ -77,10 +127,10 @@
     "engagements": 7,
     "engagementsPrecision": "visible-minimum",
     "likes": 7,
-    "comments": 0,
+    "comments": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-11T13:05:42.000Z"
   },
   {
     "id": "linkedin:7491131742893002753",
@@ -96,7 +146,7 @@
     "comments": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:18:11.711Z"
+    "updatedAt": "2026-08-10T13:07:41.000Z"
   },
   {
     "id": "tiktok:7670715814961564941",
@@ -105,7 +155,7 @@
     "datePrecision": "relative-day",
     "title": "You don't just prompt the AI. You have it interview you first.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7670715814961564941",
-    "views": 137,
+    "views": 147,
     "engagements": 1,
     "engagementsPrecision": "exact-visible",
     "likes": 1,
@@ -113,7 +163,7 @@
     "saves": 0,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "instagram:Dbq76A8FIg4",
@@ -123,13 +173,13 @@
     "title": "I built 20 agents last weekend. Did any of them matter?",
     "url": "https://www.instagram.com/geoffwoods/reel/Dbq76A8FIg4/",
     "reachStatus": "not-visible",
-    "engagements": 7,
+    "engagements": 8,
     "engagementsPrecision": "visible-minimum",
-    "likes": 7,
+    "likes": 8,
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-12T13:05:32.000Z"
   },
   {
     "id": "youtube:arQzClF_UOE",
@@ -138,14 +188,14 @@
     "datePrecision": "exact",
     "title": "New Podcast Out Now",
     "url": "https://www.youtube.com/shorts/arQzClF_UOE",
-    "views": 259,
+    "views": 263,
     "engagements": 1,
     "engagementsPrecision": "visible-minimum",
     "likes": 1,
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7490769412191490049",
@@ -170,14 +220,14 @@
     "datePrecision": "exact",
     "title": "This Boring Metric Proves Your AI Is Actually Working | John McMonagle",
     "url": "https://www.youtube.com/watch?v=KZNp5YiJxSI",
-    "views": 252,
-    "engagements": 9,
+    "views": 381,
+    "engagements": 8,
     "engagementsPrecision": "visible-minimum",
-    "likes": 6,
+    "likes": 5,
     "comments": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7490436402602663936",
@@ -187,14 +237,14 @@
     "title": "Most CFOs are asking the wrong question about AI.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7490436402602663936/",
     "reachStatus": "not-visible",
-    "engagements": 29,
+    "engagements": 28,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 24,
+    "reactions": 23,
     "comments": 1,
     "reposts": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:18:11.711Z"
+    "updatedAt": "2026-08-09T19:45:38.411Z"
   },
   {
     "id": "tiktok:7669974809916214559",
@@ -203,7 +253,7 @@
     "datePrecision": "relative-hour",
     "title": "See how CRIT can change your life and unlock your full potential.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7669974809916214559",
-    "views": 111,
+    "views": 115,
     "engagements": 1,
     "engagementsPrecision": "visible-minimum",
     "likes": 1,
@@ -211,7 +261,7 @@
     "saves": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7490044619359989762",
@@ -300,7 +350,7 @@
     "datePrecision": "relative-day",
     "title": "Stop writing perfect instructions. Start handing over real problems.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7668104104287145230",
-    "views": 342,
+    "views": 343,
     "engagements": 2,
     "engagementsPrecision": "exact-visible",
     "likes": 1,
@@ -308,7 +358,7 @@
     "saves": 0,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7488594991590617089",
@@ -461,12 +511,12 @@
     "publishedAt": "2026-07-25T19:00:27Z",
     "title": "Your CEO, CFO, COO and general managers in one room. 45 minutes spent on email. #leadership",
     "url": "https://www.youtube.com/watch?v=iZxR73HF9UI",
-    "views": 84,
+    "views": 91,
     "engagements": 1,
     "likes": 1,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:18:11.711Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -491,7 +541,7 @@
     "datePrecision": "relative-day",
     "title": "If you're only using AI for the small stuff, watch this clip.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7666478356954713357",
-    "views": 211,
+    "views": 212,
     "engagements": 6,
     "engagementsPrecision": "exact-visible",
     "likes": 5,
@@ -499,7 +549,7 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "youtube:OMqAZfQ5Vgc",
@@ -507,12 +557,12 @@
     "publishedAt": "2026-07-24T19:00:31Z",
     "title": "The most powerful AI habit I've seen a CEO build costs two sticky notes and a Sharpie. #leadership",
     "url": "https://www.youtube.com/watch?v=OMqAZfQ5Vgc",
-    "views": 157,
+    "views": 159,
     "engagements": 2,
     "likes": 2,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:18:11.711Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7486420303498199040",
@@ -552,12 +602,12 @@
     "publishedAt": "2026-07-23T19:00:06Z",
     "title": "It's not that you have nine months left. It's that you lost three. #aidrivenleader #ai #leadership",
     "url": "https://www.youtube.com/watch?v=qbORaNbYLD8",
-    "views": 162,
+    "views": 163,
     "engagements": 3,
     "likes": 3,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:18:11.711Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7486058058264203264",
@@ -582,7 +632,7 @@
     "datePrecision": "relative-day",
     "title": "The best AI prompt isn't a prompt. It's a conversation where you answer the questions.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7665781786542165261",
-    "views": 974,
+    "views": 977,
     "engagements": 58,
     "engagementsPrecision": "exact-visible",
     "likes": 38,
@@ -590,7 +640,7 @@
     "saves": 18,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "instagram:DbJXp3BjSbi",
@@ -614,12 +664,12 @@
     "publishedAt": "2026-07-22T19:00:14Z",
     "title": "It should have taken months of consulting. It took two hours. #aidrivenleader #ai #leadership",
     "url": "https://www.youtube.com/watch?v=e5kQX38Fb1I",
-    "views": 652,
+    "views": 654,
     "engagements": 6,
     "likes": 5,
     "comments": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:18:11.711Z"
+    "updatedAt": "2026-08-16T13:01:17.721Z"
   },
   {
     "id": "linkedin:7485695873746776064",
@@ -673,10 +723,10 @@
     "datePrecision": "relative-day",
     "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
     "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
-    "views": 426,
+    "views": 458,
     "engagements": 11,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:19:50.928Z",
+    "updatedAt": "2026-08-16T13:01:17.721Z",
     "likes": 11,
     "comments": 0
   },
