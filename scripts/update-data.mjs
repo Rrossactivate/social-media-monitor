@@ -43,6 +43,7 @@ function upsertSnapshot(snapshot) {
 
 function upsertPost(post) {
   const index = posts.findIndex((item) => item.id === post.id);
+  if (index >= 0 && sourcePriority(posts[index].source) > sourcePriority(post.source)) return;
   if (index >= 0) posts[index] = { ...posts[index], ...post };
   else posts.push(post);
 }

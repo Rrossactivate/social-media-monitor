@@ -1,6 +1,6 @@
 # AIL Social Media Monitoring
 
-A static, mobile-friendly dashboard that keeps a dated archive of audience counts, recent post performance, and earned-media mentions for Geoff Woods and AI Leadership. The private dashboard is hosted through Sites, while GitHub is retained only as a private source backup and change history.
+A static, mobile-friendly dashboard that keeps a dated archive of audience counts, recent post performance, and earned-media mentions for Geoff Woods and AI Leadership. GitHub is the operating repository for source history, the API-backed daily baseline, and the public GitHub Pages dashboard. A separate private dashboard is hosted through Sites.
 
 The interface follows the [AITP design system](https://www.figma.com/design/mvypBgzGL0MnZnlqK9wFyI/AITP-DS--TailwindCSS-v4.1.6--?node-id=2006-6102): Leadership Blue, Deep Blue, Electric Blue, Geist product typography, tight headline hierarchy, and consistent product-like spacing.
 
@@ -10,13 +10,17 @@ The public dashboard is published through GitHub Pages at:
 
 <https://rrossactivate.github.io/social-media-monitor/>
 
-The Pages workflow only packages and publishes the already verified static dashboard. It does not collect platform data or rewrite the daily archive.
+The GitHub workflow is available at:
+
+<https://github.com/Rrossactivate/social-media-monitor/actions/workflows/pages.yml>
+
+It publishes every push to `main`. It also runs a daily API-backed baseline at 11:30 UTC and can be started at any time with **Actions → Publish AIL social media monitoring → Run workflow**.
 
 ## What it tracks
 
 - A follower or subscriber snapshot for each connected channel, once per day
 - Follower growth over 1, 7, 30, or all archived days
-- Recent post counts, views or impressions, engagements, and engagement rate
+- Recent post counts, views or impressions, visible engagement components including comments, total engagements, and engagement rate
 - Non-owned mentions, podcast guest appearances, interviews, reposts, and articles as a separate earned-media timeline
 - Source status so an API error never silently looks like fresh data
 - Manual overrides for channels whose official APIs do not expose the required metric
@@ -27,13 +31,13 @@ Earned media is never added to Geoff’s owned audience total. One appearance is
 
 ## Daily update process
 
-The Codex daily automation is the single collection path. It verifies owned-channel audience and activity using available signed-in sessions, searches for earned-media mentions, preserves previously verified values when a platform is unavailable, validates the dashboard, saves one dated archive update, and publishes the private Sites version.
+GitHub Actions provides the durable daily baseline. It uses any configured repository API secrets, preserves the most recent value as explicitly stale when a provider is unavailable, validates the dashboard, commits changed archive files, and republishes GitHub Pages.
 
-GitHub does not run a second data update. A push publishes the already verified static dashboard to GitHub Pages without overwriting browser-verified measurements.
+The Codex daily automation remains the full verification path. It checks restricted channels through available signed-in sessions, searches for earned-media mentions, replaces same-day stale values with browser-verified measurements, runs the complete validation suite, and publishes the private Sites version. Browser-verified and manual records have higher priority than API or carry-forward records, so the GitHub baseline cannot overwrite a stronger archived measurement.
 
 ## Credentials
 
-All credentials are optional and are used only when running `npm run update-data` manually. Missing credentials leave the most recent verified value in place and mark that provider as needing setup.
+All credentials are optional and are used by the scheduled GitHub workflow or when running `npm run update-data` manually. Missing credentials leave the most recent verified value in place and mark that provider as needing setup.
 
 | Secret or variable | Used for |
 | --- | --- |
@@ -83,6 +87,7 @@ The `channelId` must match an entry in `public/data/channels.json`. Manual posts
   "text": "Short post description",
   "url": "https://www.linkedin.com/feed/update/...",
   "impressions": 12000,
+  "comments": 18,
   "engagements": 540
 }
 ```

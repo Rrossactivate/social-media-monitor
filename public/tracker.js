@@ -233,6 +233,7 @@ function renderPosts() {
       if (Number.isFinite(post.impressions)) return post.impressions;
       return null;
     }
+    if (metric === "comments") return Number.isFinite(post.comments) ? post.comments : null;
     return Number.isFinite(post.engagements) ? post.engagements : null;
   };
   const posts = selectedPosts().sort((a, b) => {
@@ -255,18 +256,27 @@ function renderPosts() {
       const exposure = Number.isFinite(post.views) ? post.views : Number.isFinite(post.impressions) ? post.impressions : null;
       const title = post.title || post.text || "View post";
       const hasEngagements = Number.isFinite(post.engagements);
+      const hasComments = Number.isFinite(post.comments);
       const engagementPrefix = post.engagementsPrecision === "visible-minimum" ? "≥" : "";
+      const checkedDate = post.updatedAt ? new Date(post.updatedAt) : null;
+      const checkedLabel = checkedDate && !Number.isNaN(checkedDate.getTime())
+        ? `Visible comment count checked ${longDateTime.format(checkedDate)}`
+        : "Visible comment count from the latest verification";
       const exposureCell = Number.isFinite(exposure)
         ? fullNumber.format(exposure)
         : post.reachStatus === "not-visible"
           ? `<span class="metric-unavailable" title="This platform did not expose reach during verification">Not visible</span>`
           : "—";
+      const commentsCell = hasComments
+        ? `<span title="${escapeHtml(checkedLabel)}">${fullNumber.format(post.comments)}</span>`
+        : `<span class="metric-unavailable" title="Comment count was not visible during the latest verification">Not visible</span>`;
       return `<tr>
         <td>${post.datePrecision?.startsWith("relative") ? "≈" : ""}${shortDate.format(new Date(post.publishedAt))}</td>
         <td><span class="table-channel"><i style="--channel-color:${channel?.color || "#64748b"}"></i>${escapeHtml(channel?.platform || post.channelId)}</span></td>
         <td><a href="${safeUrl(post.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></td>
         <td>${exposureCell}</td>
         <td>${hasEngagements ? `${engagementPrefix}${fullNumber.format(post.engagements)}` : "—"}</td>
+        <td>${commentsCell}</td>
         <td>${hasEngagements && exposure ? `${engagementPrefix}${percent(post.engagements, exposure)}` : "—"}</td>
       </tr>`;
     })
