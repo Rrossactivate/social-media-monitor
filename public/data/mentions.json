@@ -12,9 +12,9 @@
       "LinkedIn"
     ],
     "views": null,
-    "engagements": 61,
+    "engagements": 71,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 55,
+    "reactions": 65,
     "comments": 5,
     "reposts": 1,
     "reachStatus": "not-visible",
@@ -38,6 +38,24 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-08-11T13:19:50.928Z"
+  },
+  {
+    "id": "web:tess-group:ai-driven-leader-review:2026-08-05",
+    "publishedAt": "2026-08-05T12:00:00+01:00",
+    "datePrecision": "day",
+    "type": "book-mention",
+    "publisher": "The TESS Group",
+    "platform": "Web",
+    "title": "The AI-Driven Leader by Geoff Woods: What it gets right, and what a book can't do",
+    "url": "https://tessgroup.co.uk/blog/ai-driven-leader-geoff-woods-book-review",
+    "platforms": [
+      "Web"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-20T13:17:14.044Z"
   },
   {
     "id": "podcast:ceo-com:2026-07-09",
