@@ -1,5 +1,67 @@
 [
   {
+    "id": "linkedin:daniel-marama:2026-08-23-pinecone",
+    "publishedAt": "2026-08-23T08:58:23-07:00",
+    "datePrecision": "relative-hour",
+    "type": "social-mention",
+    "publisher": "Daniel Marama",
+    "platform": "LinkedIn",
+    "title": "Pinecone is infrastructure. Most owners will never hear the name.",
+    "url": "https://www.linkedin.com/search/results/content/?keywords=%22Pinecone%20is%20infrastructure%22%20%22Geoff%20Woods%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 5,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 3,
+    "comments": null,
+    "reposts": 2,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-23T16:18:23.580Z"
+  },
+  {
+    "id": "linkedin:jon-oneill:2026-08-23-ai-driven-leader",
+    "publishedAt": "2026-08-23T08:18:23-07:00",
+    "datePrecision": "relative-hour",
+    "type": "book-mention",
+    "publisher": "Jon O'Neill, MBA",
+    "platform": "LinkedIn",
+    "title": "I've been reading The AI Driven Leader by Geoff Woods recently.",
+    "url": "https://www.linkedin.com/search/results/content/?keywords=%22I%27ve%20been%20reading%20The%20AI%20Driven%20Leader%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 3,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 2,
+    "comments": 1,
+    "reposts": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-23T16:18:23.580Z"
+  },
+  {
+    "id": "linkedin:fahad-al-jabri:2026-08-23-book-recommendation",
+    "publishedAt": "2026-08-23T06:18:23-07:00",
+    "datePrecision": "relative-hour",
+    "type": "book-mention",
+    "publisher": "Fahad Al Jabri",
+    "platform": "LinkedIn",
+    "title": "Book Recommendation: The AI-Driven Leader — Geoff Woods",
+    "url": "https://www.linkedin.com/search/results/content/?keywords=%22Book%20Recommendation%22%20%22The%20AI-Driven%20Leader%22%20%22Fahad%20Al%20Jabri%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-23T16:18:23.580Z"
+  },
+  {
     "id": "linkedin:michelle-gansle:7493724391319511040",
     "publishedAt": "2026-08-13T12:00:00-07:00",
     "datePrecision": "relative-day",
@@ -58,24 +120,6 @@
     "discoveredAt": "2026-08-20T13:17:14.044Z"
   },
   {
-    "id": "podcast:ceo-com:2026-07-09",
-    "publishedAt": "2026-07-09T04:00:00Z",
-    "datePrecision": "day",
-    "type": "podcast-guest",
-    "publisher": "CEO.com Podcast",
-    "platform": "Podcast",
-    "title": "AI Leadership Founder Geoff Woods - Why AI Won't Replace Great Leaders",
-    "url": "https://podcasts.apple.com/us/podcast/ai-leadership-founder-geoff-woods-why-ai-wont-replace/id1645388022?i=1000776065555",
-    "platforms": [
-      "Apple Podcasts"
-    ],
-    "views": null,
-    "engagements": null,
-    "reachStatus": "not-visible",
-    "source": "web-verified",
-    "discoveredAt": "2026-07-29T13:17:57.478Z"
-  },
-  {
     "id": "linkedin:paska-j:7483206015560085505",
     "publishedAt": "2026-07-26T20:24:00-07:00",
     "datePrecision": "relative-hour",
@@ -92,6 +136,42 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-27T23:24:05.367Z"
+  },
+  {
+    "id": "linkedin:talent-in-age-of-ai:7478447425200984064",
+    "publishedAt": "2026-07-25T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "type": "social-mention",
+    "publisher": "Talent in the Age of AI",
+    "platform": "LinkedIn",
+    "title": "Geoff Woods on AI Leadership and Strategic Thought Partnering",
+    "url": "https://www.linkedin.com/posts/talent-in-the-age-of-ai_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%96-%F0%9D%90%8F%F0%9D%90%8E%F0%9D%90%83%F0%9D%90%82%F0%9D%90%80%F0%9D%90%92%F0%9D%90%93-%F0%9D%90%84%F0%9D%90%8F%F0%9D%90%88%F0%9D%90%92%F0%9D%90%83%F0%9D%90%84-activity-7478447425200984064-8YrP",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-31T13:23:11.860Z"
+  },
+  {
+    "id": "web:does-god-exist:everything-old-is-ai-again:2026-07-20",
+    "publishedAt": "2026-07-20T12:00:00-07:00",
+    "datePrecision": "day",
+    "type": "book-mention",
+    "publisher": "Does God Exist?",
+    "platform": "Web",
+    "title": "8: 008: Everything Old Is AI Again",
+    "url": "https://does-god-exist.org/8-008-everything-old-is-ai-again/",
+    "platforms": [
+      "Web"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-23T16:18:23.580Z"
   },
   {
     "id": "podcast:bigdeal:2026-07-15",
@@ -150,6 +230,24 @@
     "discoveredAt": "2026-07-25T23:50:53.000Z"
   },
   {
+    "id": "podcast:ceo-com:2026-07-09",
+    "publishedAt": "2026-07-09T04:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "CEO.com Podcast",
+    "platform": "Podcast",
+    "title": "AI Leadership Founder Geoff Woods - Why AI Won't Replace Great Leaders",
+    "url": "https://podcasts.apple.com/us/podcast/ai-leadership-founder-geoff-woods-why-ai-wont-replace/id1645388022?i=1000776065555",
+    "platforms": [
+      "Apple Podcasts"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-29T13:17:57.478Z"
+  },
+  {
     "id": "linkedin:boardy:7480641950979608576",
     "publishedAt": "2026-07-08T15:20:24Z",
     "datePrecision": "day",
@@ -190,24 +288,6 @@
     "discoveredAt": "2026-07-26T13:17:40.416Z"
   },
   {
-    "id": "podcast:sparks-for-growth:2026-07-07",
-    "publishedAt": "2026-07-07T12:00:00Z",
-    "datePrecision": "day",
-    "type": "podcast-guest",
-    "publisher": "Sparks for Growth",
-    "platform": "Podcast",
-    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions — Not Just Productivity",
-    "url": "https://podcasts.apple.com/us/podcast/the-crit-framework-geoff-woods-on-using-ai-for/id1525777023?i=1000775766271",
-    "platforms": [
-      "Apple Podcasts"
-    ],
-    "views": null,
-    "engagements": null,
-    "reachStatus": "not-visible",
-    "source": "web-verified",
-    "discoveredAt": "2026-07-25T23:50:53.000Z"
-  },
-  {
     "id": "book:simon-and-schuster:2026-07-07",
     "publishedAt": "2026-07-07T12:00:00Z",
     "datePrecision": "day",
@@ -229,6 +309,24 @@
     "discoveredAt": "2026-07-27T23:24:05.367Z"
   },
   {
+    "id": "podcast:sparks-for-growth:2026-07-07",
+    "publishedAt": "2026-07-07T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Sparks for Growth",
+    "platform": "Podcast",
+    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions — Not Just Productivity",
+    "url": "https://podcasts.apple.com/us/podcast/the-crit-framework-geoff-woods-on-using-ai-for/id1525777023?i=1000775766271",
+    "platforms": [
+      "Apple Podcasts"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
     "id": "podcast:talent-in-the-age-of-ai:2026-07-02",
     "publishedAt": "2026-07-02T12:00:00Z",
     "datePrecision": "day",
@@ -245,23 +343,5 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z"
-  },
-  {
-    "id": "linkedin:talent-in-age-of-ai:7478447425200984064",
-    "publishedAt": "2026-07-25T12:00:00-07:00",
-    "datePrecision": "relative-day",
-    "type": "social-mention",
-    "publisher": "Talent in the Age of AI",
-    "platform": "LinkedIn",
-    "title": "Geoff Woods on AI Leadership and Strategic Thought Partnering",
-    "url": "https://www.linkedin.com/posts/talent-in-the-age-of-ai_%F0%9D%90%8D%F0%9D%90%84%F0%9D%90%96-%F0%9D%90%8F%F0%9D%90%8E%F0%9D%90%83%F0%9D%90%82%F0%9D%90%80%F0%9D%90%92%F0%9D%90%93-%F0%9D%90%84%F0%9D%90%8F%F0%9D%90%88%F0%9D%90%92%F0%9D%90%83%F0%9D%90%84-activity-7478447425200984064-8YrP",
-    "platforms": [
-      "LinkedIn"
-    ],
-    "views": null,
-    "engagements": null,
-    "reachStatus": "not-visible",
-    "source": "web-verified",
-    "discoveredAt": "2026-07-31T13:23:11.860Z"
   }
 ]
