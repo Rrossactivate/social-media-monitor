@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T13:01:16.620Z",
+  "generatedAt": "2026-08-27T13:01:22.499Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Public audience and recent video metrics browser-verified August 26 while YouTube was signed out; channel displays 2.05K subscribers; the newest listed full episode has 608 views and the latest Short has 270 views; a previously tracked Shane Driggers video remains uploader-removed, so its last verified values were preserved"
+      "detail": "Public audience and recent video metrics browser-verified August 27 while YouTube was signed out; channel displays 2.07K subscribers; the newest listed full episode has 623 views and the latest Short has 272 views; a previously tracked Shane Driggers video remains uploader-removed, so its last verified values were preserved"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified August 26; visible post metrics were refreshed and no new owned post was found; unavailable reach, Instagram shares, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified August 27; visible post metrics were refreshed and no new owned post was found; unavailable reach, Instagram shares, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
