@@ -62,6 +62,24 @@
     "discoveredAt": "2026-08-23T16:18:23.580Z"
   },
   {
+    "id": "podcast:do-this-not-that:2026-08-14",
+    "publishedAt": "2026-08-14T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Do This, NOT That: Marketing Tips with Jay Schwedelson",
+    "platform": "Wave",
+    "title": "SPECIAL GUEST!! #1 AI AUTHOR! Geoff Woods — You're Prompting AI Wrong | Ep. 551",
+    "url": "https://pod.wave.co/podcast/do-this-not-that-marketing-tips-with-jay-schwedelson-l-presented-by-marigold/special-guest-geoff-woods-youre-prompting-ai-wrong-ep-551",
+    "platforms": [
+      "Wave"
+    ],
+    "views": null,
+    "engagements": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-08-29T19:35:29.124Z"
+  },
+  {
     "id": "linkedin:michelle-gansle:7493724391319511040",
     "publishedAt": "2026-08-13T12:00:00-07:00",
     "datePrecision": "relative-day",
