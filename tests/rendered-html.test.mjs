@@ -154,7 +154,7 @@ test("verified cross-channel activity is archived without inventing unavailable 
   assert.ok(postCounts["youtube-ai-driven-leader"] >= 5);
   assert.ok(posts.every((post) => ["browser-verified", "youtube-api"].includes(post.source)));
   assert.ok(posts.filter((post) => post.channelId === "youtube-ai-driven-leader").every((post) => Number.isFinite(post.views) && (post.engagements === null || Number.isFinite(post.engagements))));
-  assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => (Number.isFinite(post.views) || (post.views === null && post.viewStatus === "not-visible")) && Number.isFinite(post.engagements) && ["exact-visible", "visible-minimum"].includes(post.engagementsPrecision)));
+  assert.ok(posts.filter((post) => post.channelId === "tiktok-geoff").every((post) => (Number.isFinite(post.views) || (post.views === null && post.viewStatus === "not-visible")) && (Number.isFinite(post.engagements) ? ["exact-visible", "visible-minimum"].includes(post.engagementsPrecision) : post.engagements === null && post.engagementStatus === "not-visible")));
   assert.ok(posts.filter((post) => post.engagementsPrecision === "visible-minimum").every((post) => Number.isFinite(post.engagements)));
   assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => post.reachStatus === "not-visible" && !("views" in post) && !("impressions" in post)));
 });

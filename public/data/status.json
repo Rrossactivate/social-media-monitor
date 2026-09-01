@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T13:02:10.152Z",
+  "generatedAt": "2026-09-01T13:00:52.266Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Public audience and recent full-episode views browser-verified August 30 while YouTube was signed out; channel displays 2.08K subscribers, the newest listed full episode has 671 views, and the prior episode has 568 views; Shorts and full-episode engagement metrics did not load today, so their last verified values were preserved; a previously tracked Shane Driggers video remains uploader-removed"
+      "detail": "Public audience and recent owned activity browser-verified September 1 while YouTube was signed out; channel displays 2.09K subscribers, the newest listed full episode has 717 views and 16 likes, and the prior episode has 592 views and 20 likes; comments were not exposed today, so prior verified comment values were preserved; five tracked Shorts view counts were refreshed; a previously tracked Shane Driggers video remains uploader-removed"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified August 30; visible post metrics were refreshed and no new owned post was found; unavailable reach, Instagram shares, YouTube Shorts and full-episode engagement metrics, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 1; a new leadership-problem video was added from LinkedIn, Instagram, and TikTok, and other visible post metrics were refreshed; TikTok exposed 138 views for the new video but its detail page errored, so engagement remains unavailable; unavailable reach, Instagram shares, YouTube comments, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
