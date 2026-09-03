@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T13:00:27.874Z",
+  "generatedAt": "2026-09-03T13:01:03.456Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Public audience and recent owned activity browser-verified September 2 while YouTube was signed out; channel displays 2.09K subscribers, the newest listed full episode has 732 views and 16 likes, and the prior episode has 602 views and 20 likes; comments were not exposed today, so prior verified comment values were preserved; five tracked Shorts view counts were reverified unchanged; a previously tracked Shane Driggers video remains uploader-removed"
+      "detail": "Public audience and recent owned activity browser-verified September 3 while YouTube was signed out; channel displays 2.1K subscribers, the newest listed full episode has 750 views and 16 likes, and the prior episode has 607 views and 20 likes; comments were not exposed today, so prior verified comment values were preserved; five tracked Shorts view counts were reverified unchanged; a previously tracked Shane Driggers video remains uploader-removed"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 2; a new aim-first post was added from LinkedIn and a new leadership tier-list reel was added from Instagram, with other visible post metrics refreshed; TikTok exposed 149 views for its newest video but its detail page still errored, so engagement remains unavailable; unavailable reach, Instagram shares, YouTube comments, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 3; two new LinkedIn posts, one new Instagram reel, and two new TikTok videos were added, with other visible post metrics refreshed; TikTok detail metrics loaded today, including the previously unavailable newest-video engagement; unavailable reach, Instagram shares, YouTube comments, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
