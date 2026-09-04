@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T13:20:34.867Z",
+  "generatedAt": "2026-09-03T19:47:48.035Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent video metrics browser-verified August 31; the channel displays 2.09K subscribers and the newest listed full episode has 712 views and 15 visible likes"
+      "detail": "Last browser-verified August 31: the channel displayed 2.09K subscribers and the newest listed full episode had 712 views and 15 visible likes; no signed-in browser session was available for the September 3 run"
     },
     {
       "id": "x",
@@ -34,15 +34,15 @@
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
-      "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were browser-verified August 31; one new LinkedIn post was archived, visible post metrics were refreshed, and X plus the AI Leadership company page had no owned posts in the last 30 days"
+      "status": "needs-setup",
+      "detail": "No signed-in browser session was available September 3, so the six audience profiles and owned activity could not be re-verified; all August 31 browser-verified values and captured posts were preserved"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked August 31; twenty verified earned references remain archived and no new distinct reference was verified"
+      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked September 3; twenty verified earned references remain archived and no new distinct reference was verified"
     }
   ]
 }
