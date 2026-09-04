@@ -1636,5 +1636,47 @@
     "audience": 2100,
     "source": "browser-verified",
     "precision": "rounded"
+  },
+  {
+    "date": "2026-09-04",
+    "channelId": "instagram-geoff",
+    "audience": 5936,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-09-04",
+    "channelId": "linkedin-ai-leadership",
+    "audience": 1151,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-09-04",
+    "channelId": "linkedin-geoff",
+    "audience": 19413,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-09-04",
+    "channelId": "tiktok-geoff",
+    "audience": 48,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-09-04",
+    "channelId": "x-geoff",
+    "audience": 4122,
+    "source": "browser-verified",
+    "precision": "exact"
+  },
+  {
+    "date": "2026-09-04",
+    "channelId": "youtube-ai-driven-leader",
+    "audience": 2100,
+    "source": "browser-verified",
+    "precision": "rounded"
   }
 ]
