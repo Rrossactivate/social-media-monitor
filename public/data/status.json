@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T02:39:25.226Z",
+  "generatedAt": "2026-09-06T13:01:52.516Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,35 +7,35 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Browser-verified September 5: the channel displayed 2.11K subscribers; visible video metrics were refreshed, including 810 views and 17 likes on the newest listed full episode and 628 views and 21 likes on the July 20 episode; no newly published video was visible within the last 30 days"
+      "detail": "Audience and recent owned activity browser-verified September 6 in a signed-in YouTube session; channel displays 2.11K subscribers, the newest listed full episode has 818 views, 17 likes, and 4 comments, and the prior episode has 631 views, 22 likes, and 0 comments; five tracked Shorts view counts were reverified; the previously verified uploader-removed Shane Driggers entry remains archived without alteration"
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 5"
+      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 6"
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and captured six previously unarchived posts September 5"
+      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and recent activity September 6"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 5"
+      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 6"
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and activity feeds were browser-verified September 5; sixteen previously unarchived owned posts were added across Instagram, TikTok, and LinkedIn, while X, AI Leadership LinkedIn, and YouTube had no newly visible posts within the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 6; no new owned posts appeared, and visible metrics on existing posts were refreshed; unavailable reach, Instagram shares, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
