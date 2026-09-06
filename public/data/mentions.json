@@ -1,5 +1,71 @@
 [
   {
+    "id": "linkedin:juan-serje:2026-09-05-crit",
+    "publishedAt": "2026-09-05T17:39:25-07:00",
+    "datePrecision": "relative-hour",
+    "type": "social-mention",
+    "publisher": "Juan Serje",
+    "platform": "LinkedIn",
+    "title": "Stop asking AI questions. Make it interview you instead.",
+    "url": "https://www.linkedin.com/search/results/content/?keywords=%22Stop%20asking%20AI%20questions.%20Make%20it%20interview%20you%20instead.%22%20%22Juan%20Serje%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 3,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 3,
+    "comments": null,
+    "reposts": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-06T02:39:25.226Z"
+  },
+  {
+    "id": "linkedin:daniel-meyer:2026-09-05-book-review",
+    "publishedAt": "2026-09-05T04:39:25-07:00",
+    "datePrecision": "relative-hour",
+    "type": "book-mention",
+    "publisher": "Daniel Meyer",
+    "platform": "LinkedIn",
+    "title": "Yes, I write in my books. I highlight them. I stick Post-its everywhere.",
+    "url": "https://www.linkedin.com/search/results/content/?keywords=%22Yes%2C%20I%20write%20in%20my%20books.%22%20%22Daniel%20Meyer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 20,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 15,
+    "comments": 5,
+    "reposts": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-06T02:39:25.226Z"
+  },
+  {
+    "id": "linkedin:oded-ben-hefer:2026-09-04-crit",
+    "publishedAt": "2026-09-04T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "type": "social-mention",
+    "publisher": "Oded Ben-Hefer",
+    "platform": "LinkedIn",
+    "title": "Is the best answer actually a question?",
+    "url": "https://www.linkedin.com/search/results/content/?keywords=%22Geoff%20Woods%22%20%22CRIT%22%20%22Oded%20Ben-Hefer%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "views": null,
+    "engagements": 7,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 5,
+    "comments": 2,
+    "reposts": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-06T02:39:25.226Z"
+  },
+  {
     "id": "linkedin:daniel-marama:2026-08-23-pinecone",
     "publishedAt": "2026-08-23T08:58:23-07:00",
     "datePrecision": "relative-hour",

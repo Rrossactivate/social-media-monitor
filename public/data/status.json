@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T19:47:48.035Z",
+  "generatedAt": "2026-09-06T02:39:25.226Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,42 +7,42 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Last browser-verified August 31: the channel displayed 2.09K subscribers and the newest listed full episode had 712 views and 15 visible likes; no signed-in browser session was available for the September 3 run"
+      "detail": "Browser-verified September 5: the channel displayed 2.11K subscribers; visible video metrics were refreshed, including 810 views and 17 likes on the newest listed full episode and 628 views and 21 likes on the July 20 episode; no newly published video was visible within the last 30 days"
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add X_BEARER_TOKEN"
+      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 5"
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add Instagram user ID and access token"
+      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and captured six previously unarchived posts September 5"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add an approved organization token and ID"
+      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 5"
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
-      "status": "needs-setup",
-      "detail": "No signed-in browser session was available September 3, so the six audience profiles and owned activity could not be re-verified; all August 31 browser-verified values and captured posts were preserved"
+      "status": "ready",
+      "detail": "All six audience profiles and activity feeds were browser-verified September 5; sixteen previously unarchived owned posts were added across Instagram, TikTok, and LinkedIn, while X, AI Leadership LinkedIn, and YouTube had no newly visible posts within the last 30 days"
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked September 3; twenty verified earned references remain archived and no new distinct reference was verified"
+      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked September 5; twenty-three verified earned references are archived, including three newly captured LinkedIn mentions"
     }
   ]
 }
