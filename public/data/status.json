@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T13:01:52.516Z",
+  "generatedAt": "2026-09-07T13:01:28.697Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "ready",
-      "detail": "Audience and recent owned activity browser-verified September 6 in a signed-in YouTube session; channel displays 2.11K subscribers, the newest listed full episode has 818 views, 17 likes, and 4 comments, and the prior episode has 631 views, 22 likes, and 0 comments; five tracked Shorts view counts were reverified; the previously verified uploader-removed Shane Driggers entry remains archived without alteration"
+      "detail": "Audience and recent owned activity browser-verified September 7 in a signed-in YouTube session; channel displays 2.12K subscribers, the newest listed full episode has 831 views and 17 likes, and the prior episode has 633 views and 22 likes; comment counts were not exposed today, so prior verified comment values were preserved; five tracked Shorts view counts were reverified; the previously verified uploader-removed Shane Driggers entry remains archived without alteration"
     },
     {
       "id": "x",
@@ -35,7 +35,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 6; no new owned posts appeared, and visible metrics on existing posts were refreshed; unavailable reach, Instagram shares, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 7; no new owned posts appeared, and visible metrics on existing posts were refreshed; unavailable reach, Instagram shares, YouTube comment counts, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
