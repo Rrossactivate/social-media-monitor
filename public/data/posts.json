@@ -1,5 +1,57 @@
 [
   {
+    "id": "linkedin:7503814679690039297",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-09-10T12:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Before you buy another AI tool, do this.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503814679690039297/",
+    "reachStatus": "not-visible",
+    "engagements": 26,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 24,
+    "comments": 2,
+    "reposts": null,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-09-11T13:00:39.828Z"
+  },
+  {
+    "id": "instagram:DdHiaSMjutr",
+    "channelId": "instagram-geoff",
+    "publishedAt": "2026-09-10T12:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Step one to becoming an AI-driven leader: two sticky notes and a Sharpie.",
+    "url": "https://www.instagram.com/geoffwoods/reel/DdHiaSMjutr/",
+    "reachStatus": "not-visible",
+    "engagements": 8,
+    "engagementsPrecision": "visible-minimum",
+    "likes": 8,
+    "comments": 0,
+    "reposts": null,
+    "saves": null,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-09-11T13:00:39.828Z"
+  },
+  {
+    "id": "tiktok:7683983538198252814",
+    "channelId": "tiktok-geoff",
+    "publishedAt": "2026-09-10T12:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Step one to becoming an AI-driven leader: two sticky notes and a Sharpie.",
+    "url": "https://www.tiktok.com/@realgeoffwoods/video/7683983538198252814",
+    "views": 153,
+    "engagements": 1,
+    "engagementsPrecision": "exact-visible",
+    "likes": 1,
+    "comments": 0,
+    "saves": 0,
+    "shares": 0,
+    "source": "browser-verified",
+    "updatedAt": "2026-09-11T13:00:39.828Z"
+  },
+  {
     "id": "linkedin:7503440530828083200",
     "channelId": "linkedin-geoff",
     "publishedAt": "2026-09-09T12:00:00-07:00",
@@ -7,14 +59,14 @@
     "title": "AI has made it easier than ever to look productive without thinking.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503440530828083200/",
     "reachStatus": "not-visible",
-    "engagements": 36,
+    "engagements": 41,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 32,
-    "comments": 2,
+    "reactions": 36,
+    "comments": 3,
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:DdE9pyolVL-",
@@ -32,7 +84,7 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "tiktok:7683612493666602253",
@@ -41,7 +93,7 @@
     "datePrecision": "relative-hour",
     "title": "Before investing in another AI tool, do this.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7683612493666602253",
-    "views": 142,
+    "views": 149,
     "engagements": 3,
     "engagementsPrecision": "exact-visible",
     "likes": 2,
@@ -49,7 +101,7 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7503165406791020544",
@@ -59,14 +111,14 @@
     "title": "For the leaders not using AI yet, it's usually one of three things.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503165406791020544/",
     "reachStatus": "not-visible",
-    "engagements": 28,
+    "engagements": 30,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 21,
+    "reactions": 23,
     "comments": 5,
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:DdCYzWxCC4t",
@@ -93,7 +145,7 @@
     "datePrecision": "relative-hour",
     "title": "For the leaders not using AI yet, it's usually one of three things.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7683241335528230158",
-    "views": 139,
+    "views": 143,
     "engagements": 1,
     "engagementsPrecision": "exact-visible",
     "likes": 0,
@@ -101,7 +153,7 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:Dc4Fu36EfUl",
@@ -128,7 +180,7 @@
     "datePrecision": "relative-hour",
     "title": "These are the most valuable things I think leadership teams need to know about AI.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7681756991575854350",
-    "views": 174,
+    "views": 175,
     "engagements": 6,
     "engagementsPrecision": "exact-visible",
     "likes": 4,
@@ -136,7 +188,7 @@
     "saves": 0,
     "shares": 2,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7501700843004465152",
@@ -146,14 +198,14 @@
     "title": "I ranked every AI strategy leadership teams are running right now. The most popular one scored lowest.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7501700843004465152/",
     "reachStatus": "not-visible",
-    "engagements": 19,
+    "engagements": 21,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 16,
+    "reactions": 18,
     "comments": 1,
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:Dc1hAnljIOZ",
@@ -188,7 +240,7 @@
     "saves": 0,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7501286821818003457",
@@ -198,14 +250,14 @@
     "title": "The document was perfect. The thinking was missing.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7501286821818003457/",
     "reachStatus": "not-visible",
-    "engagements": 28,
+    "engagements": 29,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 23,
+    "reactions": 24,
     "comments": 4,
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "tiktok:7681045919906794766",
@@ -222,7 +274,7 @@
     "saves": 2,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:Dcy8D-PnSKH",
@@ -257,7 +309,7 @@
     "saves": 2,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7500927041442250753",
@@ -361,7 +413,7 @@
     "saves": 0,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7500251298412482562",
@@ -404,7 +456,7 @@
     "datePrecision": "relative-hour",
     "title": "Change may be uncomfortable, but it's where growth happens.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7679176688542043406",
-    "views": 293,
+    "views": 295,
     "engagements": 18,
     "engagementsPrecision": "exact-visible",
     "likes": 13,
@@ -412,7 +464,7 @@
     "saves": 5,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7499103620563648513",
@@ -446,7 +498,7 @@
     "saves": 6,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7496566803876478976",
@@ -480,7 +532,7 @@
     "saves": 10,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:DcMUS9AEr4Z",
@@ -549,7 +601,7 @@
     "saves": 7,
     "shares": 3,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7493724391319511040",
@@ -669,7 +721,7 @@
     "saves": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:2026-08-10-hudson-airport-bookstores",
@@ -751,7 +803,7 @@
     "saves": 0,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "youtube:arQzClF_UOE",
@@ -760,14 +812,14 @@
     "datePrecision": "exact",
     "title": "New Podcast Out Now",
     "url": "https://www.youtube.com/shorts/arQzClF_UOE",
-    "views": 282,
+    "views": 284,
     "engagements": 1,
     "engagementsPrecision": "visible-minimum",
     "likes": 1,
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7490769412191490049",
@@ -792,14 +844,14 @@
     "datePrecision": "exact",
     "title": "This Boring Metric Proves Your AI Is Actually Working | John McMonagle",
     "url": "https://www.youtube.com/watch?v=KZNp5YiJxSI",
-    "views": 921,
-    "engagements": 22,
+    "views": 957,
+    "engagements": 23,
     "engagementsPrecision": "visible-minimum",
-    "likes": 18,
+    "likes": 19,
     "comments": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7490436402602663936",
@@ -833,7 +885,7 @@
     "saves": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7490044619359989762",
@@ -930,7 +982,7 @@
     "saves": 0,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7488594991590617089",
@@ -1083,12 +1135,12 @@
     "publishedAt": "2026-07-25T19:00:27Z",
     "title": "Your CEO, CFO, COO and general managers in one room. 45 minutes spent on email. #leadership",
     "url": "https://www.youtube.com/watch?v=iZxR73HF9UI",
-    "views": 103,
+    "views": 105,
     "engagements": 1,
     "likes": 1,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -1121,7 +1173,7 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "youtube:OMqAZfQ5Vgc",
@@ -1129,12 +1181,12 @@
     "publishedAt": "2026-07-24T19:00:31Z",
     "title": "The most powerful AI habit I've seen a CEO build costs two sticky notes and a Sharpie. #leadership",
     "url": "https://www.youtube.com/watch?v=OMqAZfQ5Vgc",
-    "views": 165,
+    "views": 166,
     "engagements": 2,
     "likes": 2,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7486420303498199040",
@@ -1179,7 +1231,7 @@
     "likes": 3,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7486058058264203264",
@@ -1212,7 +1264,7 @@
     "saves": 18,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "instagram:DbJXp3BjSbi",
@@ -1241,7 +1293,7 @@
     "likes": 5,
     "comments": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z"
+    "updatedAt": "2026-09-11T13:00:39.828Z"
   },
   {
     "id": "linkedin:7485695873746776064",
@@ -1295,10 +1347,10 @@
     "datePrecision": "relative-day",
     "title": "How a Non-Technical CEO Made His Company AI Driven in 6 Months | Manuel Diez",
     "url": "https://www.youtube.com/watch?v=F-H9d5oGoq0",
-    "views": 654,
+    "views": 664,
     "engagements": 22,
     "source": "browser-verified",
-    "updatedAt": "2026-09-10T13:00:34.422Z",
+    "updatedAt": "2026-09-11T13:00:39.828Z",
     "likes": 22,
     "comments": 0
   },
