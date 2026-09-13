@@ -1,41 +1,41 @@
 {
-  "generatedAt": "2026-09-12T13:01:45.226Z",
+  "generatedAt": "2026-09-13T13:00:50.690Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
       "id": "youtube",
       "label": "YouTube",
       "mode": "api",
-      "status": "ready",
-      "detail": "Audience and recent owned activity browser-verified September 12; channel displays 2.14K subscribers, the newest listed full episode has 983 views, 20 likes, and 4 comments, and the prior episode has 671 views, 22 likes, and 0 comments; five tracked Shorts view counts were reverified; the previously verified uploader-removed Shane Driggers entry remains archived without alteration"
+      "status": "unavailable",
+      "detail": "The channel and its tracked videos were unavailable September 13 because YouTube reports that the uploader closed the account; the September 12 audience and post values were preserved without alteration"
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 12"
+      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 13"
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and recent activity September 12"
+      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and recent activity September 13"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 12"
+      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 13"
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "All six audience profiles and recent owned activity were accessible and browser-verified September 12; one new syndicated owned post was captured across LinkedIn, Instagram, and TikTok, and visible metrics on existing posts were refreshed; unavailable reach, Instagram shares and saves, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "Five audience profiles and their recent owned activity were accessible and browser-verified September 13; no new owned posts were found, visible metrics on existing LinkedIn, Instagram, and TikTok posts were refreshed, and YouTube's last verified values were carried forward because the uploader closed the account; unavailable reach, Instagram shares and saves, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
