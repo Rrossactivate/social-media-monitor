@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T13:00:26.225Z",
+  "generatedAt": "2026-09-15T13:00:31.852Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,35 +7,35 @@
       "label": "YouTube",
       "mode": "api",
       "status": "unavailable",
-      "detail": "The channel and its tracked videos remained unavailable September 14 because YouTube reports that the uploader closed the account; the September 12 audience and post values were preserved without alteration"
+      "detail": "The channel and its tracked videos remained unavailable September 15 because YouTube reports that the uploader closed the account; the September 12 audience and post values were preserved without alteration"
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 14"
+      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 15"
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and recent activity September 14"
+      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and recent activity September 15"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 14"
+      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 15"
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "Five audience profiles and their recent owned activity were accessible and browser-verified September 14; no new owned posts were found, visible metrics on existing LinkedIn, Instagram, and TikTok posts were refreshed, and YouTube's last verified values were carried forward because the uploader remains closed; unavailable reach, Instagram shares and saves, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "Five audience profiles and their recent owned activity were accessible and browser-verified September 15; one new LinkedIn owned post was captured, visible metrics on existing LinkedIn, Instagram, and TikTok posts were refreshed where exposed, and YouTube's last verified values were carried forward because the uploader remains closed; unavailable reach, Instagram shares and saves, TikTok detail metrics, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
     },
     {
       "id": "mentions",
