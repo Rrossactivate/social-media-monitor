@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "skills-dojo": {
+      "type": "http",
+      "url": "https://app.skillsdojo.com/api/mcp?organization=robin-ross-s-workspace"
+    }
+  }
+}
