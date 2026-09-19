@@ -96,7 +96,7 @@
   {
     "id": "loops-ail-newsletter",
     "name": "AIL Newsletter",
-    "platform": "Loops",
+    "platform": "Newsletter",
     "handle": "Active newsletter subscribers",
     "metricLabel": "subscribers",
     "provider": "loops",
