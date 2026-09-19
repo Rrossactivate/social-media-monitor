@@ -161,7 +161,12 @@ function renderKpis() {
   const posts = selectedPosts();
   const latest = channels.map((channel) => latestFor(channel.id)).filter(Boolean);
   const current = latest.reduce((sum, item) => sum + item.audience, 0);
-  const growth = channels.reduce((sum, channel) => {
+  const comparableChannels = channels.filter((channel) => {
+    const first = earliestInRange(channel.id);
+    const last = latestFor(channel.id);
+    return first && last && first.date !== last.date;
+  });
+  const growth = comparableChannels.reduce((sum, channel) => {
     const first = earliestInRange(channel.id);
     const last = latestFor(channel.id);
     return sum + (first && last ? last.audience - first.audience : 0);
@@ -177,8 +182,8 @@ function renderKpis() {
 
   $("#kpi-audience").textContent = latest.length ? `${audienceIsRounded ? "≈" : ""}${fullNumber.format(current)}` : "—";
   $("#kpi-audience-note").textContent = `${latest.length} of ${channels.length} channels reporting · audiences may overlap`;
-  $("#kpi-growth").textContent = growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
-  $("#kpi-growth-note").textContent = state.days === 1
+  $("#kpi-growth").textContent = !comparableChannels.length ? "—" : growth ? `${growth > 0 ? "+" : ""}${fullNumber.format(growth)}` : "0";
+  $("#kpi-growth-note").textContent = !comparableChannels.length ? "Growth appears after a second daily count" : state.days === 1
     ? "Compared with the previous daily snapshot"
     : state.days
       ? `During the last ${state.days} days`
@@ -200,11 +205,11 @@ function renderChannelList() {
     .map((channel) => {
       const latest = latestFor(channel.id);
       const first = earliestInRange(channel.id);
-      const delta = latest && first ? latest.audience - first.audience : 0;
+      const delta = latest && first && latest.date !== first.date ? latest.audience - first.audience : null;
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>
-        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${comparisonLabel()} · ${sourceLabel(latest.source)} ${sourceFreshness(latest.date)}` : "Awaiting first value"}</small></span>
+        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta === null ? "First recorded count" : `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${comparisonLabel()}`} · ${(channel.category === "newsletter" && latest.source === "browser-verified" ? "Loops verified" : sourceLabel(latest.source))} ${sourceFreshness(latest.date)}` : "Awaiting first value"}</small></span>
       </a>`;
     })
     .join("");

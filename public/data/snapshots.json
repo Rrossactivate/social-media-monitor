@@ -2308,5 +2308,13 @@
     "audience": 2140,
     "source": "carry-forward",
     "precision": "stale"
+  },
+  {
+    "date": "2026-09-18",
+    "channelId": "loops-ail-newsletter",
+    "audience": 10956,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-09-19T00:20:24.932343Z"
   }
 ]

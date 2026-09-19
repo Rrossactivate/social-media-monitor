@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:00:46.894Z",
+  "generatedAt": "2026-09-19T00:20:24.932343Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -43,6 +43,13 @@
       "mode": "search",
       "status": "ready",
       "detail": "September 18: public web, podcast directories, YouTube, LinkedIn, Instagram, TikTok, and X searches checked. Added three verified earned references: Front Row Dads September 7 training excerpt, Society for Information Management book mention, and Chief Executive Group conference mention. LinkedIn metrics verified in signed-in browser; relative publication labels remain approximate. No additional recent Instagram, TikTok, X, or YouTube mention could be verified from search results; this is not evidence of zero mentions. 26 distinct earned references archived; syndication counted once and unavailable reach left blank."
+    },
+    {
+      "id": "loops",
+      "label": "AIL Newsletter \u00b7 Loops",
+      "mode": "browser",
+      "status": "ready",
+      "detail": "10,956 active subscribers verified September 18 in AI Leadership \u2192 Audience \u2192 AIL Newsletter, filtered to Subscribed is true. Daily browser verification uses the signed-in Codex session. History begins September 18; growth appears after the next verified count."
     }
   ]
 }

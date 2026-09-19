@@ -110,6 +110,7 @@ test("archive data has unique date and channel pairs", async () => {
       "tiktok-geoff",
       "x-geoff",
       "youtube-ai-driven-leader",
+      "loops-ail-newsletter",
     ]),
   );
   assert.ok(latestVerified.every((snapshot) => ["browser-verified", "youtube-api", "carry-forward"].includes(snapshot.source)));
@@ -169,7 +170,7 @@ test("activity coverage remains verified while audience rows stay focused", asyn
     readFile(new URL("public/data/channels.json", root), "utf8").then(JSON.parse),
     readFile(new URL("public/tracker.js", root), "utf8"),
   ]);
-  assert.ok(channels.every((channel) => channel.activityTracking?.status === "verified"));
+  assert.ok(channels.every((channel) => channel.category === "newsletter" ? channel.activityTracking?.status === "not-applicable" : channel.activityTracking?.status === "verified"));
   assert.doesNotMatch(script, /channel-activity/);
   assert.match(script, /visible-minimum/);
   assert.match(script, /metric-unavailable/);
