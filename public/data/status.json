@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T13:02:17.911Z",
+  "generatedAt": "2026-09-19T00:00:46.894Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,42 +7,42 @@
       "label": "YouTube",
       "mode": "api",
       "status": "unavailable",
-      "detail": "The channel and its tracked videos remained unavailable September 18 because YouTube reports that the uploader closed the account; the September 12 audience and post values were preserved without alteration"
+      "detail": "September 18: channel page unavailable; a tracked video explicitly reports that the uploader closed their YouTube account. Last verified September 12 audience (approximately 2,140) and post metrics preserved as stale."
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add X_BEARER_TOKEN for API automation; browser fallback verified the profile and recent activity September 18"
+      "detail": "September 18: signed-in browser verified 4,125 followers; latest profile post dates to March 2018, with no owned posts in the last 30 days. API token remains unconfigured."
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add Instagram user ID and access token for API automation; browser fallback verified the profile and recent activity September 18, while post-level engagement remained behind a login wall"
+      "detail": "September 18: signed-in browser verified 5,974 followers and nine recent posts. Likes and visible comments refreshed; dates read from displayed post timestamps. Views, shares, saves, and unexposed comment totals remain unavailable."
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add an approved organization token and ID for API automation; browser fallback verified the company profile and recent activity September 18"
+      "detail": "September 18: signed-in browser verified AI Leadership at 1,192 followers. Recent-sort feed shows its latest owned posts seven months ago, with no posts in the last 30 days."
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "Five audience profiles and their recent owned activity were accessible and browser-verified September 18; no new owned posts were found, visible metrics on existing LinkedIn and TikTok posts were refreshed where exposed, Instagram post-level engagement was preserved because it remained behind a login wall, and YouTube's last verified values were carried forward because the uploader remains closed; unavailable reach, Instagram shares and saves, TikTok detail metrics, and other unexposed metrics were not inferred, while the AI Leadership company page and X had no owned posts in the last 30 days"
+      "detail": "September 18: verified Geoff LinkedIn 19,674, Instagram 5,974, X 4,125, TikTok 60, and AI Leadership LinkedIn 1,192. Refreshed 15 LinkedIn, 9 Instagram, and 12 TikTok posts. TikTok views, likes, comments, and saves were visible; shares were not. Engagement totals reflect visible minimums. YouTube remains unavailable; September 12 values preserved. GitHub archive through September 18 reconciled before this refresh."
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Public podcast, directory, web, YouTube, LinkedIn, Instagram, TikTok, and X searches checked September 5; twenty-three verified earned references are archived, including three newly captured LinkedIn mentions"
+      "detail": "September 18: public web, podcast directories, YouTube, LinkedIn, Instagram, TikTok, and X searches checked. Added three verified earned references: Front Row Dads September 7 training excerpt, Society for Information Management book mention, and Chief Executive Group conference mention. LinkedIn metrics verified in signed-in browser; relative publication labels remain approximate. No additional recent Instagram, TikTok, X, or YouTube mention could be verified from search results; this is not evidence of zero mentions. 26 distinct earned references archived; syndication counted once and unavailable reach left blank."
     }
   ]
 }

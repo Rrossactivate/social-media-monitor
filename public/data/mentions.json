@@ -1,5 +1,55 @@
 [
   {
+    "id": "linkedin:society-for-information-management:7503439457874767872",
+    "publishedAt": "2026-09-11T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "sourceDateLabel": "1 week ago",
+    "type": "book-mention",
+    "publisher": "Society for Information Management",
+    "title": "Geoff Woods on AI as a Strategic Partner for Leaders",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503439457874767872/",
+    "platform": "LinkedIn",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "engagements": 3,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 2,
+    "comments": null,
+    "reposts": 1,
+    "views": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-19T00:00:46.894Z"
+  },
+  {
+    "id": "podcast:front-row-dads:2026-09-07",
+    "publishedAt": "2026-09-07T13:07:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Front Row Dads with Jon Vroman",
+    "title": "What Does Your Marriage Look Like Twenty Years From Now?",
+    "url": "https://frontrowdads.libsyn.com/what-does-your-marriage-look-like-twenty-years-from-now",
+    "platform": "Podcast",
+    "platforms": [
+      "Libsyn",
+      "Apple Podcasts",
+      "PodParadise",
+      "Front Row Dads"
+    ],
+    "engagements": null,
+    "notes": "Published September 7, 2026; republished excerpt of a 2019 members training, not a newly recorded interview. Related website recap published September 11. Counted once across distribution platforms.",
+    "distributionUrls": [
+      "https://podcasts.apple.com/ru/podcast/what-does-your-marriage-look-like-twenty-years-from-now/id1344850656?i=1000788305630",
+      "https://www.podparadise.com/episodes/27601274/",
+      "https://frontrowdads.com/lead-domino-marriage/"
+    ],
+    "views": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-19T00:00:46.894Z"
+  },
+  {
     "id": "linkedin:juan-serje:2026-09-05-crit",
     "publishedAt": "2026-09-05T17:39:25-07:00",
     "datePrecision": "relative-hour",
@@ -64,6 +114,29 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-09-06T02:39:25.226Z"
+  },
+  {
+    "id": "linkedin:chief-executive-group:7501670514508312577",
+    "publishedAt": "2026-09-04T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "sourceDateLabel": "2 weeks ago",
+    "type": "social-mention",
+    "publisher": "Chief Executive Group",
+    "title": "Geoff Woods Teaches CEOs to Think Better with AI",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7501670514508312577/",
+    "platform": "LinkedIn",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "engagements": 12,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 8,
+    "comments": 2,
+    "reposts": 2,
+    "views": null,
+    "reachStatus": "not-visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-19T00:00:46.894Z"
   },
   {
     "id": "linkedin:daniel-marama:2026-08-23-pinecone",
