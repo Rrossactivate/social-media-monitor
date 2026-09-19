@@ -189,7 +189,7 @@
     "type": "book-mention",
     "publisher": "Fahad Al Jabri",
     "platform": "LinkedIn",
-    "title": "Book Recommendation: The AI-Driven Leader — Geoff Woods",
+    "title": "Book Recommendation: The AI-Driven Leader \u2014 Geoff Woods",
     "url": "https://www.linkedin.com/search/results/content/?keywords=%22Book%20Recommendation%22%20%22The%20AI-Driven%20Leader%22%20%22Fahad%20Al%20Jabri%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
     "platforms": [
       "LinkedIn"
@@ -207,7 +207,7 @@
     "type": "podcast-guest",
     "publisher": "Do This, NOT That: Marketing Tips with Jay Schwedelson",
     "platform": "Wave",
-    "title": "SPECIAL GUEST!! #1 AI AUTHOR! Geoff Woods — You're Prompting AI Wrong | Ep. 551",
+    "title": "SPECIAL GUEST!! #1 AI AUTHOR! Geoff Woods \u2014 You're Prompting AI Wrong | Ep. 551",
     "url": "https://pod.wave.co/podcast/do-this-not-that-marketing-tips-with-jay-schwedelson-l-presented-by-marigold/special-guest-geoff-woods-youre-prompting-ai-wrong-ep-551",
     "platforms": [
       "Wave"
@@ -494,7 +494,7 @@
     "type": "podcast-guest",
     "publisher": "Sparks for Growth",
     "platform": "Podcast",
-    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions — Not Just Productivity",
+    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions \u2014 Not Just Productivity",
     "url": "https://podcasts.apple.com/us/podcast/the-crit-framework-geoff-woods-on-using-ai-for/id1525777023?i=1000775766271",
     "platforms": [
       "Apple Podcasts"
@@ -522,5 +522,72 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z"
+  },
+  {
+    "id": "podcast:franchise-secrets:386",
+    "publishedAt": "2026-09-08T08:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "Franchise Secrets Podcast",
+    "title": "How to Use AI to Grow Your Franchise",
+    "url": "https://franchisesecrets.com/podcast/stop-using-ai-like-google-heres-what-leaders-do-instead/",
+    "platform": "Apple Podcasts",
+    "platforms": [
+      "Apple Podcasts",
+      "Amazon Music",
+      "PodParadise",
+      "Franchise Secrets"
+    ],
+    "engagements": null,
+    "source": "web-verified",
+    "discoveredAt": "2026-09-19T14:25:05.752924+00:00",
+    "views": null,
+    "reachStatus": "not-visible"
+  },
+  {
+    "id": "linkedin:jodie-harlow:7498892227625213952",
+    "publishedAt": "2026-08-29T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "sourceDateLabel": "3 weeks ago",
+    "type": "book-mention",
+    "publisher": "Jodie Harlow",
+    "title": "AI adoption starts with leaders changing how they work",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7498892227625213952/",
+    "platform": "LinkedIn",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "reactions": 8,
+    "comments": 3,
+    "reposts": null,
+    "engagements": 11,
+    "engagementsPrecision": "visible-minimum",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-19T14:25:05.752924+00:00",
+    "views": null,
+    "reachStatus": "not-visible"
+  },
+  {
+    "id": "linkedin:sawnminnesota:7505040000812683264",
+    "publishedAt": "2026-09-14T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "sourceDateLabel": "5 days ago",
+    "type": "book-mention",
+    "publisher": "South Asian Womens Network (MN)",
+    "title": "SAPHAL 2026 reflections and The AI-Driven Leader book recommendation",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505040000812683264/",
+    "platform": "LinkedIn",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "reactions": 47,
+    "comments": 1,
+    "reposts": 1,
+    "engagements": 49,
+    "engagementsPrecision": "visible-minimum",
+    "source": "web-verified",
+    "discoveredAt": "2026-09-19T14:25:05.752924+00:00",
+    "views": null,
+    "reachStatus": "not-visible"
   }
 ]

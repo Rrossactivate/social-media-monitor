@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T00:20:24.932343Z",
+  "generatedAt": "2026-09-19T14:24:39.336Z",
   "timezone": "America/Vancouver",
   "providers": [
     {
@@ -7,49 +7,49 @@
       "label": "YouTube",
       "mode": "api",
       "status": "unavailable",
-      "detail": "September 18: channel page unavailable; a tracked video explicitly reports that the uploader closed their YouTube account. Last verified September 12 audience (approximately 2,140) and post metrics preserved as stale."
+      "detail": "September 19: channel remains unavailable. Last verified audience and post metrics preserved as stale."
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "September 18: signed-in browser verified 4,125 followers; latest profile post dates to March 2018, with no owned posts in the last 30 days. API token remains unconfigured."
+      "detail": "September 19: 4,125 followers verified in signed-in browser; latest owned post is March 2018. No recent owned activity."
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "September 18: signed-in browser verified 5,974 followers and nine recent posts. Likes and visible comments refreshed; dates read from displayed post timestamps. Views, shares, saves, and unexposed comment totals remain unavailable."
+      "detail": "September 19: 5,974 followers verified; nine recent posts checked. Public likes and visible comments refreshed. Unexposed reach remains unavailable."
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "September 18: signed-in browser verified AI Leadership at 1,192 followers. Recent-sort feed shows its latest owned posts seven months ago, with no posts in the last 30 days."
+      "detail": "September 19: AI Leadership has 1,193 followers. Recent-sort feed shows latest posts seven months ago."
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "September 18: verified Geoff LinkedIn 19,674, Instagram 5,974, X 4,125, TikTok 60, and AI Leadership LinkedIn 1,192. Refreshed 15 LinkedIn, 9 Instagram, and 12 TikTok posts. TikTok views, likes, comments, and saves were visible; shares were not. Engagement totals reflect visible minimums. YouTube remains unavailable; September 12 values preserved. GitHub archive through September 18 reconciled before this refresh."
+      "detail": "September 19: verified Geoff LinkedIn 19,680, Instagram 5,974, X 4,125, TikTok 61, and AI Leadership LinkedIn 1,193. Refreshed 15 LinkedIn, 9 Instagram, and 11 TikTok recent posts. No new owned posts found. YouTube unavailable."
     },
     {
       "id": "mentions",
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "September 18: public web, podcast directories, YouTube, LinkedIn, Instagram, TikTok, and X searches checked. Added three verified earned references: Front Row Dads September 7 training excerpt, Society for Information Management book mention, and Chief Executive Group conference mention. LinkedIn metrics verified in signed-in browser; relative publication labels remain approximate. No additional recent Instagram, TikTok, X, or YouTube mention could be verified from search results; this is not evidence of zero mentions. 26 distinct earned references archived; syndication counted once and unavailable reach left blank."
+      "detail": "September 19: searched public web, podcast directories, YouTube, LinkedIn, Instagram, TikTok and X. Added a September 8 Franchise Secrets guest appearance and two verified LinkedIn book mentions. Search results do not establish zero mentions on other platforms. Unavailable reach remains null."
     },
     {
       "id": "loops",
-      "label": "AIL Newsletter \u00b7 Loops",
+      "label": "AIL Newsletter · Loops",
       "mode": "browser",
       "status": "ready",
-      "detail": "10,956 active subscribers verified September 18 in AI Leadership \u2192 Audience \u2192 AIL Newsletter, filtered to Subscribed is true. Daily browser verification uses the signed-in Codex session. History begins September 18; growth appears after the next verified count."
+      "detail": "September 19: 10,956 active AIL Newsletter subscribers verified in signed-in Codex Loops session with AIL Newsletter selected and Subscribed is true. Unchanged from September 18."
     }
   ]
 }
