@@ -15,11 +15,13 @@ const state = {
   days: 30,
   channelId: "all",
   postSort: "newest",
+  chartHoverDate: null,
 };
 
 const $ = (selector) => document.querySelector(selector);
 const fullNumber = new Intl.NumberFormat("en-US");
 const shortDate = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric" });
+const fullDate = new Intl.DateTimeFormat("en-US", { month: "long", day: "numeric", year: "numeric" });
 const longDateTime = new Intl.DateTimeFormat("en-US", {
   month: "short",
   day: "numeric",
@@ -86,6 +88,14 @@ function byChannel(items) {
     (grouped[item.channelId] ||= []).push(item);
     return grouped;
   }, {});
+}
+
+let chartModel = null;
+
+function hideChartTooltip() {
+  state.chartHoverDate = null;
+  chartModel = null;
+  $("#chart-tooltip").hidden = true;
 }
 
 function latestFor(channelId) {
@@ -350,6 +360,7 @@ function renderMentions() {
 function drawChart() {
   const canvas = $("#trend-chart");
   const empty = $("#chart-empty");
+  const tooltip = $("#chart-tooltip");
   const channels = selectedChannels();
   const snapshots = selectedSnapshots();
   const series = byChannel(snapshots);
@@ -357,7 +368,10 @@ function drawChart() {
   empty.hidden = Boolean(drawable.length);
   canvas.hidden = !drawable.length;
   $("#chart-legend").innerHTML = drawable.map((channel) => `<span><i style="--channel-color:${channel.color}"></i>${channel.platform}</span>`).join("");
-  if (!drawable.length) return;
+  if (!drawable.length) {
+    hideChartTooltip();
+    return;
+  }
 
   const width = canvas.clientWidth;
   const height = canvas.clientHeight;
@@ -383,6 +397,9 @@ function drawChart() {
   if (minX === maxX) { minX -= 43200000; maxX += 43200000; }
   const x = (value) => pad.left + ((value - minX) / (maxX - minX)) * plotW;
   const y = (value) => pad.top + (1 - (value - minY) / (maxY - minY)) * plotH;
+  const chartDates = [...new Set(snapshots.map((item) => dateValue(item.date).getTime()))].sort((a, b) => a - b);
+  if (state.chartHoverDate && !chartDates.includes(state.chartHoverDate)) state.chartHoverDate = null;
+  chartModel = { dates: chartDates, pad, plotW, plotH, x };
 
   ctx.font = "11px Geist, sans-serif";
   ctx.textBaseline = "middle";
@@ -422,6 +439,43 @@ function drawChart() {
       ctx.strokeStyle = "white"; ctx.lineWidth = 2; ctx.stroke();
     });
   });
+
+  if (state.chartHoverDate) {
+    const hoverX = x(state.chartHoverDate);
+    ctx.save();
+    ctx.strokeStyle = "#526173";
+    ctx.lineWidth = 1;
+    ctx.setLineDash([4, 4]);
+    ctx.beginPath();
+    ctx.moveTo(hoverX, pad.top);
+    ctx.lineTo(hoverX, pad.top + plotH);
+    ctx.stroke();
+    ctx.restore();
+
+    const dateKey = new Date(state.chartHoverDate).toISOString().slice(0, 10);
+    const valuesForDate = drawable
+      .map((channel) => ({ channel, point: (series[channel.id] || []).find((item) => item.date === dateKey) }))
+      .filter(({ point }) => point);
+
+    valuesForDate.forEach(({ channel, point }) => {
+      const py = y(point.audience);
+      ctx.fillStyle = channel.color;
+      ctx.strokeStyle = "white";
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.arc(hoverX, py, 6, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.stroke();
+    });
+
+    tooltip.innerHTML = `<strong>${fullDate.format(new Date(state.chartHoverDate))}</strong>${valuesForDate.map(({ channel, point }) => `<div class="chart-tooltip-row"><i style="--channel-color:${escapeHtml(channel.color)}"></i><span>${escapeHtml(channel.platform)} · ${escapeHtml(channel.name)}</span><b>${fullNumber.format(point.audience)}</b></div>`).join("")}`;
+    tooltip.hidden = false;
+    const half = tooltip.offsetWidth / 2;
+    tooltip.style.left = `${Math.max(8 + half, Math.min(width - 8 - half, hoverX))}px`;
+    tooltip.style.transform = "translateX(-50%)";
+  } else {
+    tooltip.hidden = true;
+  }
 }
 
 function render() {
@@ -510,6 +564,54 @@ $("#post-sort").addEventListener("change", (event) => { state.postSort = event.t
 $("#refresh-data").addEventListener("click", loadData);
 $("#download-data").addEventListener("click", downloadArchive);
 $("#download-mentions").addEventListener("click", downloadMentions);
+const trendChart = $("#trend-chart");
+trendChart.addEventListener("pointermove", (event) => {
+  if (!chartModel?.dates.length) return;
+  const bounds = trendChart.getBoundingClientRect();
+  const pointerX = event.clientX - bounds.left;
+  const { dates, pad, plotW } = chartModel;
+  if (pointerX < pad.left || pointerX > pad.left + plotW) {
+    if (state.chartHoverDate) { state.chartHoverDate = null; drawChart(); }
+    return;
+  }
+  const nearest = dates.reduce((best, date) => Math.abs(chartModel.x(date) - pointerX) < Math.abs(chartModel.x(best) - pointerX) ? date : best);
+  if (nearest !== state.chartHoverDate) {
+    state.chartHoverDate = nearest;
+    drawChart();
+  }
+});
+trendChart.addEventListener("pointerleave", () => {
+  if (document.activeElement !== trendChart && state.chartHoverDate) {
+    state.chartHoverDate = null;
+    drawChart();
+  }
+});
+trendChart.addEventListener("focus", () => {
+  if (chartModel?.dates.length && !state.chartHoverDate) {
+    state.chartHoverDate = chartModel.dates.at(-1);
+    drawChart();
+  }
+});
+trendChart.addEventListener("blur", () => {
+  if (state.chartHoverDate) {
+    state.chartHoverDate = null;
+    drawChart();
+  }
+});
+trendChart.addEventListener("keydown", (event) => {
+  if (!chartModel?.dates.length) return;
+  if (event.key === "Escape") {
+    state.chartHoverDate = null;
+    drawChart();
+    return;
+  }
+  if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+  event.preventDefault();
+  const current = Math.max(0, chartModel.dates.indexOf(state.chartHoverDate));
+  const next = event.key === "ArrowLeft" ? Math.max(0, current - 1) : Math.min(chartModel.dates.length - 1, current + 1);
+  state.chartHoverDate = chartModel.dates[next];
+  drawChart();
+});
 document.querySelectorAll("[data-view]").forEach((button) => {
   button.addEventListener("click", () => setView(button.dataset.view));
 });

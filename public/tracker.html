@@ -110,7 +110,9 @@
           <div class="legend" id="chart-legend" aria-label="Chart legend"></div>
         </div>
         <div class="chart-wrap">
-          <canvas id="trend-chart" role="img" aria-label="Audience counts over time by channel"></canvas>
+          <canvas id="trend-chart" role="img" tabindex="0" aria-label="Audience counts over time by channel. Hover over the chart or use the left and right arrow keys to inspect daily values." aria-describedby="chart-instructions"></canvas>
+          <p class="visually-hidden" id="chart-instructions">Hover over the chart to inspect a date. Keyboard users can focus the chart and use the left and right arrow keys.</p>
+          <div class="chart-tooltip" id="chart-tooltip" role="tooltip" hidden></div>
           <div class="empty-state" id="chart-empty" hidden>Add a second daily snapshot to reveal growth trends.</div>
         </div>
       </section>

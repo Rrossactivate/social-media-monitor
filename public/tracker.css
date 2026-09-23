@@ -31,6 +31,18 @@
   display: none !important;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -452,6 +464,62 @@ main {
   display: block;
   width: 100%;
   height: 340px;
+  cursor: crosshair;
+}
+
+#trend-chart:focus-visible {
+  outline: 3px solid rgba(54, 136, 248, 0.34);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+.chart-tooltip {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  min-width: 190px;
+  max-width: min(260px, calc(100% - 16px));
+  padding: 12px 14px;
+  border: 1px solid #cbd8e8;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 12px 28px rgba(15, 37, 76, 0.16);
+  color: var(--navy);
+  pointer-events: none;
+}
+
+.chart-tooltip strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.chart-tooltip-row {
+  display: grid;
+  grid-template-columns: 8px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 7px;
+  margin-top: 6px;
+  font-size: 11px;
+}
+
+.chart-tooltip-row i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--channel-color);
+}
+
+.chart-tooltip-row span {
+  overflow: hidden;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chart-tooltip-row b {
+  color: var(--navy);
+  font-size: 12px;
 }
 
 .empty-state {
