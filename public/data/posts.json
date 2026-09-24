@@ -1,21 +1,37 @@
 [
   {
+    "id": "linkedin:7508586086261108738",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-09-23T11:00:00-07:00",
+    "datePrecision": "relative-hour",
+    "title": "Watch: Live CRIT Session with Leigh Elena Henderson.",
+    "url": "https://www.linkedin.com/video/event/urn:li:ugcPost:7508586086261108738/",
+    "reachStatus": "not-visible",
+    "engagements": 25,
+    "engagementsPrecision": "visible-minimum",
+    "reactions": 18,
+    "comments": 3,
+    "reposts": 4,
+    "shares": null,
+    "source": "browser-verified",
+    "updatedAt": "2026-09-24T13:01:52.804Z"
+  },
+  {
     "id": "linkedin:7508518121880764416",
     "channelId": "linkedin-geoff",
-    "publishedAt": "2026-09-23T06:00:00-07:00",
+    "publishedAt": "2026-09-23T07:00:00-07:00",
     "datePrecision": "relative-hour",
-    "sourceDateLabel": "3 hours ago",
-    "title": "Every function wants to own AI.",
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508518121880764416/",
+    "title": "Every function wants to own AI. Nobody owns how leadership thinks and decides.",
+    "url": "https://www.linkedin.com/posts/geoff-woods-8534774_every-function-wants-to-own-ai-nobody-owns-activity-7508518121880764416-LR9C",
     "reachStatus": "not-visible",
-    "engagements": 12,
+    "engagements": 20,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 10,
-    "comments": 2,
+    "reactions": 16,
+    "comments": 4,
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T17:02:25.747Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "linkedin:7508177556706107416",
@@ -26,14 +42,14 @@
     "title": "She spent twenty years inside corporate HR. Tomorrow she hands her hardest problem to AI. Live.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508177556706107416/",
     "reachStatus": "not-visible",
-    "engagements": 24,
+    "engagements": 29,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 22,
-    "comments": 2,
+    "reactions": 25,
+    "comments": 4,
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T17:02:25.747Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "linkedin:7505630482034769922",
@@ -43,14 +59,14 @@
     "title": "Automation is the last step in process improvement. Most companies are making it the first.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505630482034769922/",
     "reachStatus": "not-visible",
-    "engagements": 36,
+    "engagements": 37,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 28,
+    "reactions": 29,
     "comments": 4,
     "reposts": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T17:02:25.747Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "linkedin:7505324916146073600",
@@ -60,14 +76,14 @@
     "title": "I use AI as a thought partner in three ways: CRIT™, challenger, and customer. Most leaders stop after the first.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505324916146073600/",
     "reachStatus": "not-visible",
-    "engagements": 35,
+    "engagements": 37,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 28,
+    "reactions": 30,
     "comments": 6,
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T17:02:25.747Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "instagram:DdKHVbFj-a7",
@@ -94,7 +110,7 @@
     "datePrecision": "relative-hour",
     "title": "Three ways to use AI as a thought partner: CRIT, challenger, and customer.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7684355587328478478",
-    "views": 179,
+    "views": 181,
     "engagements": 6,
     "engagementsPrecision": "visible-minimum",
     "likes": 2,
@@ -102,7 +118,7 @@
     "saves": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T13:00:47.374Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "linkedin:7504237634899234816",
@@ -171,7 +187,7 @@
     "saves": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T13:00:47.374Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "instagram:DdE9pyolVL-",
@@ -223,7 +239,7 @@
     "saves": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T13:00:47.374Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "instagram:DdCYzWxCC4t",
@@ -275,7 +291,7 @@
     "saves": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T13:00:47.374Z"
+    "updatedAt": "2026-09-24T13:01:52.804Z"
   },
   {
     "id": "instagram:Dc4Fu36EfUl",
