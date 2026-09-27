@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T13:17:01.428Z",
+  "generatedAt": "2026-09-27T19:48:21.203Z",
   "timezone": "America/Los_Angeles",
   "providers": [
     {
@@ -7,7 +7,7 @@
       "label": "YouTube",
       "mode": "api",
       "status": "unavailable",
-      "detail": "September 27: configured channel returned “This page isn’t available.” Last verified audience and post metrics preserved as stale."
+      "detail": "September 27: configured channel returned ‘This channel does not exist.’ Last verified audience and post metrics preserved as stale."
     },
     {
       "id": "x",
@@ -21,21 +21,21 @@
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "September 27: 6,000 followers verified; no new owned posts found. Post-level engagement remained unavailable and was preserved. Unexposed reach remains unavailable."
+      "detail": "September 27: 5,999 followers verified; no new owned posts found. Post-level engagement remained unavailable without login and was preserved. Unexposed reach remains unavailable."
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
-      "status": "needs-setup",
-      "detail": "September 27: AI Leadership has 1,201 followers. Recent-sort feed shows no recent owned company activity."
+      "status": "unavailable",
+      "detail": "September 27: AI Leadership was verified earlier today at 1,201 followers with no recent owned company activity. The later signed-in browser session was unavailable and LinkedIn's public view was blocked by its sign-up wall; the verified value and post state were preserved."
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "September 27: verified Geoff LinkedIn 19,786, Instagram 6,000, X 4,127, TikTok 62, and AI Leadership LinkedIn 1,201. No new owned posts were found; refreshed five recent Geoff LinkedIn posts where metrics were visible. Instagram post engagement was unavailable, and YouTube was unavailable."
+      "detail": "September 27: earlier signed-in verification recorded Geoff LinkedIn 19,786 and AI Leadership LinkedIn 1,201; later public verification recorded Instagram 5,999, X 4,127, and TikTok 62. No new owned posts were found. Five LinkedIn posts retain today's earlier verified metrics, and four TikTok posts were refreshed later. The later signed-in browser session, Instagram post engagement, and YouTube were unavailable."
     },
     {
       "id": "mentions",
