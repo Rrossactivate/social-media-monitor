@@ -144,6 +144,13 @@ function comparisonLabel() {
   return `${state.days}D change`;
 }
 
+function growthChannelLabel(channel) {
+  if (channel.id === "linkedin-geoff") return "Geoff LinkedIn";
+  if (channel.id === "linkedin-ai-leadership") return "AIL LinkedIn";
+  if (channel.id === "loops-ail-newsletter") return "Newsletter";
+  return channel.platform;
+}
+
 function renderHeader() {
   const generated = state.status?.generatedAt ? new Date(state.status.generatedAt) : null;
   const generatedLabel = generated && !Number.isNaN(generated.getTime()) ? longDateTime.format(generated) : "Not yet run";
@@ -198,6 +205,19 @@ function renderKpis() {
     : state.days
       ? `During the last ${state.days} days`
       : "Across the full archive";
+  $("#growth-breakdown").innerHTML = channels
+    .map((channel) => {
+      const first = earliestInRange(channel.id);
+      const last = latestFor(channel.id);
+      const delta = first && last && first.date !== last.date ? last.audience - first.audience : null;
+      const value = delta === null ? "—" : `${delta > 0 ? "+" : ""}${fullNumber.format(delta)}`;
+      const tone = delta === null || delta === 0 ? "" : delta > 0 ? " positive" : " negative";
+      return `<div class="growth-channel">
+        <span class="growth-channel-name"><i style="--channel-color:${channel.color}"></i>${escapeHtml(growthChannelLabel(channel))}</span>
+        <strong class="growth-channel-value${tone}">${value}</strong>
+      </div>`;
+    })
+    .join("");
   $("#kpi-posts").textContent = fullNumber.format(posts.length);
   $("#kpi-posts-note").textContent = state.days === 1
     ? "Tracked during the latest day"

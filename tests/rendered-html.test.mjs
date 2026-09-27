@@ -26,6 +26,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(html, /id="download-mentions"[^>]*>Export mentions</);
   assert.doesNotMatch(html, />Download archive</);
   assert.match(html, />Tracked audience total</);
+  assert.match(html, /id="growth-breakdown"/);
   assert.match(html, />Visible engagements</);
   assert.doesNotMatch(html, />Known cross-channel count</);
   assert.doesNotMatch(html, /Posts tracked is the number of recent posts/);
@@ -49,6 +50,7 @@ test("dashboard ships the required static assets and data hooks", async () => {
   assert.match(script, /all-time change/);
   assert.match(script, /\$\{state\.days\}D change/);
   assert.match(script, /Compared with the previous daily snapshot/);
+  assert.match(script, /growthChannelLabel/);
   assert.match(script, /mention-reach-summary"\)\.hidden = !hasVisibleReach/);
   assert.match(script, /state\.postSort === "newest"/);
   assert.match(script, /aHasMetric !== bHasMetric/);

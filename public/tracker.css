@@ -324,6 +324,57 @@ main {
   font-size: 12px;
 }
 
+.growth-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.growth-breakdown {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 7px 8px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.growth-channel {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.growth-channel-name {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 10px !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.growth-channel-name i {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--channel-color);
+}
+
+.growth-channel-value {
+  margin: 0;
+  flex: 0 0 auto;
+  color: var(--ink);
+  font-size: 10px !important;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
 .positive { color: var(--green) !important; }
 .negative { color: var(--red) !important; }
 
@@ -1083,6 +1134,10 @@ footer a {
 
   .kpi-card {
     min-height: 128px;
+  }
+
+  .growth-breakdown {
+    grid-template-columns: 1fr;
   }
 
   .panel-heading {
