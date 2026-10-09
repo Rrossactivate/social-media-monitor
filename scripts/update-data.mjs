@@ -1,6 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { mergeMeasurement, carryForward } from "./measurement-merge.mjs";
+const attemptedAt = new Date().toISOString();
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const files = {
@@ -23,30 +25,28 @@ const statusById = new Map((previousStatus.providers || []).map((provider) => [p
 
 function markProvider(id, status, detail) {
   const provider = statusById.get(id) || { id, label: id, mode: "api" };
-  statusById.set(id, { ...provider, status, detail });
-}
-
-function sourcePriority(source = "") {
-  if (source === "manual-override") return 4;
-  if (source === "browser-verified") return 3;
-  if (source.endsWith("-api")) return 2;
-  if (source === "carry-forward") return 1;
-  return 0;
+  statusById.set(id, { ...provider, status, detail, lastAttemptAt: attemptedAt, lastAttemptStatus: status, ...(status === "ready" ? { lastSuccessAt: attemptedAt } : {}) });
 }
 
 function upsertSnapshot(snapshot) {
-  const index = snapshots.findIndex((item) => item.date === snapshot.date && item.channelId === snapshot.channelId);
-  if (index >= 0 && sourcePriority(snapshots[index].source) > sourcePriority(snapshot.source)) return;
-  if (index >= 0) snapshots[index] = { ...snapshots[index], ...snapshot };
-  else snapshots.push(snapshot);
+  if (snapshot.source?.endsWith("-api")) snapshot = { ...snapshot, verifiedAt: new Date().toISOString(), sourceUrl: channels.find(c => c.id === snapshot.channelId)?.profileUrl };
+  const index = snapshots.findIndex(item => item.date === snapshot.date && item.channelId === snapshot.channelId);
+  const merged = mergeMeasurement(index >= 0 ? snapshots[index] : {}, snapshot);
+  if (index >= 0) snapshots[index] = merged;
+  else if (Number.isFinite(merged.audience)) snapshots.push(merged);
 }
 
-function upsertPost(post) {
-  const index = posts.findIndex((item) => item.id === post.id);
-  if (index >= 0 && sourcePriority(posts[index].source) > sourcePriority(post.source)) return;
-  if (index >= 0) posts[index] = { ...posts[index], ...post };
-  else posts.push(post);
+function canonicalPostUrl(url = "") {
+  return url.replace(/\?.*$/, "").replace(/\/$/, "").replace(/instagram\.com\/[^/]+\/reel\//, "instagram.com/reel/");
 }
+function upsertPost(post) {
+  const index = posts.findIndex(item => item.id === post.id || (post.url && canonicalPostUrl(item.url) === canonicalPostUrl(post.url)));
+  const merged = mergeMeasurement(index >= 0 ? posts[index] : {}, { ...post, lastAttemptAt: attemptedAt });
+  if (index >= 0) posts[index] = { ...merged, id: posts[index].id };
+  else posts.push(merged);
+}
+const metric = value => value == null ? null : Number.isFinite(Number(value)) ? Number(value) : null;
+const sumVisible = values => values.some(Number.isFinite) ? values.filter(Number.isFinite).reduce((a, b) => a + b, 0) : null;
 
 async function getJson(url, options = {}) {
   const response = await fetch(url, options);
@@ -55,6 +55,10 @@ async function getJson(url, options = {}) {
 }
 
 async function updateYouTube() {
+  if (channels.find(item => item.provider === "youtube")?.collectionPaused) {
+    markProvider("youtube", "paused", "Owned YouTube collection paused at user request pending the correct channel URL. Guest appearances remain tracked separately.");
+    return;
+  }
   if (!process.env.YOUTUBE_API_KEY) {
     markProvider("youtube", "needs-setup", "Add YOUTUBE_API_KEY");
     return;
@@ -72,7 +76,7 @@ async function updateYouTube() {
     upsertSnapshot({
       date: today,
       channelId: channel.id,
-      audience: Number(record.statistics.subscriberCount),
+      audience: record.statistics.hiddenSubscriberCount ? null : metric(record.statistics.subscriberCount),
       source: "youtube-api",
       precision: record.statistics.hiddenSubscriberCount ? "hidden" : "api-rounded",
     });
@@ -95,7 +99,8 @@ async function updateYouTube() {
             publishedAt: video.snippet.publishedAt,
             title: video.snippet.title,
             url: `https://www.youtube.com/watch?v=${video.id}`,
-            views: Number(video.statistics.viewCount || 0),
+            views: metric(video.statistics.viewCount),
+            engagementsPrecision: "visible-minimum",
             engagements: visibleEngagements.length ? visibleEngagements.reduce((sum, value) => sum + value, 0) : null,
             likes,
             comments,
@@ -137,10 +142,11 @@ async function updateX() {
         text: tweet.text,
         url: `https://x.com/${channel.handle}/status/${tweet.id}`,
         ...(Number.isFinite(impressions) ? { impressions, reachStatus: "visible" } : { reachStatus: "not-visible" }),
-        engagements: Number(metrics.like_count || 0) + Number(metrics.reply_count || 0) + Number(metrics.retweet_count || 0) + Number(metrics.quote_count || 0),
-        likes: Number(metrics.like_count || 0),
-        comments: Number(metrics.reply_count || 0),
-        shares: Number(metrics.retweet_count || 0) + Number(metrics.quote_count || 0),
+        engagements: sumVisible([metric(metrics.like_count), metric(metrics.reply_count), metric(metrics.retweet_count), metric(metrics.quote_count)]),
+        engagementsPrecision: "visible-minimum",
+        likes: metric(metrics.like_count),
+        comments: metric(metrics.reply_count),
+        shares: metrics.retweet_count == null || metrics.quote_count == null ? null : Number(metrics.retweet_count) + Number(metrics.quote_count),
         source: "x-api",
         updatedAt: new Date().toISOString(),
       });
@@ -171,8 +177,8 @@ async function updateInstagram() {
     });
     const media = await getJson(`https://graph.instagram.com/${version}/${userId}/media?${mediaQuery}`);
     for (const item of media.data || []) {
-      const likes = Number(item.like_count || 0);
-      const comments = Number(item.comments_count || 0);
+      const likes = metric(item.like_count);
+      const comments = metric(item.comments_count);
       upsertPost({
         id: `instagram:${item.id}`,
         channelId: channel.id,
@@ -180,7 +186,8 @@ async function updateInstagram() {
         text: item.caption || item.media_type,
         url: item.permalink,
         reachStatus: "not-visible",
-        engagements: likes + comments,
+        engagements: sumVisible([likes, comments]),
+        engagementsPrecision: "visible-minimum",
         likes,
         comments,
         source: "instagram-api",
@@ -226,8 +233,8 @@ await Promise.all([updateYouTube(), updateX(), updateInstagram(), updateLinkedIn
 // A dated carry-forward makes the daily archive continuous without pretending a stale value was freshly measured.
 for (const channel of channels) {
   if (snapshots.some((item) => item.channelId === channel.id && item.date === today)) continue;
-  const latest = snapshots.filter((item) => item.channelId === channel.id).sort((a, b) => a.date.localeCompare(b.date)).at(-1);
-  if (latest) upsertSnapshot({ ...latest, date: today, source: "carry-forward", precision: "stale" });
+  const latest = snapshots.filter((item) => item.channelId === channel.id && item.date < today).sort((a, b) => a.date.localeCompare(b.date)).at(-1);
+  if (latest) snapshots.push(carryForward(latest, today, attemptedAt));
 }
 
 snapshots.sort((a, b) => a.date.localeCompare(b.date) || a.channelId.localeCompare(b.channelId));

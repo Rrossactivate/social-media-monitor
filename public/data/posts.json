@@ -1,5 +1,117 @@
 [
   {
+    "id": "linkedin:7514033090072133632",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-10-08T12:00:00-07:00",
+    "datePrecision": "day",
+    "title": "Just got news of this today. Audible recognition for The AI-Driven Leader.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514033090072133632/",
+    "reactions": 26,
+    "comments": 6,
+    "reposts": null,
+    "engagements": 32,
+    "engagementsPrecision": "visible-minimum",
+    "reachStatus": "not-visible",
+    "source": "browser-verified",
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "notes": "Publication time is a placeholder; the date has day precision.",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
+  },
+  {
+    "id": "linkedin:7513262656590503937",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-10-06T12:00:00-07:00",
+    "datePrecision": "day",
+    "title": "The AI-Driven Leader is on sale for Amazon Prime Day.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7513262656590503937/",
+    "reactions": 24,
+    "comments": 4,
+    "reposts": 2,
+    "engagements": 30,
+    "engagementsPrecision": "visible-minimum",
+    "reachStatus": "not-visible",
+    "source": "browser-verified",
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "notes": "Publication time is a placeholder; the date has day precision.",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
+  },
+  {
+    "id": "linkedin:7510898851302567936",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-09-29T12:00:00-07:00",
+    "datePrecision": "day",
+    "title": "Speaking at Capital One Hall: leaders modeling AI adoption.",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510898851302567936/",
+    "reactions": 231,
+    "comments": 12,
+    "reposts": 1,
+    "engagements": 244,
+    "engagementsPrecision": "visible-minimum",
+    "reachStatus": "not-visible",
+    "source": "browser-verified",
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "notes": "Publication time is a placeholder; the date has day precision.",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
+  },
+  {
+    "id": "linkedin:7510482805252939776",
+    "channelId": "linkedin-geoff",
+    "publishedAt": "2026-09-28T12:00:00-07:00",
+    "datePrecision": "day",
+    "title": "Diamond member session with Geoff Woods (posted with Matthew Guss).",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510482805252939776/",
+    "reactions": 12,
+    "comments": 1,
+    "reposts": null,
+    "engagements": 13,
+    "engagementsPrecision": "visible-minimum",
+    "reachStatus": "not-visible",
+    "source": "browser-verified",
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "notes": "Publication time is a placeholder; the date has day precision.",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
+  },
+  {
     "id": "linkedin:7508586086261108738",
     "channelId": "linkedin-geoff",
     "publishedAt": "2026-09-23T11:00:00-07:00",
@@ -7,14 +119,28 @@
     "title": "Watch: Live CRIT Session with Leigh Elena Henderson.",
     "url": "https://www.linkedin.com/video/event/urn:li:ugcPost:7508586086261108738/",
     "reachStatus": "not-visible",
-    "engagements": 34,
+    "engagements": 38,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 27,
+    "reactions": 31,
     "comments": 3,
     "reposts": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T13:17:01.428Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7508518121880764416",
@@ -24,14 +150,28 @@
     "title": "Every function wants to own AI. Nobody owns how leadership thinks and decides.",
     "url": "https://www.linkedin.com/posts/geoff-woods-8534774_every-function-wants-to-own-ai-nobody-owns-activity-7508518121880764416-LR9C",
     "reachStatus": "not-visible",
-    "engagements": 32,
+    "engagements": 39,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 27,
-    "comments": 4,
+    "reactions": 33,
+    "comments": 5,
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T13:17:01.428Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7508177556706107416",
@@ -42,14 +182,26 @@
     "title": "She spent twenty years inside corporate HR. Tomorrow she hands her hardest problem to AI. Live.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7508177556706107416/",
     "reachStatus": "not-visible",
-    "engagements": 35,
+    "engagements": 36,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 30,
+    "reactions": 31,
     "comments": 5,
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T13:17:01.428Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7505630482034769922",
@@ -59,14 +211,28 @@
     "title": "Automation is the last step in process improvement. Most companies are making it the first.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505630482034769922/",
     "reachStatus": "not-visible",
-    "engagements": 40,
+    "engagements": 44,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 31,
+    "reactions": 35,
     "comments": 4,
     "reposts": 5,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T13:17:01.428Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7505324916146073600",
@@ -76,14 +242,28 @@
     "title": "I use AI as a thought partner in three ways: CRIT™, challenger, and customer. Most leaders stop after the first.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7505324916146073600/",
     "reachStatus": "not-visible",
-    "engagements": 40,
+    "engagements": 42,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 33,
+    "reactions": 35,
     "comments": 6,
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T13:17:01.428Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "instagram:DdKHVbFj-a7",
@@ -93,15 +273,27 @@
     "title": "The top three ways a leader can use AI as a thought partner: CRIT, challenger, and customer.",
     "url": "https://www.instagram.com/geoffwoods/reel/DdKHVbFj-a7/",
     "reachStatus": "not-visible",
-    "engagements": 4,
+    "engagements": 9,
     "engagementsPrecision": "visible-minimum",
-    "likes": 4,
+    "likes": 8,
     "comments": null,
-    "reposts": null,
+    "reposts": 1,
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "likes": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "engagements": "browser-verified",
+      "reposts": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "tiktok:7684355587328478478",
@@ -111,15 +303,33 @@
     "title": "Three ways to use AI as a thought partner: CRIT, challenger, and customer.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7684355587328478478",
     "views": 198,
-    "engagements": 6,
+    "engagements": 8,
     "engagementsPrecision": "visible-minimum",
-    "likes": 2,
+    "likes": 3,
     "comments": 0,
-    "saves": 4,
-    "shares": null,
+    "saves": 5,
+    "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T19:48:21.203Z",
-    "viewsVerifiedAt": "2026-10-09T02:18:16.000Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "views": "2026-10-09T03:31:08.013Z",
+      "likes": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "saves": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z",
+      "shares": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified",
+      "shares": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7504237634899234816",
@@ -129,14 +339,26 @@
     "title": "Step one to becoming an AI-driven leader costs about a dollar: two sticky notes and a Sharpie.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7504237634899234816/",
     "reachStatus": "not-visible",
-    "engagements": 16,
+    "engagements": 20,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 13,
+    "reactions": 17,
     "comments": 3,
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T17:02:25.747Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "instagram:DdHiaSMjutr",
@@ -146,15 +368,25 @@
     "title": "Step one to becoming an AI-driven leader: two sticky notes and a Sharpie.",
     "url": "https://www.instagram.com/geoffwoods/reel/DdHiaSMjutr/",
     "reachStatus": "not-visible",
-    "engagements": 17,
+    "engagements": 20,
     "engagementsPrecision": "visible-minimum",
-    "likes": 17,
+    "likes": 20,
     "comments": null,
     "reposts": null,
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "likes": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7503814679690039297",
@@ -164,14 +396,26 @@
     "title": "Before you buy another AI tool, do this.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503814679690039297/",
     "reachStatus": "not-visible",
-    "engagements": 29,
+    "engagements": 30,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 27,
+    "reactions": 28,
     "comments": 2,
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-23T13:00:47.374Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "tiktok:7683983538198252814",
@@ -186,10 +430,28 @@
     "likes": 1,
     "comments": 0,
     "saves": 1,
-    "shares": null,
+    "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T19:48:21.203Z",
-    "viewsVerifiedAt": "2026-10-09T02:18:16.000Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "views": "2026-10-09T03:31:08.013Z",
+      "likes": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "saves": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z",
+      "shares": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified",
+      "shares": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "instagram:DdE9pyolVL-",
@@ -207,7 +469,17 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "likes": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7503440530828083200",
@@ -224,7 +496,21 @@
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-22T13:01:11.946Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "tiktok:7683612493666602253",
@@ -239,10 +525,28 @@
     "likes": 2,
     "comments": 0,
     "saves": 1,
-    "shares": null,
+    "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T19:48:21.203Z",
-    "viewsVerifiedAt": "2026-10-09T02:18:16.000Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "views": "2026-10-09T03:31:08.013Z",
+      "likes": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "saves": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z",
+      "shares": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified",
+      "shares": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "instagram:DdCYzWxCC4t",
@@ -260,7 +564,19 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "likes": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7503165406791020544",
@@ -270,14 +586,28 @@
     "title": "For the leaders not using AI yet, it's usually one of three things.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7503165406791020544/",
     "reachStatus": "not-visible",
-    "engagements": 34,
+    "engagements": 40,
     "engagementsPrecision": "visible-minimum",
-    "reactions": 27,
+    "reactions": 32,
     "comments": 5,
-    "reposts": 2,
+    "reposts": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "reposts": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "tiktok:7683241335528230158",
@@ -287,15 +617,33 @@
     "title": "For the leaders not using AI yet, it's usually one of three things.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7683241335528230158",
     "views": 162,
-    "engagements": 1,
+    "engagements": 3,
     "engagementsPrecision": "visible-minimum",
-    "likes": 0,
+    "likes": 1,
     "comments": 0,
-    "saves": 1,
-    "shares": null,
+    "saves": 2,
+    "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-27T19:48:21.203Z",
-    "viewsVerifiedAt": "2026-10-09T02:18:16.000Z"
+    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
+    "metricVerifiedAt": {
+      "views": "2026-10-09T03:31:08.013Z",
+      "likes": "2026-10-09T03:31:08.013Z",
+      "comments": "2026-10-09T03:31:08.013Z",
+      "saves": "2026-10-09T03:31:08.013Z",
+      "engagements": "2026-10-09T03:31:08.013Z",
+      "shares": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified",
+      "shares": "browser-verified"
+    },
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "instagram:Dc4Fu36EfUl",
@@ -313,7 +661,17 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7681756991575854350",
@@ -330,7 +688,21 @@
     "saves": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7501700843004465152",
@@ -347,7 +719,19 @@
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:Dc1hAnljIOZ",
@@ -365,7 +749,15 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7681386201206492430",
@@ -382,7 +774,21 @@
     "saves": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7501286821818003457",
@@ -399,7 +805,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:Dcy8D-PnSKH",
@@ -417,7 +835,15 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7681045919906794766",
@@ -434,7 +860,21 @@
     "saves": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7681014892740070669",
@@ -451,7 +891,21 @@
     "saves": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7500927041442250753",
@@ -468,7 +922,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7500911464535265280",
@@ -485,7 +951,19 @@
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DcwvSVHglgS",
@@ -503,7 +981,17 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7500664578989744129",
@@ -520,7 +1008,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DctyepXj_CV",
@@ -538,7 +1038,15 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7680272554094759181",
@@ -555,7 +1063,21 @@
     "saves": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7500251298412482562",
@@ -572,7 +1094,19 @@
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7499216539309580288",
@@ -589,7 +1123,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7679176688542043406",
@@ -606,7 +1152,21 @@
     "saves": 5,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7499103620563648513",
@@ -623,7 +1183,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7676998177374997773",
@@ -640,7 +1212,21 @@
     "saves": 6,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T14:24:39.336Z",
+      "likes": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "saves": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7496566803876478976",
@@ -657,7 +1243,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T14:24:39.336Z"
+    "updatedAt": "2026-09-19T14:24:39.336Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-19T14:24:39.336Z",
+      "comments": "2026-09-19T14:24:39.336Z",
+      "reposts": "2026-09-19T14:24:39.336Z",
+      "engagements": "2026-09-19T14:24:39.336Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7675859079968853262",
@@ -674,7 +1272,21 @@
     "saves": 10,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-19T00:00:21.877Z"
+    "updatedAt": "2026-09-19T00:00:21.877Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-19T00:00:21.877Z",
+      "likes": "2026-09-19T00:00:21.877Z",
+      "comments": "2026-09-19T00:00:21.877Z",
+      "saves": "2026-09-19T00:00:21.877Z",
+      "engagements": "2026-09-19T00:00:21.877Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DcMUS9AEr4Z",
@@ -691,7 +1303,17 @@
     "shares": null,
     "saves": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-06T02:39:25.226Z"
+    "updatedAt": "2026-09-06T02:39:25.226Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-06T02:39:25.226Z",
+      "comments": "2026-09-06T02:39:25.226Z",
+      "engagements": "2026-09-06T02:39:25.226Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DcKTugauWPi",
@@ -709,7 +1331,19 @@
     "shares": null,
     "saves": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-06T02:39:25.226Z"
+    "updatedAt": "2026-09-06T02:39:25.226Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-06T02:39:25.226Z",
+      "comments": "2026-09-06T02:39:25.226Z",
+      "reposts": "2026-09-06T02:39:25.226Z",
+      "engagements": "2026-09-06T02:39:25.226Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7494845041039872000",
@@ -726,7 +1360,19 @@
     "reposts": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-01T13:00:52.266Z"
+    "updatedAt": "2026-09-01T13:00:52.266Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-09-01T13:00:52.266Z",
+      "comments": "2026-09-01T13:00:52.266Z",
+      "reposts": "2026-09-01T13:00:52.266Z",
+      "engagements": "2026-09-01T13:00:52.266Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7673994894167248141",
@@ -743,7 +1389,23 @@
     "saves": 7,
     "shares": 3,
     "source": "browser-verified",
-    "updatedAt": "2026-09-14T13:00:26.225Z"
+    "updatedAt": "2026-09-14T13:00:26.225Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-14T13:00:26.225Z",
+      "likes": "2026-09-14T13:00:26.225Z",
+      "comments": "2026-09-14T13:00:26.225Z",
+      "shares": "2026-09-14T13:00:26.225Z",
+      "saves": "2026-09-14T13:00:26.225Z",
+      "engagements": "2026-09-14T13:00:26.225Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7493724391319511040",
@@ -760,7 +1422,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-23T16:18:23.580Z"
+    "updatedAt": "2026-08-23T16:18:23.580Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-23T16:18:23.580Z",
+      "comments": "2026-08-23T16:18:23.580Z",
+      "reposts": "2026-08-23T16:18:23.580Z",
+      "engagements": "2026-08-23T16:18:23.580Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7493668163985891328",
@@ -777,7 +1451,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-28T13:01:28.532Z"
+    "updatedAt": "2026-08-28T13:01:28.532Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-28T13:01:28.532Z",
+      "comments": "2026-08-28T13:01:28.532Z",
+      "reposts": "2026-08-28T13:01:28.532Z",
+      "engagements": "2026-08-28T13:01:28.532Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:Db83fKWEw5M",
@@ -794,7 +1480,19 @@
     "reposts": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-06T02:39:25.226Z"
+    "updatedAt": "2026-09-06T02:39:25.226Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-06T02:39:25.226Z",
+      "comments": "2026-09-06T02:39:25.226Z",
+      "reposts": "2026-09-06T02:39:25.226Z",
+      "engagements": "2026-09-06T02:39:25.226Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7493305712761131010",
@@ -811,7 +1509,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-28T13:01:28.532Z"
+    "updatedAt": "2026-08-28T13:01:28.532Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-28T13:01:28.532Z",
+      "comments": "2026-08-28T13:01:28.532Z",
+      "reposts": "2026-08-28T13:01:28.532Z",
+      "engagements": "2026-08-28T13:01:28.532Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:2026-08-11-carolyn-signed-book",
@@ -828,7 +1538,15 @@
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-21T13:01:17.252Z"
+    "updatedAt": "2026-08-21T13:01:17.252Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-21T13:01:17.252Z",
+      "engagements": "2026-08-21T13:01:17.252Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:Db22ABmDmFt",
@@ -846,7 +1564,19 @@
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-06T02:39:25.226Z"
+    "updatedAt": "2026-09-06T02:39:25.226Z",
+    "metricVerifiedAt": {
+      "likes": "2026-09-06T02:39:25.226Z",
+      "comments": "2026-09-06T02:39:25.226Z",
+      "reposts": "2026-09-06T02:39:25.226Z",
+      "engagements": "2026-09-06T02:39:25.226Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7672436233821228301",
@@ -863,7 +1593,21 @@
     "saves": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-14T13:00:26.225Z"
+    "updatedAt": "2026-09-14T13:00:26.225Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-14T13:00:26.225Z",
+      "likes": "2026-09-14T13:00:26.225Z",
+      "comments": "2026-09-14T13:00:26.225Z",
+      "saves": "2026-09-14T13:00:26.225Z",
+      "engagements": "2026-09-14T13:00:26.225Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:2026-08-10-hudson-airport-bookstores",
@@ -880,7 +1624,19 @@
     "reposts": 5,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-16T20:35:28.741Z"
+    "updatedAt": "2026-08-16T20:35:28.741Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-16T20:35:28.741Z",
+      "comments": "2026-08-16T20:35:28.741Z",
+      "reposts": "2026-08-16T20:35:28.741Z",
+      "engagements": "2026-08-16T20:35:28.741Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:cya1G4ywHrA",
@@ -896,7 +1652,17 @@
     "comments": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-11T13:05:42.000Z"
+    "updatedAt": "2026-08-11T13:05:42.000Z",
+    "metricVerifiedAt": {
+      "views": "2026-08-11T13:05:42.000Z",
+      "likes": "2026-08-11T13:05:42.000Z",
+      "engagements": "2026-08-11T13:05:42.000Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7491131742893002753",
@@ -912,7 +1678,17 @@
     "comments": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-10T13:07:41.000Z"
+    "updatedAt": "2026-08-10T13:07:41.000Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-10T13:07:41.000Z",
+      "comments": "2026-08-10T13:07:41.000Z",
+      "engagements": "2026-08-10T13:07:41.000Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:Dbq76A8FIg4",
@@ -928,7 +1704,17 @@
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-12T13:05:32.000Z"
+    "updatedAt": "2026-08-12T13:05:32.000Z",
+    "metricVerifiedAt": {
+      "likes": "2026-08-12T13:05:32.000Z",
+      "comments": "2026-08-12T13:05:32.000Z",
+      "engagements": "2026-08-12T13:05:32.000Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7670715814961564941",
@@ -945,7 +1731,23 @@
     "saves": 0,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "shares": "2026-09-12T13:01:45.226Z",
+      "saves": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:arQzClF_UOE",
@@ -961,7 +1763,19 @@
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7490769412191490049",
@@ -977,7 +1791,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-09T19:45:38.411Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-09T19:45:38.411Z",
+      "comments": "2026-08-09T19:45:38.411Z",
+      "engagements": "2026-08-09T19:45:38.411Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:KZNp5YiJxSI",
@@ -993,7 +1817,19 @@
     "comments": 4,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7490436402602663936",
@@ -1010,7 +1846,19 @@
     "reposts": 6,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-16T20:35:28.741Z"
+    "updatedAt": "2026-08-16T20:35:28.741Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-16T20:35:28.741Z",
+      "comments": "2026-08-16T20:35:28.741Z",
+      "reposts": "2026-08-16T20:35:28.741Z",
+      "engagements": "2026-08-16T20:35:28.741Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7669974809916214559",
@@ -1027,7 +1875,21 @@
     "saves": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "saves": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7490044619359989762",
@@ -1043,7 +1905,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-09T19:45:38.411Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-09T19:45:38.411Z",
+      "comments": "2026-08-09T19:45:38.411Z",
+      "engagements": "2026-08-09T19:45:38.411Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbjHg0BEmRZ",
@@ -1059,7 +1931,17 @@
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-04T13:18:27.437Z"
+    "updatedAt": "2026-08-04T13:18:27.437Z",
+    "metricVerifiedAt": {
+      "likes": "2026-08-04T13:18:27.437Z",
+      "comments": "2026-08-04T13:18:27.437Z",
+      "engagements": "2026-08-04T13:18:27.437Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:Dbd-F4ZjnQC",
@@ -1075,7 +1957,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-02T13:17:28.386Z",
+    "metricVerifiedAt": {
+      "likes": "2026-08-02T13:17:28.386Z",
+      "comments": "2026-08-02T13:17:28.386Z",
+      "engagements": "2026-08-02T13:17:28.386Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7488957331762749440",
@@ -1091,7 +1983,15 @@
     "comments": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-09T19:45:38.411Z"
+    "updatedAt": "2026-08-09T19:45:38.411Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-09T19:45:38.411Z",
+      "engagements": "2026-08-09T19:45:38.411Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbbZP0YEVFD",
@@ -1107,7 +2007,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-07-31T13:23:11.860Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-31T13:23:11.860Z",
+      "comments": "2026-07-31T13:23:11.860Z",
+      "engagements": "2026-07-31T13:23:11.860Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7668104104287145230",
@@ -1124,7 +2034,23 @@
     "saves": 0,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-14T13:00:26.225Z"
+    "updatedAt": "2026-09-14T13:00:26.225Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-14T13:00:26.225Z",
+      "likes": "2026-09-14T13:00:26.225Z",
+      "comments": "2026-09-14T13:00:26.225Z",
+      "shares": "2026-09-14T13:00:26.225Z",
+      "saves": "2026-09-14T13:00:26.225Z",
+      "engagements": "2026-09-14T13:00:26.225Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7488594991590617089",
@@ -1140,7 +2066,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-02T13:17:28.386Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-02T13:17:28.386Z",
+      "comments": "2026-08-02T13:17:28.386Z",
+      "engagements": "2026-08-02T13:17:28.386Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbY0e01l72k",
@@ -1156,7 +2092,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-07-31T13:23:11.860Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-31T13:23:11.860Z",
+      "comments": "2026-07-31T13:23:11.860Z",
+      "engagements": "2026-07-31T13:23:11.860Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7488232562323091456",
@@ -1172,7 +2118,15 @@
     "comments": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-02T13:17:28.386Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-02T13:17:28.386Z",
+      "engagements": "2026-08-02T13:17:28.386Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbWPm7-Cce_",
@@ -1189,7 +2143,19 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-29T13:17:57.478Z"
+    "updatedAt": "2026-07-29T13:17:57.478Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-29T13:17:57.478Z",
+      "comments": "2026-07-29T13:17:57.478Z",
+      "reposts": "2026-07-29T13:17:57.478Z",
+      "engagements": "2026-07-29T13:17:57.478Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "reposts": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7487870140995375104",
@@ -1205,7 +2171,17 @@
     "comments": 5,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-02T13:17:28.386Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-02T13:17:28.386Z",
+      "comments": "2026-08-02T13:17:28.386Z",
+      "engagements": "2026-08-02T13:17:28.386Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:KVzHu1HV9oI",
@@ -1221,7 +2197,19 @@
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-08-04T13:18:27.437Z"
+    "updatedAt": "2026-08-04T13:18:27.437Z",
+    "metricVerifiedAt": {
+      "views": "2026-08-04T13:18:27.437Z",
+      "likes": "2026-08-04T13:18:27.437Z",
+      "comments": "2026-08-04T13:18:27.437Z",
+      "engagements": "2026-08-04T13:18:27.437Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbTq429EdJc",
@@ -1237,7 +2225,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-28T13:37:19.407Z"
+    "updatedAt": "2026-07-28T13:37:19.407Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-28T13:37:19.407Z",
+      "comments": "2026-07-28T13:37:19.407Z",
+      "engagements": "2026-07-28T13:37:19.407Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7487560139634413569",
@@ -1253,7 +2251,19 @@
     "comments": 1,
     "shares": 2,
     "source": "browser-verified",
-    "updatedAt": "2026-08-02T13:17:28.386Z"
+    "updatedAt": "2026-08-02T13:17:28.386Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-08-02T13:17:28.386Z",
+      "comments": "2026-08-02T13:17:28.386Z",
+      "shares": "2026-08-02T13:17:28.386Z",
+      "engagements": "2026-08-02T13:17:28.386Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbRF7ynEu8U",
@@ -1269,7 +2279,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-28T13:37:19.407Z"
+    "updatedAt": "2026-07-28T13:37:19.407Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-28T13:37:19.407Z",
+      "comments": "2026-07-28T13:37:19.407Z",
+      "engagements": "2026-07-28T13:37:19.407Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:iZxR73HF9UI",
@@ -1282,7 +2302,19 @@
     "likes": 1,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbOhOC7EwOX",
@@ -1298,7 +2330,17 @@
     "comments": 2,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-28T13:37:19.407Z"
+    "updatedAt": "2026-07-28T13:37:19.407Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-28T13:37:19.407Z",
+      "comments": "2026-07-28T13:37:19.407Z",
+      "engagements": "2026-07-28T13:37:19.407Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7666478356954713357",
@@ -1315,7 +2357,23 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "shares": "2026-09-12T13:01:45.226Z",
+      "saves": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:OMqAZfQ5Vgc",
@@ -1328,7 +2386,19 @@
     "likes": 2,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7486420303498199040",
@@ -1344,7 +2414,19 @@
     "comments": 5,
     "shares": 5,
     "source": "browser-verified",
-    "updatedAt": "2026-07-31T13:23:11.860Z"
+    "updatedAt": "2026-07-31T13:23:11.860Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-07-31T13:23:11.860Z",
+      "comments": "2026-07-31T13:23:11.860Z",
+      "shares": "2026-07-31T13:23:11.860Z",
+      "engagements": "2026-07-31T13:23:11.860Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbL8ZvljGBN",
@@ -1360,7 +2442,17 @@
     "comments": 0,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-25T23:39:26.000Z"
+    "updatedAt": "2026-07-25T23:39:26.000Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-25T23:39:26.000Z",
+      "comments": "2026-07-25T23:39:26.000Z",
+      "engagements": "2026-07-25T23:39:26.000Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:qbORaNbYLD8",
@@ -1373,7 +2465,19 @@
     "likes": 3,
     "comments": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7486058058264203264",
@@ -1389,7 +2493,19 @@
     "comments": 4,
     "shares": 5,
     "source": "browser-verified",
-    "updatedAt": "2026-07-29T13:17:57.478Z"
+    "updatedAt": "2026-07-29T13:17:57.478Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-07-29T13:17:57.478Z",
+      "comments": "2026-07-29T13:17:57.478Z",
+      "shares": "2026-07-29T13:17:57.478Z",
+      "engagements": "2026-07-29T13:17:57.478Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "tiktok:7665781786542165261",
@@ -1406,7 +2522,23 @@
     "saves": 18,
     "shares": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "shares": "2026-09-12T13:01:45.226Z",
+      "saves": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "saves": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "instagram:DbJXp3BjSbi",
@@ -1422,7 +2554,17 @@
     "comments": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-25T23:39:26.000Z"
+    "updatedAt": "2026-07-25T23:39:26.000Z",
+    "metricVerifiedAt": {
+      "likes": "2026-07-25T23:39:26.000Z",
+      "comments": "2026-07-25T23:39:26.000Z",
+      "engagements": "2026-07-25T23:39:26.000Z"
+    },
+    "metricSources": {
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:e5kQX38Fb1I",
@@ -1435,7 +2577,19 @@
     "likes": 5,
     "comments": 1,
     "source": "browser-verified",
-    "updatedAt": "2026-09-12T13:01:45.226Z"
+    "updatedAt": "2026-09-12T13:01:45.226Z",
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7485695873746776064",
@@ -1451,7 +2605,17 @@
     "comments": 8,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-29T13:17:57.478Z"
+    "updatedAt": "2026-07-29T13:17:57.478Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-07-29T13:17:57.478Z",
+      "comments": "2026-07-29T13:17:57.478Z",
+      "engagements": "2026-07-29T13:17:57.478Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:HrjN8dOstQ8",
@@ -1464,7 +2628,19 @@
     "likes": 2,
     "comments": 0,
     "source": "youtube-api",
-    "updatedAt": "2026-07-28T14:07:23.977Z"
+    "updatedAt": "2026-07-28T14:07:23.977Z",
+    "metricVerifiedAt": {
+      "views": "2026-07-28T14:07:23.977Z",
+      "likes": "2026-07-28T14:07:23.977Z",
+      "comments": "2026-07-28T14:07:23.977Z",
+      "engagements": "2026-07-28T14:07:23.977Z"
+    },
+    "metricSources": {
+      "views": "youtube-api",
+      "likes": "youtube-api",
+      "comments": "youtube-api",
+      "engagements": "youtube-api"
+    }
   },
   {
     "id": "linkedin:7485333586615767040",
@@ -1480,7 +2656,19 @@
     "comments": 7,
     "shares": 2,
     "source": "browser-verified",
-    "updatedAt": "2026-07-28T13:37:19.407Z"
+    "updatedAt": "2026-07-28T13:37:19.407Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-07-28T13:37:19.407Z",
+      "comments": "2026-07-28T13:37:19.407Z",
+      "shares": "2026-07-28T13:37:19.407Z",
+      "engagements": "2026-07-28T13:37:19.407Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "shares": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:F-H9d5oGoq0",
@@ -1494,7 +2682,19 @@
     "source": "browser-verified",
     "updatedAt": "2026-09-12T13:01:45.226Z",
     "likes": 22,
-    "comments": 0
+    "comments": 0,
+    "metricVerifiedAt": {
+      "views": "2026-09-12T13:01:45.226Z",
+      "likes": "2026-09-12T13:01:45.226Z",
+      "comments": "2026-09-12T13:01:45.226Z",
+      "engagements": "2026-09-12T13:01:45.226Z"
+    },
+    "metricSources": {
+      "views": "browser-verified",
+      "likes": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "linkedin:7485000570496536579",
@@ -1510,7 +2710,17 @@
     "comments": 3,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-26T13:17:40.416Z"
+    "updatedAt": "2026-07-26T13:17:40.416Z",
+    "metricVerifiedAt": {
+      "reactions": "2026-07-26T13:17:40.416Z",
+      "comments": "2026-07-26T13:17:40.416Z",
+      "engagements": "2026-07-26T13:17:40.416Z"
+    },
+    "metricSources": {
+      "reactions": "browser-verified",
+      "comments": "browser-verified",
+      "engagements": "browser-verified"
+    }
   },
   {
     "id": "youtube:pg0W81UXkxk",
@@ -1524,7 +2734,19 @@
     "source": "youtube-api",
     "updatedAt": "2026-07-29T13:17:57.478Z",
     "likes": 3,
-    "comments": 0
+    "comments": 0,
+    "metricVerifiedAt": {
+      "views": "2026-07-29T13:17:57.478Z",
+      "likes": "2026-07-29T13:17:57.478Z",
+      "comments": "2026-07-29T13:17:57.478Z",
+      "engagements": "2026-07-29T13:17:57.478Z"
+    },
+    "metricSources": {
+      "views": "youtube-api",
+      "likes": "youtube-api",
+      "comments": "youtube-api",
+      "engagements": "youtube-api"
+    }
   },
   {
     "id": "youtube:poOGwDZRQkc",
@@ -1538,7 +2760,19 @@
     "source": "youtube-api",
     "updatedAt": "2026-07-29T13:17:57.478Z",
     "likes": 2,
-    "comments": 0
+    "comments": 0,
+    "metricVerifiedAt": {
+      "views": "2026-07-29T13:17:57.478Z",
+      "likes": "2026-07-29T13:17:57.478Z",
+      "comments": "2026-07-29T13:17:57.478Z",
+      "engagements": "2026-07-29T13:17:57.478Z"
+    },
+    "metricSources": {
+      "views": "youtube-api",
+      "likes": "youtube-api",
+      "comments": "youtube-api",
+      "engagements": "youtube-api"
+    }
   },
   {
     "id": "youtube:169lpuCOKdg",
@@ -1551,7 +2785,19 @@
     "likes": 2,
     "comments": 1,
     "source": "youtube-api",
-    "updatedAt": "2026-07-28T14:07:23.977Z"
+    "updatedAt": "2026-07-28T14:07:23.977Z",
+    "metricVerifiedAt": {
+      "views": "2026-07-28T14:07:23.977Z",
+      "likes": "2026-07-28T14:07:23.977Z",
+      "comments": "2026-07-28T14:07:23.977Z",
+      "engagements": "2026-07-28T14:07:23.977Z"
+    },
+    "metricSources": {
+      "views": "youtube-api",
+      "likes": "youtube-api",
+      "comments": "youtube-api",
+      "engagements": "youtube-api"
+    }
   },
   {
     "id": "youtube:p5ib_4xUXmg",
@@ -1563,6 +2809,12 @@
     "views": 441,
     "engagements": null,
     "source": "browser-verified",
-    "updatedAt": "2026-07-29T13:17:57.478Z"
+    "updatedAt": "2026-07-29T13:17:57.478Z",
+    "metricVerifiedAt": {
+      "views": "2026-07-29T13:17:57.478Z"
+    },
+    "metricSources": {
+      "views": "browser-verified"
+    }
   }
 ]

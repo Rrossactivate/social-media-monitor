@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-10-09T02:58:49.855Z",
-  "timezone": "America/Vancouver",
+  "generatedAt": "2026-10-09T03:31:08.017Z",
+  "timezone": "America/Los_Angeles",
   "providers": [
     {
       "id": "youtube",
       "label": "YouTube",
       "mode": "api",
-      "status": "error",
-      "detail": "Update failed: Channel not found"
+      "status": "paused",
+      "detail": "Owned channel skipped at user request pending the correct URL; verified third-party appearances remain tracked.",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "paused"
     },
     {
       "id": "x",
@@ -35,7 +37,7 @@
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "October 8: public audience verification recorded Instagram 6,044, X 4,127, and TikTok 67. TikTok profile shows 168 likes; four recent video views refreshed to 198, 186, 157, and 162 with viewsVerifiedAt timestamps. Other post metrics and their prior updatedAt timestamps were preserved. No new posts appeared in the accessible grids. Geoff LinkedIn hit a sign-in wall, company LinkedIn hit a verification checkpoint, Instagram post details require login, and both saved YouTube URLs failed. LinkedIn and YouTube audience values carried forward as stale. Earned media and newsletter data were not reverified or changed."
+      "detail": "See individual browser provider statuses for current observations. Manual overrides remain available for verified measurements."
     },
     {
       "id": "mentions",
@@ -48,8 +50,49 @@
       "id": "loops",
       "label": "AIL Newsletter · Loops",
       "mode": "browser",
+      "status": "unavailable",
+      "detail": "Built-in browser reached the Loops sign-in page. Previous September 27 subscriber observation retained as stale.",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "unavailable"
+    },
+    {
+      "id": "linkedin-browser",
+      "label": "LinkedIn browser",
+      "mode": "browser",
+      "status": "partial",
+      "detail": "Geoff: 20,200 followers; 4 newer posts added and 9 existing posts refreshed. Company: 1,230 followers verified; newest-post sorting could not be confirmed, so company activity coverage remains partial.",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "partial"
+    },
+    {
+      "id": "instagram-browser",
+      "label": "Instagram browser",
+      "mode": "browser",
       "status": "ready",
-      "detail": "September 27: 10,980 active AIL Newsletter subscribers verified in signed-in Loops with AIL Newsletter selected and Subscribed is true."
+      "detail": "6,044 followers verified. Visible engagement refreshed for the four September 8–11 posts; private reach and unexposed counts remain unavailable.",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "ready",
+      "lastSuccessAt": "2026-10-09T03:31:08.013Z"
+    },
+    {
+      "id": "x-browser",
+      "label": "X browser",
+      "mode": "browser",
+      "status": "ready",
+      "detail": "4,127 followers verified while signed in. Newest post visible in the profile timeline is March 10, 2018; this is not a claim about activity outside that view.",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "ready",
+      "lastSuccessAt": "2026-10-09T03:31:08.013Z"
+    },
+    {
+      "id": "tiktok-browser",
+      "label": "TikTok browser",
+      "mode": "browser",
+      "status": "ready",
+      "detail": "67 followers and 168 profile likes verified. Four recent videos refreshed with visible views, likes, comments, saves and shares.",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "ready",
+      "lastSuccessAt": "2026-10-09T03:31:08.013Z"
     }
   ]
 }

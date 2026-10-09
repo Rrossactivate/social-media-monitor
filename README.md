@@ -33,7 +33,7 @@ Earned media is never added to Geoff’s owned audience total. One appearance is
 
 GitHub Actions provides the durable daily baseline. It uses any configured repository API secrets, preserves the most recent value as explicitly stale when a provider is unavailable, validates the dashboard, commits changed archive files, and republishes GitHub Pages.
 
-The Codex daily automation remains the full verification path. It checks restricted channels through available signed-in sessions, searches for earned-media mentions, replaces same-day stale values with browser-verified measurements, runs the complete validation suite, and publishes the private Sites version. Browser-verified and manual records have higher priority than API or carry-forward records, so the GitHub baseline cannot overwrite a stronger archived measurement.
+The Codex daily automation remains the full verification path. It checks restricted channels through available signed-in sessions, searches for earned-media mentions, replaces same-day stale values with browser-verified measurements, runs the complete validation suite, and publishes GitHub Pages after validation. Comparable metrics use their actual verification times: a newer observation can replace an older one regardless of source; source priority breaks ties. Partial updates preserve each untouched metric’s verification time. Carry-forward dates are archive dates, not new observations. The browser refresh is configured in this Codex task and checks its signed-in sessions on every run.
 
 ## Credentials
 
@@ -113,5 +113,11 @@ The website opens at `http://localhost:3000/`. The standalone GitHub Pages build
 - `public/data/mentions.json`: verified non-owned mentions and guest appearances
 - `public/data/status.json`: latest provider run status
 - `config/manual-overrides.json`: hand-entered values merged by every run
-- `.github/workflows/pages.yml`: publishing-only GitHub Pages deployment
+- `.github/workflows/pages.yml`: daily API refresh and GitHub Pages deployment
 - `.openai/hosting.json`: existing private Sites project
+
+## Measurement freshness
+
+Use `mergeMeasurement` from `scripts/measurement-merge.mjs` when recording browser observations. Set the verification timestamp only for metrics actually observed; omit unavailable metrics instead of using zero. `metricVerifiedAt` and `metricSources` preserve independent provenance for each value. `lastAttemptAt` and `lastAttemptStatus` describe collection attempts and must not advance measurement timestamps. Legacy observations without a known time retain null timestamps or a day-only `observedOn`; do not invent historical times.
+
+Owned YouTube collection is paused via `collectionPaused` in the channel catalog until the correct channel is supplied. Third-party YouTube interviews remain part of earned media. Loops requires a separate sign-in. Company activity marked partial is not evidence of no new posts. Video views are plays, not unique audience reach.

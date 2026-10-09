@@ -10,10 +10,16 @@
     "profileUrl": "https://www.linkedin.com/in/geoff-woods-8534774/",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-09-27T13:17:01.428Z",
-      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
-      "lastAttemptStatus": "unavailable",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "verified",
       "windowDays": 30
+    },
+    "audienceTracking": {
+      "status": "verified",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "verified"
     }
   },
   {
@@ -27,9 +33,15 @@
     "profileUrl": "https://www.instagram.com/geoffwoods/",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T02:18:16.000Z",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
       "windowDays": 30,
-      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "verified"
+    },
+    "audienceTracking": {
+      "status": "verified",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -44,9 +56,15 @@
     "profileUrl": "https://x.com/geoffwoods",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T02:18:16.000Z",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
       "windowDays": 30,
-      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "verified"
+    },
+    "audienceTracking": {
+      "status": "verified",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -62,9 +80,15 @@
     "profileUrl": "https://www.tiktok.com/@realgeoffwoods",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T02:18:16.000Z",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
       "windowDays": 30,
-      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "verified"
+    },
+    "audienceTracking": {
+      "status": "verified",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -78,11 +102,17 @@
     "color": "#0F254C",
     "profileUrl": "https://www.linkedin.com/company/ai-thought-leadership/",
     "activityTracking": {
-      "status": "verified",
+      "status": "partial",
       "checkedAt": "2026-09-27T13:17:01.428Z",
-      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
-      "lastAttemptStatus": "unavailable",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "partial",
       "windowDays": 30
+    },
+    "audienceTracking": {
+      "status": "verified",
+      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "verified"
     }
   },
   {
@@ -96,12 +126,13 @@
     "color": "#97C0F9",
     "profileUrl": "https://www.youtube.com/@TheAI-DrivenLeader",
     "activityTracking": {
-      "status": "verified",
+      "status": "paused",
       "checkedAt": "2026-09-12T13:01:45.226Z",
       "lastAttemptAt": "2026-10-09T02:18:16.000Z",
       "lastAttemptStatus": "unavailable",
       "windowDays": 30
-    }
+    },
+    "collectionPaused": true
   },
   {
     "id": "loops-ail-newsletter",
@@ -114,9 +145,11 @@
     "profileUrl": "https://app.loops.so/audience?mailingListId=cmrkwwyqg1he70j1qhkrk9lbx",
     "category": "newsletter",
     "audienceTracking": {
-      "status": "verified",
+      "status": "unavailable",
       "checkedAt": "2026-09-27T13:17:01.428Z",
-      "scope": "AIL Newsletter mailing list; Subscribed is true"
+      "scope": "AIL Newsletter mailing list; Subscribed is true",
+      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptStatus": "login-required"
     },
     "activityTracking": {
       "status": "not-applicable"

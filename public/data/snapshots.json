@@ -4,2289 +4,2616 @@
     "channelId": "x-geoff",
     "audience": 4000,
     "source": "public-baseline",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-05-21"
   },
   {
     "date": "2026-06-22",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1290,
     "source": "public-baseline",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-06-22"
   },
   {
     "date": "2026-07-14",
     "channelId": "linkedin-geoff",
     "audience": 17758,
     "source": "public-baseline",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-14"
   },
   {
     "date": "2026-07-21",
     "channelId": "instagram-geoff",
     "audience": 5535,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-21"
   },
   {
     "date": "2026-07-21",
     "channelId": "linkedin-ai-leadership",
     "audience": 824,
     "source": "public-baseline",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-21"
   },
   {
     "date": "2026-07-21",
     "channelId": "linkedin-geoff",
     "audience": 18390,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-21"
   },
   {
     "date": "2026-07-21",
     "channelId": "x-geoff",
     "audience": 4094,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-21"
   },
   {
     "date": "2026-07-21",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1540,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-21"
   },
   {
     "date": "2026-07-22",
     "channelId": "instagram-geoff",
     "audience": 5563,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-22"
   },
   {
     "date": "2026-07-22",
     "channelId": "linkedin-geoff",
     "audience": 18408,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-22"
   },
   {
     "date": "2026-07-22",
     "channelId": "x-geoff",
     "audience": 4096,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-22"
   },
   {
     "date": "2026-07-22",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1550,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-22"
   },
   {
     "date": "2026-07-23",
     "channelId": "instagram-geoff",
     "audience": 5592,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-23"
   },
   {
     "date": "2026-07-23",
     "channelId": "linkedin-geoff",
     "audience": 18415,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-23"
   },
   {
     "date": "2026-07-23",
     "channelId": "x-geoff",
     "audience": 4096,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-23"
   },
   {
     "date": "2026-07-23",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1570,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-23"
   },
   {
     "date": "2026-07-24",
     "channelId": "instagram-geoff",
     "audience": 5628,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-24"
   },
   {
     "date": "2026-07-24",
     "channelId": "linkedin-geoff",
     "audience": 18474,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-24"
   },
   {
     "date": "2026-07-24",
     "channelId": "x-geoff",
     "audience": 4101,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-24"
   },
   {
     "date": "2026-07-24",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1600,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-24"
   },
   {
     "date": "2026-07-25",
     "channelId": "instagram-geoff",
     "audience": 5672,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-25"
   },
   {
     "date": "2026-07-25",
     "channelId": "linkedin-ai-leadership",
     "audience": 990,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-25"
   },
   {
     "date": "2026-07-25",
     "channelId": "linkedin-geoff",
     "audience": 18523,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-25"
   },
   {
     "date": "2026-07-25",
     "channelId": "tiktok-geoff",
     "audience": 14,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-25"
   },
   {
     "date": "2026-07-25",
     "channelId": "x-geoff",
     "audience": 4103,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-25"
   },
   {
     "date": "2026-07-25",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1630,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-25"
   },
   {
     "date": "2026-07-26",
     "channelId": "instagram-geoff",
     "audience": 5683,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-26"
   },
   {
     "date": "2026-07-26",
     "channelId": "linkedin-ai-leadership",
     "audience": 990,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-26"
   },
   {
     "date": "2026-07-26",
     "channelId": "linkedin-geoff",
     "audience": 18537,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-26"
   },
   {
     "date": "2026-07-26",
     "channelId": "tiktok-geoff",
     "audience": 15,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-26"
   },
   {
     "date": "2026-07-26",
     "channelId": "x-geoff",
     "audience": 4103,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-26"
   },
   {
     "date": "2026-07-26",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1650,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-26"
   },
   {
     "date": "2026-07-27",
     "channelId": "instagram-geoff",
     "audience": 5716,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-27"
   },
   {
     "date": "2026-07-27",
     "channelId": "linkedin-ai-leadership",
     "audience": 993,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-27"
   },
   {
     "date": "2026-07-27",
     "channelId": "linkedin-geoff",
     "audience": 18578,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-27"
   },
   {
     "date": "2026-07-27",
     "channelId": "tiktok-geoff",
     "audience": 15,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-27"
   },
   {
     "date": "2026-07-27",
     "channelId": "x-geoff",
     "audience": 4104,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-27"
   },
   {
     "date": "2026-07-27",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1710,
     "source": "youtube-api",
-    "precision": "api-rounded"
+    "precision": "api-rounded",
+    "observedOn": "2026-07-27"
   },
   {
     "date": "2026-07-28",
     "channelId": "instagram-geoff",
     "audience": 5725,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-28"
   },
   {
     "date": "2026-07-28",
     "channelId": "linkedin-ai-leadership",
     "audience": 998,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-28"
   },
   {
     "date": "2026-07-28",
     "channelId": "linkedin-geoff",
     "audience": 18594,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-28"
   },
   {
     "date": "2026-07-28",
     "channelId": "tiktok-geoff",
     "audience": 16,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-28"
   },
   {
     "date": "2026-07-28",
     "channelId": "x-geoff",
     "audience": 4104,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-28"
   },
   {
     "date": "2026-07-28",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1710,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-28"
   },
   {
     "date": "2026-07-29",
     "channelId": "instagram-geoff",
     "audience": 5749,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-29"
   },
   {
     "date": "2026-07-29",
     "channelId": "linkedin-ai-leadership",
     "audience": 1013,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-29"
   },
   {
     "date": "2026-07-29",
     "channelId": "linkedin-geoff",
     "audience": 18625,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-29"
   },
   {
     "date": "2026-07-29",
     "channelId": "tiktok-geoff",
     "audience": 17,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-29"
   },
   {
     "date": "2026-07-29",
     "channelId": "x-geoff",
     "audience": 4105,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-29"
   },
   {
     "date": "2026-07-29",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1740,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-29"
   },
   {
     "date": "2026-07-31",
     "channelId": "instagram-geoff",
     "audience": 5782,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-31"
   },
   {
     "date": "2026-07-31",
     "channelId": "linkedin-ai-leadership",
     "audience": 1023,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-31"
   },
   {
     "date": "2026-07-31",
     "channelId": "linkedin-geoff",
     "audience": 18680,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-31"
   },
   {
     "date": "2026-07-31",
     "channelId": "tiktok-geoff",
     "audience": 20,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-31"
   },
   {
     "date": "2026-07-31",
     "channelId": "x-geoff",
     "audience": 4106,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-07-31"
   },
   {
     "date": "2026-07-31",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1770,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-07-31"
   },
   {
     "date": "2026-08-01",
     "channelId": "instagram-geoff",
     "audience": 5800,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-01"
   },
   {
     "date": "2026-08-01",
     "channelId": "tiktok-geoff",
     "audience": 21,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-01"
   },
   {
     "date": "2026-08-01",
     "channelId": "x-geoff",
     "audience": 4108,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-01"
   },
   {
     "date": "2026-08-01",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1790,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-01"
   },
   {
     "date": "2026-08-02",
     "channelId": "instagram-geoff",
     "audience": 5806,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-02"
   },
   {
     "date": "2026-08-02",
     "channelId": "linkedin-ai-leadership",
     "audience": 1028,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-02"
   },
   {
     "date": "2026-08-02",
     "channelId": "linkedin-geoff",
     "audience": 18715,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-02"
   },
   {
     "date": "2026-08-02",
     "channelId": "tiktok-geoff",
     "audience": 21,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-02"
   },
   {
     "date": "2026-08-02",
     "channelId": "x-geoff",
     "audience": 4112,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-02"
   },
   {
     "date": "2026-08-02",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1800,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-02"
   },
   {
     "date": "2026-08-03",
     "channelId": "instagram-geoff",
     "audience": 5809,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-03"
   },
   {
     "date": "2026-08-03",
     "channelId": "linkedin-ai-leadership",
     "audience": 1031,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-03"
   },
   {
     "date": "2026-08-03",
     "channelId": "linkedin-geoff",
     "audience": 18732,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-03"
   },
   {
     "date": "2026-08-03",
     "channelId": "tiktok-geoff",
     "audience": 21,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-03"
   },
   {
     "date": "2026-08-03",
     "channelId": "x-geoff",
     "audience": 4115,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-03"
   },
   {
     "date": "2026-08-03",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1810,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-03"
   },
   {
     "date": "2026-08-04",
     "channelId": "instagram-geoff",
     "audience": 5810,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-04"
   },
   {
     "date": "2026-08-04",
     "channelId": "linkedin-ai-leadership",
     "audience": 1041,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-04"
   },
   {
     "date": "2026-08-04",
     "channelId": "linkedin-geoff",
     "audience": 18749,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-04"
   },
   {
     "date": "2026-08-04",
     "channelId": "tiktok-geoff",
     "audience": 21,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-04"
   },
   {
     "date": "2026-08-04",
     "channelId": "x-geoff",
     "audience": 4115,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-04"
   },
   {
     "date": "2026-08-04",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1820,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-04"
   },
   {
     "date": "2026-08-07",
     "channelId": "instagram-geoff",
     "audience": 5818,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-07"
   },
   {
     "date": "2026-08-07",
     "channelId": "linkedin-ai-leadership",
     "audience": 1067,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-07"
   },
   {
     "date": "2026-08-07",
     "channelId": "linkedin-geoff",
     "audience": 18807,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-07"
   },
   {
     "date": "2026-08-07",
     "channelId": "tiktok-geoff",
     "audience": 25,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-07"
   },
   {
     "date": "2026-08-07",
     "channelId": "x-geoff",
     "audience": 4121,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-07"
   },
   {
     "date": "2026-08-07",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1860,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-07"
   },
   {
     "date": "2026-08-09",
     "channelId": "instagram-geoff",
     "audience": 5832,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-09"
   },
   {
     "date": "2026-08-09",
     "channelId": "linkedin-ai-leadership",
     "audience": 1074,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-09"
   },
   {
     "date": "2026-08-09",
     "channelId": "linkedin-geoff",
     "audience": 18840,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-09"
   },
   {
     "date": "2026-08-09",
     "channelId": "tiktok-geoff",
     "audience": 25,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-09"
   },
   {
     "date": "2026-08-09",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-09"
   },
   {
     "date": "2026-08-09",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1890,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-09"
   },
   {
     "date": "2026-08-10",
     "channelId": "instagram-geoff",
     "audience": 5834,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-10"
   },
   {
     "date": "2026-08-10",
     "channelId": "linkedin-ai-leadership",
     "audience": 1076,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-10"
   },
   {
     "date": "2026-08-10",
     "channelId": "linkedin-geoff",
     "audience": 18857,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-10"
   },
   {
     "date": "2026-08-10",
     "channelId": "tiktok-geoff",
     "audience": 25,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-10"
   },
   {
     "date": "2026-08-10",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-10"
   },
   {
     "date": "2026-08-10",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1900,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-10"
   },
   {
     "date": "2026-08-11",
     "channelId": "instagram-geoff",
     "audience": 5837,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-11"
   },
   {
     "date": "2026-08-11",
     "channelId": "linkedin-ai-leadership",
     "audience": 1082,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-11"
   },
   {
     "date": "2026-08-11",
     "channelId": "linkedin-geoff",
     "audience": 18885,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-11"
   },
   {
     "date": "2026-08-11",
     "channelId": "tiktok-geoff",
     "audience": 28,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-11"
   },
   {
     "date": "2026-08-11",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-11"
   },
   {
     "date": "2026-08-11",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1910,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-11"
   },
   {
     "date": "2026-08-12",
     "channelId": "instagram-geoff",
     "audience": 5841,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-12"
   },
   {
     "date": "2026-08-12",
     "channelId": "linkedin-ai-leadership",
     "audience": 1085,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-12"
   },
   {
     "date": "2026-08-12",
     "channelId": "linkedin-geoff",
     "audience": 18907,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-12"
   },
   {
     "date": "2026-08-12",
     "channelId": "tiktok-geoff",
     "audience": 29,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-12"
   },
   {
     "date": "2026-08-12",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-12"
   },
   {
     "date": "2026-08-12",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1930,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-12"
   },
   {
     "date": "2026-08-13",
     "channelId": "instagram-geoff",
     "audience": 5846,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-13"
   },
   {
     "date": "2026-08-13",
     "channelId": "linkedin-ai-leadership",
     "audience": 1088,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-13"
   },
   {
     "date": "2026-08-13",
     "channelId": "linkedin-geoff",
     "audience": 18922,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-13"
   },
   {
     "date": "2026-08-13",
     "channelId": "tiktok-geoff",
     "audience": 29,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-13"
   },
   {
     "date": "2026-08-13",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-13"
   },
   {
     "date": "2026-08-13",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1940,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-13"
   },
   {
     "date": "2026-08-14",
     "channelId": "instagram-geoff",
     "audience": 5852,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-14"
   },
   {
     "date": "2026-08-14",
     "channelId": "linkedin-ai-leadership",
     "audience": 1089,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-14"
   },
   {
     "date": "2026-08-14",
     "channelId": "linkedin-geoff",
     "audience": 18938,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-14"
   },
   {
     "date": "2026-08-14",
     "channelId": "tiktok-geoff",
     "audience": 29,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-14"
   },
   {
     "date": "2026-08-14",
     "channelId": "x-geoff",
     "audience": 4125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-14"
   },
   {
     "date": "2026-08-14",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1950,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-14"
   },
   {
     "date": "2026-08-15",
     "channelId": "instagram-geoff",
     "audience": 5857,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-15"
   },
   {
     "date": "2026-08-15",
     "channelId": "linkedin-ai-leadership",
     "audience": 1090,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-15"
   },
   {
     "date": "2026-08-15",
     "channelId": "linkedin-geoff",
     "audience": 18950,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-15"
   },
   {
     "date": "2026-08-15",
     "channelId": "tiktok-geoff",
     "audience": 35,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-15"
   },
   {
     "date": "2026-08-15",
     "channelId": "x-geoff",
     "audience": 4126,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-15"
   },
   {
     "date": "2026-08-15",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1960,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-15"
   },
   {
     "date": "2026-08-16",
     "channelId": "instagram-geoff",
     "audience": 5861,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-16"
   },
   {
     "date": "2026-08-16",
     "channelId": "linkedin-ai-leadership",
     "audience": 1095,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-16"
   },
   {
     "date": "2026-08-16",
     "channelId": "linkedin-geoff",
     "audience": 18976,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-16"
   },
   {
     "date": "2026-08-16",
     "channelId": "tiktok-geoff",
     "audience": 38,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-16"
   },
   {
     "date": "2026-08-16",
     "channelId": "x-geoff",
     "audience": 4126,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-16"
   },
   {
     "date": "2026-08-16",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1970,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-16"
   },
   {
     "date": "2026-08-17",
     "channelId": "instagram-geoff",
     "audience": 5866,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-17"
   },
   {
     "date": "2026-08-17",
     "channelId": "linkedin-ai-leadership",
     "audience": 1097,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-17"
   },
   {
     "date": "2026-08-17",
     "channelId": "linkedin-geoff",
     "audience": 18985,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-17"
   },
   {
     "date": "2026-08-17",
     "channelId": "tiktok-geoff",
     "audience": 38,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-17"
   },
   {
     "date": "2026-08-17",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-17"
   },
   {
     "date": "2026-08-17",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1980,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-17"
   },
   {
     "date": "2026-08-18",
     "channelId": "instagram-geoff",
     "audience": 5872,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-18"
   },
   {
     "date": "2026-08-18",
     "channelId": "linkedin-ai-leadership",
     "audience": 1102,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-18"
   },
   {
     "date": "2026-08-18",
     "channelId": "linkedin-geoff",
     "audience": 19012,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-18"
   },
   {
     "date": "2026-08-18",
     "channelId": "tiktok-geoff",
     "audience": 38,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-18"
   },
   {
     "date": "2026-08-18",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-18"
   },
   {
     "date": "2026-08-18",
     "channelId": "youtube-ai-driven-leader",
     "audience": 1990,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-18"
   },
   {
     "date": "2026-08-19",
     "channelId": "instagram-geoff",
     "audience": 5873,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-19"
   },
   {
     "date": "2026-08-19",
     "channelId": "linkedin-ai-leadership",
     "audience": 1104,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-19"
   },
   {
     "date": "2026-08-19",
     "channelId": "linkedin-geoff",
     "audience": 19034,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-19"
   },
   {
     "date": "2026-08-19",
     "channelId": "tiktok-geoff",
     "audience": 38,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-19"
   },
   {
     "date": "2026-08-19",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-19"
   },
   {
     "date": "2026-08-19",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2000,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-19"
   },
   {
     "date": "2026-08-20",
     "channelId": "instagram-geoff",
     "audience": 5875,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-20"
   },
   {
     "date": "2026-08-20",
     "channelId": "linkedin-ai-leadership",
     "audience": 1105,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-20"
   },
   {
     "date": "2026-08-20",
     "channelId": "linkedin-geoff",
     "audience": 19048,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-20"
   },
   {
     "date": "2026-08-20",
     "channelId": "tiktok-geoff",
     "audience": 41,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-20"
   },
   {
     "date": "2026-08-20",
     "channelId": "x-geoff",
     "audience": 4124,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-20"
   },
   {
     "date": "2026-08-20",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2000,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-20"
   },
   {
     "date": "2026-08-21",
     "channelId": "instagram-geoff",
     "audience": 5878,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-21"
   },
   {
     "date": "2026-08-21",
     "channelId": "linkedin-ai-leadership",
     "audience": 1108,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-21"
   },
   {
     "date": "2026-08-21",
     "channelId": "linkedin-geoff",
     "audience": 19065,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-21"
   },
   {
     "date": "2026-08-21",
     "channelId": "tiktok-geoff",
     "audience": 42,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-21"
   },
   {
     "date": "2026-08-21",
     "channelId": "x-geoff",
     "audience": 4125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-21"
   },
   {
     "date": "2026-08-21",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2010,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-21"
   },
   {
     "date": "2026-08-22",
     "channelId": "instagram-geoff",
     "audience": 5877,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-22"
   },
   {
     "date": "2026-08-22",
     "channelId": "linkedin-ai-leadership",
     "audience": 1111,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-22"
   },
   {
     "date": "2026-08-22",
     "channelId": "linkedin-geoff",
     "audience": 19093,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-22"
   },
   {
     "date": "2026-08-22",
     "channelId": "tiktok-geoff",
     "audience": 43,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-22"
   },
   {
     "date": "2026-08-22",
     "channelId": "x-geoff",
     "audience": 4124,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-22"
   },
   {
     "date": "2026-08-22",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2020,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-22"
   },
   {
     "date": "2026-08-23",
     "channelId": "instagram-geoff",
     "audience": 5882,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-23"
   },
   {
     "date": "2026-08-23",
     "channelId": "linkedin-ai-leadership",
     "audience": 1112,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-23"
   },
   {
     "date": "2026-08-23",
     "channelId": "linkedin-geoff",
     "audience": 19117,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-23"
   },
   {
     "date": "2026-08-23",
     "channelId": "tiktok-geoff",
     "audience": 44,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-23"
   },
   {
     "date": "2026-08-23",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-23"
   },
   {
     "date": "2026-08-23",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2020,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-23"
   },
   {
     "date": "2026-08-24",
     "channelId": "instagram-geoff",
     "audience": 5882,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-24"
   },
   {
     "date": "2026-08-24",
     "channelId": "linkedin-ai-leadership",
     "audience": 1116,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-24"
   },
   {
     "date": "2026-08-24",
     "channelId": "linkedin-geoff",
     "audience": 19126,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-24"
   },
   {
     "date": "2026-08-24",
     "channelId": "tiktok-geoff",
     "audience": 44,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-24"
   },
   {
     "date": "2026-08-24",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-24"
   },
   {
     "date": "2026-08-24",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2040,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-24"
   },
   {
     "date": "2026-08-25",
     "channelId": "instagram-geoff",
     "audience": 5891,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-25"
   },
   {
     "date": "2026-08-25",
     "channelId": "linkedin-ai-leadership",
     "audience": 1123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-25"
   },
   {
     "date": "2026-08-25",
     "channelId": "linkedin-geoff",
     "audience": 19192,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-25"
   },
   {
     "date": "2026-08-25",
     "channelId": "tiktok-geoff",
     "audience": 45,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-25"
   },
   {
     "date": "2026-08-25",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-25"
   },
   {
     "date": "2026-08-25",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2050,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-25"
   },
   {
     "date": "2026-08-26",
     "channelId": "instagram-geoff",
     "audience": 5907,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-26"
   },
   {
     "date": "2026-08-26",
     "channelId": "linkedin-ai-leadership",
     "audience": 1125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-26"
   },
   {
     "date": "2026-08-26",
     "channelId": "linkedin-geoff",
     "audience": 19252,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-26"
   },
   {
     "date": "2026-08-26",
     "channelId": "tiktok-geoff",
     "audience": 45,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-26"
   },
   {
     "date": "2026-08-26",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-26"
   },
   {
     "date": "2026-08-26",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2050,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-26"
   },
   {
     "date": "2026-08-27",
     "channelId": "instagram-geoff",
     "audience": 5906,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-27"
   },
   {
     "date": "2026-08-27",
     "channelId": "linkedin-ai-leadership",
     "audience": 1126,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-27"
   },
   {
     "date": "2026-08-27",
     "channelId": "linkedin-geoff",
     "audience": 19273,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-27"
   },
   {
     "date": "2026-08-27",
     "channelId": "tiktok-geoff",
     "audience": 45,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-27"
   },
   {
     "date": "2026-08-27",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-27"
   },
   {
     "date": "2026-08-27",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2070,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-27"
   },
   {
     "date": "2026-08-28",
     "channelId": "instagram-geoff",
     "audience": 5910,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-28"
   },
   {
     "date": "2026-08-28",
     "channelId": "linkedin-ai-leadership",
     "audience": 1127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-28"
   },
   {
     "date": "2026-08-28",
     "channelId": "linkedin-geoff",
     "audience": 19287,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-28"
   },
   {
     "date": "2026-08-28",
     "channelId": "tiktok-geoff",
     "audience": 46,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-28"
   },
   {
     "date": "2026-08-28",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-28"
   },
   {
     "date": "2026-08-28",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2070,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-28"
   },
   {
     "date": "2026-08-29",
     "channelId": "instagram-geoff",
     "audience": 5909,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-29"
   },
   {
     "date": "2026-08-29",
     "channelId": "linkedin-ai-leadership",
     "audience": 1127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-29"
   },
   {
     "date": "2026-08-29",
     "channelId": "linkedin-geoff",
     "audience": 19309,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-29"
   },
   {
     "date": "2026-08-29",
     "channelId": "tiktok-geoff",
     "audience": 48,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-29"
   },
   {
     "date": "2026-08-29",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-29"
   },
   {
     "date": "2026-08-29",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2070,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-29"
   },
   {
     "date": "2026-08-30",
     "channelId": "instagram-geoff",
     "audience": 5911,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-30"
   },
   {
     "date": "2026-08-30",
     "channelId": "linkedin-ai-leadership",
     "audience": 1129,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-30"
   },
   {
     "date": "2026-08-30",
     "channelId": "linkedin-geoff",
     "audience": 19322,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-30"
   },
   {
     "date": "2026-08-30",
     "channelId": "tiktok-geoff",
     "audience": 48,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-30"
   },
   {
     "date": "2026-08-30",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-30"
   },
   {
     "date": "2026-08-30",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2080,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-30"
   },
   {
     "date": "2026-08-31",
     "channelId": "instagram-geoff",
     "audience": 5911,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-31"
   },
   {
     "date": "2026-08-31",
     "channelId": "linkedin-ai-leadership",
     "audience": 1136,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-31"
   },
   {
     "date": "2026-08-31",
     "channelId": "linkedin-geoff",
     "audience": 19337,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-31"
   },
   {
     "date": "2026-08-31",
     "channelId": "tiktok-geoff",
     "audience": 48,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-31"
   },
   {
     "date": "2026-08-31",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-08-31"
   },
   {
     "date": "2026-08-31",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2090,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-08-31"
   },
   {
     "date": "2026-09-01",
     "channelId": "instagram-geoff",
     "audience": 5916,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-01"
   },
   {
     "date": "2026-09-01",
     "channelId": "linkedin-ai-leadership",
     "audience": 1137,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-01"
   },
   {
     "date": "2026-09-01",
     "channelId": "linkedin-geoff",
     "audience": 19344,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-01"
   },
   {
     "date": "2026-09-01",
     "channelId": "tiktok-geoff",
     "audience": 47,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-01"
   },
   {
     "date": "2026-09-01",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-01"
   },
   {
     "date": "2026-09-01",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2090,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-01"
   },
   {
     "date": "2026-09-02",
     "channelId": "instagram-geoff",
     "audience": 5916,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-02"
   },
   {
     "date": "2026-09-02",
     "channelId": "linkedin-ai-leadership",
     "audience": 1143,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-02"
   },
   {
     "date": "2026-09-02",
     "channelId": "linkedin-geoff",
     "audience": 19367,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-02"
   },
   {
     "date": "2026-09-02",
     "channelId": "tiktok-geoff",
     "audience": 48,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-02"
   },
   {
     "date": "2026-09-02",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-02"
   },
   {
     "date": "2026-09-02",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2090,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-02"
   },
   {
     "date": "2026-09-03",
     "channelId": "instagram-geoff",
     "audience": 5921,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-03"
   },
   {
     "date": "2026-09-03",
     "channelId": "linkedin-ai-leadership",
     "audience": 1145,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-03"
   },
   {
     "date": "2026-09-03",
     "channelId": "linkedin-geoff",
     "audience": 19390,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-03"
   },
   {
     "date": "2026-09-03",
     "channelId": "tiktok-geoff",
     "audience": 49,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-03"
   },
   {
     "date": "2026-09-03",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-03"
   },
   {
     "date": "2026-09-03",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2100,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-03"
   },
   {
     "date": "2026-09-04",
     "channelId": "instagram-geoff",
     "audience": 5936,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-04"
   },
   {
     "date": "2026-09-04",
     "channelId": "linkedin-ai-leadership",
     "audience": 1151,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-04"
   },
   {
     "date": "2026-09-04",
     "channelId": "linkedin-geoff",
     "audience": 19413,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-04"
   },
   {
     "date": "2026-09-04",
     "channelId": "tiktok-geoff",
     "audience": 48,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-04"
   },
   {
     "date": "2026-09-04",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-04"
   },
   {
     "date": "2026-09-04",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2100,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-04"
   },
   {
     "date": "2026-09-05",
     "channelId": "instagram-geoff",
     "audience": 5945,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-05"
   },
   {
     "date": "2026-09-05",
     "channelId": "linkedin-ai-leadership",
     "audience": 1160,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-05"
   },
   {
     "date": "2026-09-05",
     "channelId": "linkedin-geoff",
     "audience": 19448,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-05"
   },
   {
     "date": "2026-09-05",
     "channelId": "tiktok-geoff",
     "audience": 52,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-05"
   },
   {
     "date": "2026-09-05",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-05"
   },
   {
     "date": "2026-09-05",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2110,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-05"
   },
   {
     "date": "2026-09-06",
     "channelId": "instagram-geoff",
     "audience": 5946,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-06"
   },
   {
     "date": "2026-09-06",
     "channelId": "linkedin-ai-leadership",
     "audience": 1161,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-06"
   },
   {
     "date": "2026-09-06",
     "channelId": "linkedin-geoff",
     "audience": 19454,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-06"
   },
   {
     "date": "2026-09-06",
     "channelId": "tiktok-geoff",
     "audience": 53,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-06"
   },
   {
     "date": "2026-09-06",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-06"
   },
   {
     "date": "2026-09-06",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2110,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-06"
   },
   {
     "date": "2026-09-07",
     "channelId": "instagram-geoff",
     "audience": 5948,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-07"
   },
   {
     "date": "2026-09-07",
     "channelId": "linkedin-ai-leadership",
     "audience": 1164,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-07"
   },
   {
     "date": "2026-09-07",
     "channelId": "linkedin-geoff",
     "audience": 19458,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-07"
   },
   {
     "date": "2026-09-07",
     "channelId": "tiktok-geoff",
     "audience": 54,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-07"
   },
   {
     "date": "2026-09-07",
     "channelId": "x-geoff",
     "audience": 4122,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-07"
   },
   {
     "date": "2026-09-07",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2120,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-07"
   },
   {
     "date": "2026-09-08",
     "channelId": "instagram-geoff",
     "audience": 5953,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-08"
   },
   {
     "date": "2026-09-08",
     "channelId": "linkedin-ai-leadership",
     "audience": 1167,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-08"
   },
   {
     "date": "2026-09-08",
     "channelId": "linkedin-geoff",
     "audience": 19473,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-08"
   },
   {
     "date": "2026-09-08",
     "channelId": "tiktok-geoff",
     "audience": 55,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-08"
   },
   {
     "date": "2026-09-08",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-08"
   },
   {
     "date": "2026-09-08",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2120,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-08"
   },
   {
     "date": "2026-09-09",
     "channelId": "instagram-geoff",
     "audience": 5949,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-09"
   },
   {
     "date": "2026-09-09",
     "channelId": "linkedin-ai-leadership",
     "audience": 1170,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-09"
   },
   {
     "date": "2026-09-09",
     "channelId": "linkedin-geoff",
     "audience": 19496,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-09"
   },
   {
     "date": "2026-09-09",
     "channelId": "tiktok-geoff",
     "audience": 55,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-09"
   },
   {
     "date": "2026-09-09",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-09"
   },
   {
     "date": "2026-09-09",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2130,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-09"
   },
   {
     "date": "2026-09-10",
     "channelId": "instagram-geoff",
     "audience": 5952,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-10"
   },
   {
     "date": "2026-09-10",
     "channelId": "linkedin-ai-leadership",
     "audience": 1172,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-10"
   },
   {
     "date": "2026-09-10",
     "channelId": "linkedin-geoff",
     "audience": 19525,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-10"
   },
   {
     "date": "2026-09-10",
     "channelId": "tiktok-geoff",
     "audience": 55,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-10"
   },
   {
     "date": "2026-09-10",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-10"
   },
   {
     "date": "2026-09-10",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2130,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-10"
   },
   {
     "date": "2026-09-11",
     "channelId": "instagram-geoff",
     "audience": 5953,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-11"
   },
   {
     "date": "2026-09-11",
     "channelId": "linkedin-ai-leadership",
     "audience": 1175,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-11"
   },
   {
     "date": "2026-09-11",
     "channelId": "linkedin-geoff",
     "audience": 19546,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-11"
   },
   {
     "date": "2026-09-11",
     "channelId": "tiktok-geoff",
     "audience": 55,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-11"
   },
   {
     "date": "2026-09-11",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-11"
   },
   {
     "date": "2026-09-11",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-11"
   },
   {
     "date": "2026-09-12",
     "channelId": "instagram-geoff",
     "audience": 5955,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-12",
     "channelId": "linkedin-ai-leadership",
     "audience": 1177,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-12",
     "channelId": "linkedin-geoff",
     "audience": 19564,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-12",
     "channelId": "tiktok-geoff",
     "audience": 55,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-12",
     "channelId": "x-geoff",
     "audience": 4123,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-12",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "browser-verified",
-    "precision": "rounded"
+    "precision": "rounded",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-13",
     "channelId": "instagram-geoff",
     "audience": 5959,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-13"
   },
   {
     "date": "2026-09-13",
     "channelId": "linkedin-ai-leadership",
     "audience": 1179,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-13"
   },
   {
     "date": "2026-09-13",
     "channelId": "linkedin-geoff",
     "audience": 19581,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-13"
   },
   {
     "date": "2026-09-13",
     "channelId": "tiktok-geoff",
     "audience": 56,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-13"
   },
   {
     "date": "2026-09-13",
     "channelId": "x-geoff",
     "audience": 4124,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-13"
   },
   {
     "date": "2026-09-13",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-14",
     "channelId": "instagram-geoff",
     "audience": 5963,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-14"
   },
   {
     "date": "2026-09-14",
     "channelId": "linkedin-ai-leadership",
     "audience": 1183,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-14"
   },
   {
     "date": "2026-09-14",
     "channelId": "linkedin-geoff",
     "audience": 19599,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-14"
   },
   {
     "date": "2026-09-14",
     "channelId": "tiktok-geoff",
     "audience": 60,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-14"
   },
   {
     "date": "2026-09-14",
     "channelId": "x-geoff",
     "audience": 4125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-14"
   },
   {
     "date": "2026-09-14",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-15",
     "channelId": "instagram-geoff",
     "audience": 5966,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-15"
   },
   {
     "date": "2026-09-15",
     "channelId": "linkedin-ai-leadership",
     "audience": 1184,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-15"
   },
   {
     "date": "2026-09-15",
     "channelId": "linkedin-geoff",
     "audience": 19608,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-15"
   },
   {
     "date": "2026-09-15",
     "channelId": "tiktok-geoff",
     "audience": 60,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-15"
   },
   {
     "date": "2026-09-15",
     "channelId": "x-geoff",
     "audience": 4124,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-15"
   },
   {
     "date": "2026-09-15",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-16",
     "channelId": "instagram-geoff",
     "audience": 5965,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-16"
   },
   {
     "date": "2026-09-16",
     "channelId": "linkedin-ai-leadership",
     "audience": 1186,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-16"
   },
   {
     "date": "2026-09-16",
     "channelId": "linkedin-geoff",
     "audience": 19626,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-16"
   },
   {
     "date": "2026-09-16",
     "channelId": "tiktok-geoff",
     "audience": 60,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-16"
   },
   {
     "date": "2026-09-16",
     "channelId": "x-geoff",
     "audience": 4124,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-16"
   },
   {
     "date": "2026-09-16",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-17",
     "channelId": "instagram-geoff",
     "audience": 5967,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-17"
   },
   {
     "date": "2026-09-17",
     "channelId": "linkedin-ai-leadership",
     "audience": 1191,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-17"
   },
   {
     "date": "2026-09-17",
     "channelId": "linkedin-geoff",
     "audience": 19647,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-17"
   },
   {
     "date": "2026-09-17",
     "channelId": "tiktok-geoff",
     "audience": 60,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-17"
   },
   {
     "date": "2026-09-17",
     "channelId": "x-geoff",
     "audience": 4124,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-17"
   },
   {
     "date": "2026-09-17",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-18",
     "channelId": "instagram-geoff",
     "audience": 5974,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-18"
   },
   {
     "date": "2026-09-18",
     "channelId": "linkedin-ai-leadership",
     "audience": 1192,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-18"
   },
   {
     "date": "2026-09-18",
     "channelId": "linkedin-geoff",
     "audience": 19674,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-18"
   },
   {
     "date": "2026-09-18",
@@ -2294,49 +2621,56 @@
     "audience": 10956,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-09-19T00:20:24.932343Z"
+    "verifiedAt": "2026-09-19T00:20:24.932343Z",
+    "observedOn": "2026-09-18"
   },
   {
     "date": "2026-09-18",
     "channelId": "tiktok-geoff",
     "audience": 60,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-18"
   },
   {
     "date": "2026-09-18",
     "channelId": "x-geoff",
     "audience": 4125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-18"
   },
   {
     "date": "2026-09-18",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-19",
     "channelId": "instagram-geoff",
     "audience": 5974,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-19"
   },
   {
     "date": "2026-09-19",
     "channelId": "linkedin-ai-leadership",
     "audience": 1193,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-19"
   },
   {
     "date": "2026-09-19",
     "channelId": "linkedin-geoff",
     "audience": 19680,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-19"
   },
   {
     "date": "2026-09-19",
@@ -2344,175 +2678,200 @@
     "audience": 10956,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-09-19T14:24:39.336Z"
+    "verifiedAt": "2026-09-19T14:24:39.336Z",
+    "observedOn": "2026-09-19"
   },
   {
     "date": "2026-09-19",
     "channelId": "tiktok-geoff",
     "audience": 61,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-19"
   },
   {
     "date": "2026-09-19",
     "channelId": "x-geoff",
     "audience": 4125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-19"
   },
   {
     "date": "2026-09-19",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-20",
     "channelId": "instagram-geoff",
     "audience": 5975,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-20"
   },
   {
     "date": "2026-09-20",
     "channelId": "linkedin-ai-leadership",
     "audience": 1193,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-20"
   },
   {
     "date": "2026-09-20",
     "channelId": "linkedin-geoff",
     "audience": 19687,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-20"
   },
   {
     "date": "2026-09-20",
     "channelId": "tiktok-geoff",
     "audience": 61,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-20"
   },
   {
     "date": "2026-09-20",
     "channelId": "x-geoff",
     "audience": 4125,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-20"
   },
   {
     "date": "2026-09-20",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-21",
     "channelId": "instagram-geoff",
     "audience": 5977,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-21"
   },
   {
     "date": "2026-09-21",
     "channelId": "linkedin-ai-leadership",
     "audience": 1192,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-21"
   },
   {
     "date": "2026-09-21",
     "channelId": "linkedin-geoff",
     "audience": 19694,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-21"
   },
   {
     "date": "2026-09-21",
     "channelId": "tiktok-geoff",
     "audience": 61,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-21"
   },
   {
     "date": "2026-09-21",
     "channelId": "x-geoff",
     "audience": 4126,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-21"
   },
   {
     "date": "2026-09-21",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-22",
     "channelId": "instagram-geoff",
     "audience": 5981,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-22"
   },
   {
     "date": "2026-09-22",
     "channelId": "linkedin-ai-leadership",
     "audience": 1193,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-22"
   },
   {
     "date": "2026-09-22",
     "channelId": "linkedin-geoff",
     "audience": 19708,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-22"
   },
   {
     "date": "2026-09-22",
     "channelId": "tiktok-geoff",
     "audience": 62,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-22"
   },
   {
     "date": "2026-09-22",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-22"
   },
   {
     "date": "2026-09-22",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-23",
     "channelId": "instagram-geoff",
     "audience": 5982,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-23"
   },
   {
     "date": "2026-09-23",
     "channelId": "linkedin-ai-leadership",
     "audience": 1195,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-23"
   },
   {
     "date": "2026-09-23",
     "channelId": "linkedin-geoff",
     "audience": 19742,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-23"
   },
   {
     "date": "2026-09-23",
@@ -2520,175 +2879,200 @@
     "audience": 10961,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-09-23T17:02:25.747Z"
+    "verifiedAt": "2026-09-23T17:02:25.747Z",
+    "observedOn": "2026-09-23"
   },
   {
     "date": "2026-09-23",
     "channelId": "tiktok-geoff",
     "audience": 62,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-23"
   },
   {
     "date": "2026-09-23",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-23"
   },
   {
     "date": "2026-09-23",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-24",
     "channelId": "instagram-geoff",
     "audience": 5988,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-24"
   },
   {
     "date": "2026-09-24",
     "channelId": "linkedin-ai-leadership",
     "audience": 1195,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-24"
   },
   {
     "date": "2026-09-24",
     "channelId": "linkedin-geoff",
     "audience": 19760,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-24"
   },
   {
     "date": "2026-09-24",
     "channelId": "tiktok-geoff",
     "audience": 62,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-24"
   },
   {
     "date": "2026-09-24",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-24"
   },
   {
     "date": "2026-09-24",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-25",
     "channelId": "instagram-geoff",
     "audience": 5992,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-25"
   },
   {
     "date": "2026-09-25",
     "channelId": "linkedin-ai-leadership",
     "audience": 1197,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-25"
   },
   {
     "date": "2026-09-25",
     "channelId": "linkedin-geoff",
     "audience": 19771,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-25"
   },
   {
     "date": "2026-09-25",
     "channelId": "tiktok-geoff",
     "audience": 62,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-25"
   },
   {
     "date": "2026-09-25",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-25"
   },
   {
     "date": "2026-09-25",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-26",
     "channelId": "instagram-geoff",
     "audience": 5996,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-26"
   },
   {
     "date": "2026-09-26",
     "channelId": "linkedin-ai-leadership",
     "audience": 1200,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-26"
   },
   {
     "date": "2026-09-26",
     "channelId": "linkedin-geoff",
     "audience": 19779,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-26"
   },
   {
     "date": "2026-09-26",
     "channelId": "tiktok-geoff",
     "audience": 62,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-26"
   },
   {
     "date": "2026-09-26",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-26"
   },
   {
     "date": "2026-09-26",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-09-27",
     "channelId": "instagram-geoff",
     "audience": 5999,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-09-27",
     "channelId": "linkedin-ai-leadership",
     "audience": 1201,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-09-27",
     "channelId": "linkedin-geoff",
     "audience": 19786,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-09-27",
@@ -2696,28 +3080,32 @@
     "audience": 10980,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-09-27T13:17:01.428Z"
+    "verifiedAt": "2026-09-27T13:17:01.428Z",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-09-27",
     "channelId": "tiktok-geoff",
     "audience": 62,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-09-27",
     "channelId": "x-geoff",
     "audience": 4127,
     "source": "browser-verified",
-    "precision": "exact"
+    "precision": "exact",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-09-27",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   },
   {
     "date": "2026-10-08",
@@ -2725,21 +3113,56 @@
     "audience": 6044,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-10-09T02:18:16.000Z"
+    "verifiedAt": "2026-10-09T03:31:08.013Z",
+    "observedOn": "2026-10-08",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.instagram.com/geoffwoods/",
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
   },
   {
     "date": "2026-10-08",
     "channelId": "linkedin-ai-leadership",
-    "audience": 1201,
-    "source": "carry-forward",
-    "precision": "stale"
+    "audience": 1230,
+    "source": "browser-verified",
+    "precision": "exact",
+    "observedOn": "2026-10-08",
+    "verifiedAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.linkedin.com/company/ai-thought-leadership/",
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
   },
   {
     "date": "2026-10-08",
     "channelId": "linkedin-geoff",
-    "audience": 19786,
-    "source": "carry-forward",
-    "precision": "stale"
+    "audience": 20200,
+    "source": "browser-verified",
+    "precision": "exact",
+    "observedOn": "2026-10-08",
+    "verifiedAt": "2026-10-09T03:31:08.013Z",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.linkedin.com/in/geoff-woods-8534774/",
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
   },
   {
     "date": "2026-10-08",
@@ -2747,7 +3170,8 @@
     "audience": 10980,
     "source": "carry-forward",
     "precision": "stale",
-    "verifiedAt": "2026-09-27T13:17:01.428Z"
+    "verifiedAt": "2026-09-27T13:17:01.428Z",
+    "observedOn": "2026-09-27"
   },
   {
     "date": "2026-10-08",
@@ -2755,7 +3179,18 @@
     "audience": 67,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-10-09T02:18:16.000Z"
+    "verifiedAt": "2026-10-09T03:31:08.013Z",
+    "observedOn": "2026-10-08",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.tiktok.com/@realgeoffwoods",
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
   },
   {
     "date": "2026-10-08",
@@ -2763,13 +3198,25 @@
     "audience": 4127,
     "source": "browser-verified",
     "precision": "exact",
-    "verifiedAt": "2026-10-09T02:18:16.000Z"
+    "verifiedAt": "2026-10-09T03:31:08.013Z",
+    "observedOn": "2026-10-08",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://x.com/geoffwoods",
+    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T03:31:08.013Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
   },
   {
     "date": "2026-10-08",
     "channelId": "youtube-ai-driven-leader",
     "audience": 2140,
     "source": "carry-forward",
-    "precision": "stale"
+    "precision": "stale",
+    "observedOn": "2026-09-12"
   }
 ]

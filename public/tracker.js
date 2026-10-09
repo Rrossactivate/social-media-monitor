@@ -119,13 +119,6 @@ function percent(numerator, denominator) {
   return denominator ? `${((numerator / denominator) * 100).toFixed(2)}%` : "—";
 }
 
-function sourceFreshness(date) {
-  const age = Math.max(0, Math.floor((Date.now() - dateValue(date).getTime()) / 86400000));
-  if (age === 0) return "today";
-  if (age === 1) return "1 day ago";
-  return `${age} days ago`;
-}
-
 function sourceLabel(source) {
   const labels = {
     "browser-verified": "profile verified",
@@ -239,7 +232,7 @@ function renderChannelList() {
       return `<a class="channel-row" href="${safeUrl(channel.profileUrl)}" target="_blank" rel="noreferrer">
         <span class="channel-dot" style="--channel-color:${channel.color}"></span>
         <span class="channel-identity"><strong>${escapeHtml(channel.name)}</strong><small>${escapeHtml(channel.platform)} · ${escapeHtml(channel.displayHandle || channel.handle)}</small></span>
-        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta === null ? "First recorded count" : `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${comparisonLabel()}`} · ${(channel.category === "newsletter" && latest.source === "browser-verified" ? "Loops verified" : sourceLabel(latest.source))} ${sourceFreshness(latest.date)}` : "Awaiting first value"}</small></span>
+        <span class="channel-value"><strong>${latest ? `${latest.precision === "rounded" || latest.precision === "api-rounded" ? "≈" : ""}${fullNumber.format(latest.audience)}` : "—"}</strong><small>${latest ? `${delta === null ? "First recorded count" : `${delta >= 0 ? "+" : ""}${fullNumber.format(delta)} · ${comparisonLabel()}`} · ${(channel.category === "newsletter" && latest.source === "browser-verified" ? "Loops verified" : sourceLabel(latest.source))} · ${escapeHtml(audienceChecked(latest))}` : "Awaiting first value"}</small></span>
       </a>`;
     })
     .join("");
@@ -258,6 +251,19 @@ function renderCoverage() {
       <em>${escapeHtml(provider.mode)}</em>
     </div>`)
     .join("");
+}
+
+function metricChecked(record, metric) {
+  const stamp = record.metricVerifiedAt && Object.hasOwn(record.metricVerifiedAt, metric) ? record.metricVerifiedAt[metric] : record[`${metric}VerifiedAt`] ?? record.verifiedAt ?? record.updatedAt;
+  const parsed = stamp ? new Date(stamp) : null;
+  return parsed && !Number.isNaN(parsed.getTime()) ? `Checked ${longDateTime.format(parsed)}` : "Verification time unavailable";
+}
+function audienceChecked(record) {
+  const stale = record.source === "carry-forward" || record.precision === "stale";
+  const day = record.observedOn || (stale ? null : record.date);
+  const timestamp = record.metricVerifiedAt?.audience || record.verifiedAt;
+  const label = timestamp ? metricChecked(record, "audience") : day ? `Observed ${day} (time unavailable)` : "Verification date unavailable";
+  return `${stale ? "Stale · " : ""}${label}`;
 }
 
 function renderPosts() {
@@ -293,12 +299,13 @@ function renderPosts() {
       const hasEngagements = Number.isFinite(post.engagements);
       const hasComments = Number.isFinite(post.comments);
       const engagementPrefix = post.engagementsPrecision === "visible-minimum" ? "≥" : "";
-      const checkedDate = post.updatedAt ? new Date(post.updatedAt) : null;
+      const commentStamp = post.metricVerifiedAt && Object.hasOwn(post.metricVerifiedAt, "comments") ? post.metricVerifiedAt.comments : post.commentsVerifiedAt ?? post.updatedAt;
+      const checkedDate = commentStamp ? new Date(commentStamp) : null;
       const checkedLabel = checkedDate && !Number.isNaN(checkedDate.getTime())
         ? `Visible comment count checked ${longDateTime.format(checkedDate)}`
-        : "Visible comment count from the latest verification";
+        : "Verification time unavailable";
       const exposureCell = Number.isFinite(exposure)
-        ? fullNumber.format(exposure)
+        ? `<span title="${escapeHtml(metricChecked(post, Number.isFinite(post.views) ? "views" : "impressions"))}">${fullNumber.format(exposure)}</span>`
         : post.reachStatus === "not-visible"
           ? `<span class="metric-unavailable" title="This platform did not expose reach during verification">Not visible</span>`
           : "—";
@@ -310,7 +317,7 @@ function renderPosts() {
         <td><span class="table-channel"><i style="--channel-color:${channel?.color || "#64748b"}"></i>${escapeHtml(channel?.platform || post.channelId)}</span></td>
         <td><a href="${safeUrl(post.url)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></td>
         <td>${exposureCell}</td>
-        <td>${hasEngagements ? `${engagementPrefix}${fullNumber.format(post.engagements)}` : "—"}</td>
+        <td title="${escapeHtml(metricChecked(post, "engagements"))}">${hasEngagements ? `${engagementPrefix}${fullNumber.format(post.engagements)}` : "—"}</td>
         <td>${commentsCell}</td>
         <td>${hasEngagements && exposure ? `${engagementPrefix}${percent(post.engagements, exposure)}` : "—"}</td>
       </tr>`;
@@ -362,7 +369,7 @@ function renderMentions() {
           ? "Not visible"
           : "—";
       const reachMarkup = hasVisibleReach
-        ? `<span class="mention-reach ${Number.isFinite(reach) ? "" : "unavailable"}"><small>Public reach</small><strong>${reachLabel}</strong></span>`
+        ? `<span class="mention-reach ${Number.isFinite(reach) ? "" : "unavailable"}"><small>${Number.isFinite(mention.views) ? "Video views" : "Impressions"}</small><strong title="${escapeHtml(metricChecked(mention, Number.isFinite(mention.views) ? "views" : "impressions"))}">${reachLabel}</strong></span>`
         : "";
       return `<article class="mention-row${hasVisibleReach ? " has-reach" : ""}">
         <time datetime="${escapeHtml(mention.publishedAt)}">${mention.datePrecision?.startsWith("relative") ? "≈" : ""}${shortDate.format(new Date(mention.publishedAt))}</time>

@@ -173,12 +173,12 @@ test("verified cross-channel activity is archived without inventing unavailable 
   assert.ok(posts.filter((post) => ["linkedin-geoff", "instagram-geoff"].includes(post.channelId)).every((post) => post.reachStatus === "not-visible" && !("views" in post) && !("impressions" in post)));
 });
 
-test("activity coverage remains verified while audience rows stay focused", async () => {
+test("activity coverage reports its verification status while audience rows stay focused", async () => {
   const [channels, script] = await Promise.all([
     readFile(new URL("public/data/channels.json", root), "utf8").then(JSON.parse),
     readFile(new URL("public/tracker.js", root), "utf8"),
   ]);
-  assert.ok(channels.every((channel) => channel.category === "newsletter" ? channel.activityTracking?.status === "not-applicable" : channel.activityTracking?.status === "verified"));
+  assert.ok(channels.every((channel) => channel.category === "newsletter" ? channel.activityTracking?.status === "not-applicable" : ["verified", "partial", "paused", "unavailable"].includes(channel.activityTracking?.status)));
   assert.doesNotMatch(script, /channel-activity/);
   assert.match(script, /visible-minimum/);
   assert.match(script, /metric-unavailable/);
