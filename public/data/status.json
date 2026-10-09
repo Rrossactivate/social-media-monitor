@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T13:03:17.796Z",
-  "timezone": "America/Los_Angeles",
+  "generatedAt": "2026-10-09T17:30:53.527Z",
+  "timezone": "America/Vancouver",
   "providers": [
     {
       "id": "youtube",
@@ -8,7 +8,7 @@
       "mode": "api",
       "status": "paused",
       "detail": "Owned YouTube collection paused at user request pending the correct channel URL. Guest appearances remain tracked separately.",
-      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptAt": "2026-10-09T17:30:53.508Z",
       "lastAttemptStatus": "paused"
     },
     {
@@ -17,7 +17,7 @@
       "mode": "api",
       "status": "needs-setup",
       "detail": "Add X_BEARER_TOKEN",
-      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptAt": "2026-10-09T17:30:53.508Z",
       "lastAttemptStatus": "needs-setup"
     },
     {
@@ -26,7 +26,7 @@
       "mode": "api",
       "status": "needs-setup",
       "detail": "Add Instagram user ID and access token",
-      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptAt": "2026-10-09T17:30:53.508Z",
       "lastAttemptStatus": "needs-setup"
     },
     {
@@ -35,7 +35,7 @@
       "mode": "api",
       "status": "needs-setup",
       "detail": "Add an approved organization token and ID",
-      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptAt": "2026-10-09T17:30:53.508Z",
       "lastAttemptStatus": "needs-setup"
     },
     {
