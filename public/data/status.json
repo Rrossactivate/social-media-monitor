@@ -1,34 +1,34 @@
 {
-  "generatedAt": "2026-10-09T02:18:16.000Z",
-  "timezone": "America/Los_Angeles",
+  "generatedAt": "2026-10-09T02:58:49.855Z",
+  "timezone": "America/Vancouver",
   "providers": [
     {
       "id": "youtube",
       "label": "YouTube",
       "mode": "api",
-      "status": "unavailable",
-      "detail": "October 8: saved handle returned 404 and saved channel ID returned 'This channel does not exist.' Prior audience and post metrics preserved as stale."
+      "status": "error",
+      "detail": "Update failed: Channel not found"
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "October 8: 4,127 followers verified in the public browser view. Latest visible post is March 2018; no recent posts exposed in this view. Signed-in activity completeness was not verified."
+      "detail": "Add X_BEARER_TOKEN"
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "October 8: 6,044 followers verified in Chrome. Latest visible grid post remains September 11. Post details require login; prior engagement metrics and verification timestamps preserved. Unexposed reach remains unavailable."
+      "detail": "Add Instagram user ID and access token"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
-      "status": "unavailable",
-      "detail": "October 8: company profile reached a LinkedIn verification checkpoint in Chrome. Prior 1,201 followers and post metrics preserved; today's audience is marked stale."
+      "status": "needs-setup",
+      "detail": "Add an approved organization token and ID"
     },
     {
       "id": "manual",

@@ -2721,13 +2721,6 @@
   },
   {
     "date": "2026-10-08",
-    "channelId": "linkedin-geoff",
-    "audience": 19786,
-    "source": "carry-forward",
-    "precision": "stale"
-  },
-  {
-    "date": "2026-10-08",
     "channelId": "instagram-geoff",
     "audience": 6044,
     "source": "browser-verified",
@@ -2736,11 +2729,25 @@
   },
   {
     "date": "2026-10-08",
-    "channelId": "x-geoff",
-    "audience": 4127,
-    "source": "browser-verified",
-    "precision": "exact",
-    "verifiedAt": "2026-10-09T02:18:16.000Z"
+    "channelId": "linkedin-ai-leadership",
+    "audience": 1201,
+    "source": "carry-forward",
+    "precision": "stale"
+  },
+  {
+    "date": "2026-10-08",
+    "channelId": "linkedin-geoff",
+    "audience": 19786,
+    "source": "carry-forward",
+    "precision": "stale"
+  },
+  {
+    "date": "2026-10-08",
+    "channelId": "loops-ail-newsletter",
+    "audience": 10980,
+    "source": "carry-forward",
+    "precision": "stale",
+    "verifiedAt": "2026-09-27T13:17:01.428Z"
   },
   {
     "date": "2026-10-08",
@@ -2752,10 +2759,11 @@
   },
   {
     "date": "2026-10-08",
-    "channelId": "linkedin-ai-leadership",
-    "audience": 1201,
-    "source": "carry-forward",
-    "precision": "stale"
+    "channelId": "x-geoff",
+    "audience": 4127,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-10-09T02:18:16.000Z"
   },
   {
     "date": "2026-10-08",
