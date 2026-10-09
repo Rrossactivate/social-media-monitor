@@ -189,7 +189,7 @@
     "type": "book-mention",
     "publisher": "Fahad Al Jabri",
     "platform": "LinkedIn",
-    "title": "Book Recommendation: The AI-Driven Leader \u2014 Geoff Woods",
+    "title": "Book Recommendation: The AI-Driven Leader — Geoff Woods",
     "url": "https://www.linkedin.com/search/results/content/?keywords=%22Book%20Recommendation%22%20%22The%20AI-Driven%20Leader%22%20%22Fahad%20Al%20Jabri%22&origin=GLOBAL_SEARCH_HEADER&sortBy=%22date_posted%22",
     "platforms": [
       "LinkedIn"
@@ -207,7 +207,7 @@
     "type": "podcast-guest",
     "publisher": "Do This, NOT That: Marketing Tips with Jay Schwedelson",
     "platform": "Wave",
-    "title": "SPECIAL GUEST!! #1 AI AUTHOR! Geoff Woods \u2014 You're Prompting AI Wrong | Ep. 551",
+    "title": "SPECIAL GUEST!! #1 AI AUTHOR! Geoff Woods — You're Prompting AI Wrong | Ep. 551",
     "url": "https://pod.wave.co/podcast/do-this-not-that-marketing-tips-with-jay-schwedelson-l-presented-by-marigold/special-guest-geoff-woods-youre-prompting-ai-wrong-ep-551",
     "platforms": [
       "Wave"
@@ -406,7 +406,11 @@
     "engagements": null,
     "reachStatus": "not-visible",
     "source": "web-verified",
-    "discoveredAt": "2026-07-25T23:50:53.000Z"
+    "discoveredAt": "2026-07-25T23:50:53.000Z",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "distributionUrls": [
+      "https://beyondamillion.com/audio/geoff-woods-why-most-founders-are-using-ai-all-wrong/"
+    ]
   },
   {
     "id": "podcast:ceo-com:2026-07-09",
@@ -494,7 +498,7 @@
     "type": "podcast-guest",
     "publisher": "Sparks for Growth",
     "platform": "Podcast",
-    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions \u2014 Not Just Productivity",
+    "title": "The CRIT Framework: Geoff Woods on Using AI for Strategic Decisions — Not Just Productivity",
     "url": "https://podcasts.apple.com/us/podcast/the-crit-framework-geoff-woods-on-using-ai-for/id1525777023?i=1000775766271",
     "platforms": [
       "Apple Podcasts"
@@ -603,14 +607,40 @@
     "platforms": [
       "YouTube"
     ],
-    "views": 175631,
+    "views": 175752,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-09T03:21:14.750082+00:00",
+    "viewsVerifiedAt": "2026-10-09T13:03:17.796Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-10-09T03:21:14.750082+00:00",
-    "verifiedAt": "2026-10-09T03:21:14.750082+00:00",
-    "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff\u2019s owned audience."
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience.",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z"
+  },
+  {
+    "id": "linkedin:scott-jeffrey-miller:7513937161126244352",
+    "publishedAt": "2026-10-08T12:00:00-07:00",
+    "datePrecision": "relative-day",
+    "sourceDateLabel": "Yesterday",
+    "type": "book-mention",
+    "publisher": "Scott Jeffrey Miller",
+    "title": "Audible recognition for The AI-Driven Leader",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7513937161126244352/",
+    "platform": "LinkedIn",
+    "platforms": [
+      "LinkedIn"
+    ],
+    "reactions": 2,
+    "comments": 1,
+    "reposts": 1,
+    "engagements": 4,
+    "engagementsPrecision": "visible-minimum",
+    "views": null,
+    "reachStatus": "not-visible",
+    "source": "browser-verified",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "discoveredAt": "2026-10-09T13:03:17.796Z",
+    "notes": "Original publisher page verified. Publication day inferred from Yesterday; noon is a day-precision placeholder, not a known posting time. Book readership mentioned in the post is not measured audience reach."
   }
 ]

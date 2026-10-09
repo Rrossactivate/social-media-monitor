@@ -6,25 +6,27 @@
     "datePrecision": "day",
     "title": "Just got news of this today. Audible recognition for The AI-Driven Leader.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7514033090072133632/",
-    "reactions": 26,
-    "comments": 6,
+    "reactions": 38,
+    "comments": 7,
     "reposts": null,
-    "engagements": 32,
+    "engagements": 45,
     "engagementsPrecision": "visible-minimum",
     "reachStatus": "not-visible",
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "notes": "Publication time is a placeholder; the date has day precision.",
     "metricVerifiedAt": {
-      "reactions": "2026-10-09T03:31:08.013Z",
-      "comments": "2026-10-09T03:31:08.013Z",
-      "engagements": "2026-10-09T03:31:08.013Z"
+      "reactions": "2026-10-09T13:03:17.796Z",
+      "comments": "2026-10-09T13:03:17.796Z",
+      "engagements": "2026-10-09T13:03:17.796Z"
     },
     "metricSources": {
       "reactions": "browser-verified",
       "comments": "browser-verified",
       "engagements": "browser-verified"
-    }
+    },
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7513262656590503937",
@@ -40,20 +42,22 @@
     "engagementsPrecision": "visible-minimum",
     "reachStatus": "not-visible",
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "notes": "Publication time is a placeholder; the date has day precision.",
     "metricVerifiedAt": {
-      "reactions": "2026-10-09T03:31:08.013Z",
-      "comments": "2026-10-09T03:31:08.013Z",
-      "reposts": "2026-10-09T03:31:08.013Z",
-      "engagements": "2026-10-09T03:31:08.013Z"
+      "reactions": "2026-10-09T13:03:17.796Z",
+      "comments": "2026-10-09T13:03:17.796Z",
+      "reposts": "2026-10-09T13:03:17.796Z",
+      "engagements": "2026-10-09T13:03:17.796Z"
     },
     "metricSources": {
       "reactions": "browser-verified",
       "comments": "browser-verified",
       "reposts": "browser-verified",
       "engagements": "browser-verified"
-    }
+    },
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7510898851302567936",
@@ -62,18 +66,18 @@
     "datePrecision": "day",
     "title": "Speaking at Capital One Hall: leaders modeling AI adoption.",
     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7510898851302567936/",
-    "reactions": 231,
+    "reactions": 234,
     "comments": 12,
     "reposts": 1,
     "engagements": 244,
     "engagementsPrecision": "visible-minimum",
     "reachStatus": "not-visible",
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "notes": "Publication time is a placeholder; the date has day precision.",
     "metricVerifiedAt": {
-      "reactions": "2026-10-09T03:31:08.013Z",
-      "comments": "2026-10-09T03:31:08.013Z",
+      "reactions": "2026-10-09T13:03:17.796Z",
+      "comments": "2026-10-09T13:03:17.796Z",
       "reposts": "2026-10-09T03:31:08.013Z",
       "engagements": "2026-10-09T03:31:08.013Z"
     },
@@ -82,7 +86,9 @@
       "comments": "browser-verified",
       "reposts": "browser-verified",
       "engagements": "browser-verified"
-    }
+    },
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window"
   },
   {
     "id": "linkedin:7510482805252939776",
@@ -276,24 +282,27 @@
     "engagements": 9,
     "engagementsPrecision": "visible-minimum",
     "likes": 8,
-    "comments": null,
+    "comments": 0,
     "reposts": 1,
     "saves": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "metricVerifiedAt": {
-      "likes": "2026-10-09T03:31:08.013Z",
-      "engagements": "2026-10-09T03:31:08.013Z",
-      "reposts": "2026-10-09T03:31:08.013Z"
+      "likes": "2026-10-09T13:03:17.796Z",
+      "engagements": "2026-10-09T13:03:17.796Z",
+      "reposts": "2026-10-09T13:03:17.796Z",
+      "comments": "2026-10-09T13:03:17.796Z"
     },
     "metricSources": {
       "likes": "browser-verified",
       "engagements": "browser-verified",
-      "reposts": "browser-verified"
+      "reposts": "browser-verified",
+      "comments": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-    "verificationTimePrecision": "collection-window"
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window",
+    "commentsStatus": "visible"
   },
   {
     "id": "tiktok:7684355587328478478",
@@ -310,10 +319,10 @@
     "saves": 5,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-09T03:31:08.013Z",
+      "views": "2026-10-09T13:03:17.796Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -328,8 +337,9 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-    "verificationTimePrecision": "collection-window"
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window",
+    "viewsPrecision": "exact-visible"
   },
   {
     "id": "linkedin:7504237634899234816",
@@ -432,10 +442,10 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-09T03:31:08.013Z",
+      "views": "2026-10-09T13:03:17.796Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -450,8 +460,9 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-    "verificationTimePrecision": "collection-window"
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window",
+    "viewsPrecision": "exact-visible"
   },
   {
     "id": "instagram:DdE9pyolVL-",
@@ -527,10 +538,10 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-09T03:31:08.013Z",
+      "views": "2026-10-09T13:03:17.796Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -545,8 +556,9 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-    "verificationTimePrecision": "collection-window"
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window",
+    "viewsPrecision": "exact-visible"
   },
   {
     "id": "instagram:DdCYzWxCC4t",
@@ -624,10 +636,10 @@
     "saves": 2,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-09T03:31:08.013Z",
+    "updatedAt": "2026-10-09T13:03:17.796Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-09T03:31:08.013Z",
+      "views": "2026-10-09T13:03:17.796Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -642,8 +654,9 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-    "verificationTimePrecision": "collection-window"
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "verificationTimePrecision": "collection-window",
+    "viewsPrecision": "exact-visible"
   },
   {
     "id": "instagram:Dc4Fu36EfUl",

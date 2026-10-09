@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T03:35:11.004Z",
-  "timezone": "America/Vancouver",
+  "generatedAt": "2026-10-09T13:03:17.796Z",
+  "timezone": "America/Los_Angeles",
   "providers": [
     {
       "id": "youtube",
@@ -50,7 +50,9 @@
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "September 27: searched the public web for recent earned mentions. No new verified mention was added; search results do not establish zero mentions on every platform. Unavailable reach remains null."
+      "detail": "Checked Codie Sanchez video and original Scott Jeffrey Miller post; searched public web and YouTube-indexed results. Added one book mention; Beyond A Million appearance deduplicated. Search is not exhaustive. Elizabeth Marberry candidate publication year not confirmed, not added.",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
     },
     {
       "id": "loops",
@@ -58,47 +60,48 @@
       "mode": "browser",
       "status": "unavailable",
       "detail": "Built-in browser reached the Loops sign-in page. Previous September 27 subscriber observation retained as stale.",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptStatus": "unavailable"
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptStatus": "login-required"
     },
     {
       "id": "linkedin-browser",
       "label": "LinkedIn browser",
       "mode": "browser",
-      "status": "partial",
-      "detail": "Geoff: 20,200 followers; 4 newer posts added and 9 existing posts refreshed. Company: 1,230 followers verified; newest-post sorting could not be confirmed, so company activity coverage remains partial.",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptStatus": "partial"
+      "status": "ready",
+      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptStatus": "ready",
+      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
     },
     {
       "id": "instagram-browser",
       "label": "Instagram browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "6,044 followers verified. Visible engagement refreshed for the four September 8–11 posts; private reach and unexposed counts remain unavailable.",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T03:31:08.013Z"
+      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
     },
     {
       "id": "x-browser",
       "label": "X browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "4,127 followers verified while signed in. Newest post visible in the profile timeline is March 10, 2018; this is not a claim about activity outside that view.",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T03:31:08.013Z"
+      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
     },
     {
       "id": "tiktok-browser",
       "label": "TikTok browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "67 followers and 168 profile likes verified. Four recent videos refreshed with visible views, likes, comments, saves and shares.",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T03:31:08.013Z"
+      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
     }
   ]
 }

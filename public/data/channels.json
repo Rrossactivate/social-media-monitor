@@ -10,15 +10,16 @@
     "profileUrl": "https://www.linkedin.com/in/geoff-woods-8534774/",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "verified",
-      "windowDays": 30
+      "windowDays": 30,
+      "scope": "Latest ten profile posts inspected; no newer post than October 8 visible. Older post metrics retain their own verification times."
     },
     "audienceTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -33,15 +34,16 @@
     "profileUrl": "https://www.instagram.com/geoffwoods/",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
       "windowDays": 30,
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptStatus": "verified"
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptStatus": "verified",
+      "scope": "Visible profile timeline/grid inspected; no claim of exhaustive platform coverage."
     },
     "audienceTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -56,15 +58,16 @@
     "profileUrl": "https://x.com/geoffwoods",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
       "windowDays": 30,
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptStatus": "verified"
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptStatus": "verified",
+      "scope": "Visible profile timeline/grid inspected; no claim of exhaustive platform coverage."
     },
     "audienceTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -80,15 +83,16 @@
     "profileUrl": "https://www.tiktok.com/@realgeoffwoods",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
       "windowDays": 30,
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptStatus": "verified"
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptStatus": "verified",
+      "scope": "Visible profile timeline/grid inspected; no claim of exhaustive platform coverage."
     },
     "audienceTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -102,16 +106,17 @@
     "color": "#0F254C",
     "profileUrl": "https://www.linkedin.com/company/ai-thought-leadership/",
     "activityTracking": {
-      "status": "partial",
-      "checkedAt": "2026-09-27T13:17:01.428Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptStatus": "partial",
-      "windowDays": 30
+      "status": "verified",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptStatus": "verified",
+      "windowDays": 30,
+      "scope": "Recent sort selected; first visible company posts are seven months old."
     },
     "audienceTracking": {
       "status": "verified",
-      "checkedAt": "2026-10-09T03:31:08.013Z",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "checkedAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "verified"
     }
   },
@@ -148,7 +153,7 @@
       "status": "unavailable",
       "checkedAt": "2026-09-27T13:17:01.428Z",
       "scope": "AIL Newsletter mailing list; Subscribed is true",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
       "lastAttemptStatus": "login-required"
     },
     "activityTracking": {

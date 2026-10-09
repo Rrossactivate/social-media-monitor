@@ -3218,5 +3218,121 @@
     "source": "carry-forward",
     "precision": "stale",
     "observedOn": "2026-09-12"
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "instagram-geoff",
+    "audience": 6044,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "observedOn": "2026-10-09",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.instagram.com/geoffwoods/",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T13:03:17.796Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "linkedin-ai-leadership",
+    "audience": 1230,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "observedOn": "2026-10-09",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.linkedin.com/company/ai-thought-leadership/",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T13:03:17.796Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "linkedin-geoff",
+    "audience": 20204,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "observedOn": "2026-10-09",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.linkedin.com/in/geoff-woods-8534774/",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T13:03:17.796Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "loops-ail-newsletter",
+    "audience": 10980,
+    "source": "carry-forward",
+    "precision": "stale",
+    "verifiedAt": "2026-09-27T13:17:01.428Z",
+    "observedOn": "2026-09-27",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "unavailable"
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "tiktok-geoff",
+    "audience": 67,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "observedOn": "2026-10-09",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://www.tiktok.com/@realgeoffwoods",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T13:03:17.796Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "x-geoff",
+    "audience": 4127,
+    "source": "browser-verified",
+    "precision": "exact",
+    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "observedOn": "2026-10-09",
+    "verificationTimePrecision": "collection-window",
+    "sourceUrl": "https://x.com/geoffwoods",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "verified",
+    "metricVerifiedAt": {
+      "audience": "2026-10-09T13:03:17.796Z"
+    },
+    "metricSources": {
+      "audience": "browser-verified"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "channelId": "youtube-ai-driven-leader",
+    "audience": 2140,
+    "source": "carry-forward",
+    "precision": "stale",
+    "observedOn": "2026-09-12",
+    "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+    "lastAttemptStatus": "unavailable"
   }
 ]
