@@ -638,9 +638,10 @@
     "engagementsPrecision": "visible-minimum",
     "views": null,
     "reachStatus": "not-visible",
-    "source": "browser-verified",
+    "source": "web-verified",
     "verifiedAt": "2026-10-09T13:03:17.796Z",
     "discoveredAt": "2026-10-09T13:03:17.796Z",
-    "notes": "Original publisher page verified. Publication day inferred from Yesterday; noon is a day-precision placeholder, not a known posting time. Book readership mentioned in the post is not measured audience reach."
+    "notes": "Original publisher page verified. Publication day inferred from Yesterday; noon is a day-precision placeholder, not a known posting time. Book readership mentioned in the post is not measured audience reach.",
+    "verificationMethod": "signed-in-browser"
   }
 ]
