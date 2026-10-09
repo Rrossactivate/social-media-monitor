@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-09T03:31:08.017Z",
-  "timezone": "America/Los_Angeles",
+  "generatedAt": "2026-10-09T03:35:11.004Z",
+  "timezone": "America/Vancouver",
   "providers": [
     {
       "id": "youtube",
       "label": "YouTube",
       "mode": "api",
       "status": "paused",
-      "detail": "Owned channel skipped at user request pending the correct URL; verified third-party appearances remain tracked.",
-      "lastAttemptAt": "2026-10-09T03:31:08.013Z",
+      "detail": "Owned YouTube collection paused at user request pending the correct channel URL. Guest appearances remain tracked separately.",
+      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
       "lastAttemptStatus": "paused"
     },
     {
@@ -16,21 +16,27 @@
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add X_BEARER_TOKEN"
+      "detail": "Add X_BEARER_TOKEN",
+      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptStatus": "needs-setup"
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add Instagram user ID and access token"
+      "detail": "Add Instagram user ID and access token",
+      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptStatus": "needs-setup"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "Add an approved organization token and ID"
+      "detail": "Add an approved organization token and ID",
+      "lastAttemptAt": "2026-10-09T03:35:10.987Z",
+      "lastAttemptStatus": "needs-setup"
     },
     {
       "id": "manual",
