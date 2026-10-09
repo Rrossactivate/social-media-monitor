@@ -11,7 +11,7 @@
     "activityTracking": {
       "status": "verified",
       "checkedAt": "2026-09-27T13:17:01.428Z",
-      "lastAttemptAt": "2026-09-27T19:48:21.203Z",
+      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
       "lastAttemptStatus": "unavailable",
       "windowDays": 30
     }
@@ -27,8 +27,10 @@
     "profileUrl": "https://www.instagram.com/geoffwoods/",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-09-27T19:48:21.203Z",
-      "windowDays": 30
+      "checkedAt": "2026-10-09T02:18:16.000Z",
+      "windowDays": 30,
+      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
+      "lastAttemptStatus": "verified"
     }
   },
   {
@@ -42,8 +44,10 @@
     "profileUrl": "https://x.com/geoffwoods",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-09-27T19:48:21.203Z",
-      "windowDays": 30
+      "checkedAt": "2026-10-09T02:18:16.000Z",
+      "windowDays": 30,
+      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
+      "lastAttemptStatus": "verified"
     }
   },
   {
@@ -58,8 +62,10 @@
     "profileUrl": "https://www.tiktok.com/@realgeoffwoods",
     "activityTracking": {
       "status": "verified",
-      "checkedAt": "2026-09-27T19:48:21.203Z",
-      "windowDays": 30
+      "checkedAt": "2026-10-09T02:18:16.000Z",
+      "windowDays": 30,
+      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
+      "lastAttemptStatus": "verified"
     }
   },
   {
@@ -74,7 +80,7 @@
     "activityTracking": {
       "status": "verified",
       "checkedAt": "2026-09-27T13:17:01.428Z",
-      "lastAttemptAt": "2026-09-27T19:48:21.203Z",
+      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
       "lastAttemptStatus": "unavailable",
       "windowDays": 30
     }
@@ -92,7 +98,7 @@
     "activityTracking": {
       "status": "verified",
       "checkedAt": "2026-09-12T13:01:45.226Z",
-      "lastAttemptAt": "2026-09-27T19:48:21.203Z",
+      "lastAttemptAt": "2026-10-09T02:18:16.000Z",
       "lastAttemptStatus": "unavailable",
       "windowDays": 30
     }

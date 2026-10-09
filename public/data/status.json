@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T19:48:21.203Z",
+  "generatedAt": "2026-10-09T02:18:16.000Z",
   "timezone": "America/Los_Angeles",
   "providers": [
     {
@@ -7,35 +7,35 @@
       "label": "YouTube",
       "mode": "api",
       "status": "unavailable",
-      "detail": "September 27: configured channel returned ‘This channel does not exist.’ Last verified audience and post metrics preserved as stale."
+      "detail": "October 8: saved handle returned 404 and saved channel ID returned 'This channel does not exist.' Prior audience and post metrics preserved as stale."
     },
     {
       "id": "x",
       "label": "X",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "September 27: 4,127 followers verified in browser; latest owned post is March 2018. No recent owned activity."
+      "detail": "October 8: 4,127 followers verified in the public browser view. Latest visible post is March 2018; no recent posts exposed in this view. Signed-in activity completeness was not verified."
     },
     {
       "id": "instagram",
       "label": "Instagram",
       "mode": "api",
       "status": "needs-setup",
-      "detail": "September 27: 5,999 followers verified; no new owned posts found. Post-level engagement remained unavailable without login and was preserved. Unexposed reach remains unavailable."
+      "detail": "October 8: 6,044 followers verified in Chrome. Latest visible grid post remains September 11. Post details require login; prior engagement metrics and verification timestamps preserved. Unexposed reach remains unavailable."
     },
     {
       "id": "linkedin",
       "label": "LinkedIn company",
       "mode": "api",
       "status": "unavailable",
-      "detail": "September 27: AI Leadership was verified earlier today at 1,201 followers with no recent owned company activity. The later signed-in browser session was unavailable and LinkedIn's public view was blocked by its sign-up wall; the verified value and post state were preserved."
+      "detail": "October 8: company profile reached a LinkedIn verification checkpoint in Chrome. Prior 1,201 followers and post metrics preserved; today's audience is marked stale."
     },
     {
       "id": "manual",
       "label": "Manual fallbacks",
       "mode": "manual",
       "status": "ready",
-      "detail": "September 27: earlier signed-in verification recorded Geoff LinkedIn 19,786 and AI Leadership LinkedIn 1,201; later public verification recorded Instagram 5,999, X 4,127, and TikTok 62. No new owned posts were found. Five LinkedIn posts retain today's earlier verified metrics, and four TikTok posts were refreshed later. The later signed-in browser session, Instagram post engagement, and YouTube were unavailable."
+      "detail": "October 8: public audience verification recorded Instagram 6,044, X 4,127, and TikTok 67. TikTok profile shows 168 likes; four recent video views refreshed to 198, 186, 157, and 162 with viewsVerifiedAt timestamps. Other post metrics and their prior updatedAt timestamps were preserved. No new posts appeared in the accessible grids. Geoff LinkedIn hit a sign-in wall, company LinkedIn hit a verification checkpoint, Instagram post details require login, and both saved YouTube URLs failed. LinkedIn and YouTube audience values carried forward as stale. Earned media and newsletter data were not reverified or changed."
     },
     {
       "id": "mentions",
