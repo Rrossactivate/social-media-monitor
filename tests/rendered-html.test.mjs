@@ -75,7 +75,13 @@ test("earned mentions are verified, deduplicated, and explicit about unavailable
   );
   assert.ok(mentions.every((mention) => ["podcast-guest", "social-mention", "book-mention"].includes(mention.type)));
   assert.ok(mentions.every((mention) => Array.isArray(mention.platforms) && mention.platforms.length));
-  assert.ok(mentions.every((mention) => mention.reachStatus === "not-visible" && mention.views === null));
+  assert.ok(mentions.every((mention) =>
+    mention.views === null
+      ? mention.reachStatus === "not-visible"
+      : Number.isFinite(mention.views) && mention.views >= 0 &&
+        mention.reachStatus === "visible" && mention.viewsPrecision === "exact-visible" &&
+        Number.isFinite(Date.parse(mention.viewsVerifiedAt)),
+  ));
   assert.ok(
     mentions.every(
       (mention) =>

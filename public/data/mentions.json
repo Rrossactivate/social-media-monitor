@@ -589,5 +589,28 @@
     "discoveredAt": "2026-09-19T14:25:05.752924+00:00",
     "views": null,
     "reachStatus": "not-visible"
+  },
+  {
+    "id": "youtube:vodeYl5DkJE",
+    "publishedAt": "2026-07-15T12:00:00Z",
+    "datePrecision": "day",
+    "type": "podcast-guest",
+    "publisher": "BigDeal by Codie Sanchez",
+    "publisherUrl": "https://www.youtube.com/@PodcastBigDeal",
+    "title": "How to Use AI to Make Money, Grow Your Business, and Be More Productive | Geoff Woods",
+    "url": "https://www.youtube.com/watch?v=vodeYl5DkJE",
+    "platform": "YouTube",
+    "platforms": [
+      "YouTube"
+    ],
+    "views": 175631,
+    "viewsPrecision": "exact-visible",
+    "viewsVerifiedAt": "2026-10-09T03:21:14.750082+00:00",
+    "engagements": null,
+    "reachStatus": "visible",
+    "source": "web-verified",
+    "discoveredAt": "2026-10-09T03:21:14.750082+00:00",
+    "verifiedAt": "2026-10-09T03:21:14.750082+00:00",
+    "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff\u2019s owned audience."
   }
 ]
