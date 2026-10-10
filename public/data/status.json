@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-09T17:30:53.527Z",
-  "timezone": "America/Vancouver",
+  "generatedAt": "2026-10-10T13:03:42.447Z",
+  "timezone": "America/Los_Angeles",
   "providers": [
     {
       "id": "youtube",
@@ -50,9 +50,9 @@
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "Checked Codie Sanchez video and original Scott Jeffrey Miller post; searched public web and YouTube-indexed results. Added one book mention; Beyond A Million appearance deduplicated. Search is not exhaustive. Elizabeth Marberry candidate publication year not confirmed, not added.",
-      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
-      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
+      "detail": "October 10 search covered public web and YouTube-indexed results; no new unique appearance confirmed in this limited search. Reverified Codie video and Using AI at Work publisher page. Merged duplicate Spotify/YouTube BigDeal interview; no claim of exhaustive coverage.",
+      "lastAttemptAt": "2026-10-10T13:03:42.447Z",
+      "lastSuccessAt": "2026-10-10T13:03:42.447Z"
     },
     {
       "id": "loops",
@@ -60,7 +60,7 @@
       "mode": "browser",
       "status": "unavailable",
       "detail": "Built-in browser reached the Loops sign-in page. Previous September 27 subscriber observation retained as stale.",
-      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "lastAttemptAt": "2026-10-10T13:03:42.447Z",
       "lastAttemptStatus": "login-required"
     },
     {
@@ -68,40 +68,40 @@
       "label": "LinkedIn browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
-      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "detail": "Signed-in browser access and audience verified October 10. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-10T13:03:42.447Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
+      "lastSuccessAt": "2026-10-10T13:03:42.447Z"
     },
     {
       "id": "instagram-browser",
       "label": "Instagram browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
-      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "detail": "Signed-in browser access and audience verified October 10. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-10T13:03:42.447Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
+      "lastSuccessAt": "2026-10-10T13:03:42.447Z"
     },
     {
       "id": "x-browser",
       "label": "X browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
-      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "detail": "Signed-in browser access and audience verified October 10. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-10T13:03:42.447Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
+      "lastSuccessAt": "2026-10-10T13:03:42.447Z"
     },
     {
       "id": "tiktok-browser",
       "label": "TikTok browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access verified October 9. Audience and visible profile activity checked; individual metric timestamps identify which readings were refreshed.",
-      "lastAttemptAt": "2026-10-09T13:03:17.796Z",
+      "detail": "Signed-in browser access and audience verified October 10. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-10T13:03:42.447Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-09T13:03:17.796Z"
+      "lastSuccessAt": "2026-10-10T13:03:42.447Z"
     }
   ]
 }

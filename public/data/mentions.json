@@ -353,24 +353,6 @@
     "discoveredAt": "2026-08-23T16:18:23.580Z"
   },
   {
-    "id": "podcast:bigdeal:2026-07-15",
-    "publishedAt": "2026-07-15T12:00:00Z",
-    "datePrecision": "day",
-    "type": "podcast-guest",
-    "publisher": "BigDeal",
-    "platform": "Podcast",
-    "title": "How to Use AI to Make Money, Grow Your Business, and Be More Productive | Geoff Woods",
-    "url": "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod",
-    "platforms": [
-      "Spotify"
-    ],
-    "views": null,
-    "engagements": null,
-    "reachStatus": "not-visible",
-    "source": "web-verified",
-    "discoveredAt": "2026-07-25T23:50:53.000Z"
-  },
-  {
     "id": "podcast:using-ai-at-work:2026-07-13",
     "publishedAt": "2026-07-13T12:00:00Z",
     "datePrecision": "day",
@@ -387,7 +369,11 @@
     "engagements": null,
     "reachStatus": "not-visible",
     "source": "web-verified",
-    "discoveredAt": "2026-07-25T23:50:53.000Z"
+    "discoveredAt": "2026-07-25T23:50:53.000Z",
+    "verifiedAt": "2026-10-10T13:03:42.447Z",
+    "distributionUrls": [
+      "https://www.buzzsprout.com/2278116/episodes/19481304-112-ai-driven-leadership-using-the-crit-framework-make-faster-smarter-decisions-with-geoff-woods"
+    ]
   },
   {
     "id": "podcast:beyond-a-million:2026-07-09",
@@ -605,18 +591,25 @@
     "url": "https://www.youtube.com/watch?v=vodeYl5DkJE",
     "platform": "YouTube",
     "platforms": [
-      "YouTube"
+      "YouTube",
+      "Spotify"
     ],
-    "views": 175752,
+    "views": 176069,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-09T13:03:17.796Z",
+    "viewsVerifiedAt": "2026-10-10T13:03:42.447Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
-    "discoveredAt": "2026-10-09T03:21:14.750082+00:00",
-    "verifiedAt": "2026-10-09T13:03:17.796Z",
-    "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience.",
-    "lastAttemptAt": "2026-10-09T13:03:17.796Z"
+    "discoveredAt": "2026-07-25T23:50:53.000Z",
+    "verifiedAt": "2026-10-10T13:03:42.447Z",
+    "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience. Spotify and YouTube are the same July 15 interview; counted once.",
+    "lastAttemptAt": "2026-10-10T13:03:42.447Z",
+    "distributionUrls": [
+      "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod"
+    ],
+    "mergedIds": [
+      "podcast:bigdeal:2026-07-15"
+    ]
   },
   {
     "id": "linkedin:scott-jeffrey-miller:7513937161126244352",
