@@ -532,7 +532,11 @@
     "source": "web-verified",
     "discoveredAt": "2026-09-19T14:25:05.752924+00:00",
     "views": null,
-    "reachStatus": "not-visible"
+    "reachStatus": "not-visible",
+    "verifiedAt": "2026-10-11T13:03:39.629Z",
+    "distributionUrls": [
+      "https://franchisesecrets.com/podcast/stop-using-ai-like-google-heres-what-leaders-do-instead/"
+    ]
   },
   {
     "id": "linkedin:jodie-harlow:7498892227625213952",
@@ -594,16 +598,16 @@
       "YouTube",
       "Spotify"
     ],
-    "views": 176069,
+    "views": 176314,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-10T13:03:42.447Z",
+    "viewsVerifiedAt": "2026-10-11T13:03:39.629Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-10T13:03:42.447Z",
+    "verifiedAt": "2026-10-11T13:03:39.629Z",
     "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience. Spotify and YouTube are the same July 15 interview; counted once.",
-    "lastAttemptAt": "2026-10-10T13:03:42.447Z",
+    "lastAttemptAt": "2026-10-11T13:03:39.629Z",
     "distributionUrls": [
       "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod"
     ],
