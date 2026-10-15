@@ -414,7 +414,10 @@
     "engagements": null,
     "reachStatus": "not-visible",
     "source": "web-verified",
-    "discoveredAt": "2026-07-29T13:17:57.478Z"
+    "discoveredAt": "2026-07-29T13:17:57.478Z",
+    "verifiedAt": "2026-10-15T13:03:29.156Z",
+    "lastAttemptAt": "2026-10-15T13:03:29.156Z",
+    "sourceUrl": "https://www.ceo.com/episodes/ai-leadership-founder-geoff-woods-why-ai-won-t-replace-great-leaders-2/"
   },
   {
     "id": "linkedin:boardy:7480641950979608576",
@@ -598,16 +601,16 @@
       "YouTube",
       "Spotify"
     ],
-    "views": 177402,
+    "views": 177879,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-14T13:02:34.710Z",
+    "viewsVerifiedAt": "2026-10-15T13:03:29.156Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-14T13:02:34.710Z",
+    "verifiedAt": "2026-10-15T13:03:29.156Z",
     "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience. Spotify and YouTube are the same July 15 interview; counted once.",
-    "lastAttemptAt": "2026-10-14T13:02:34.710Z",
+    "lastAttemptAt": "2026-10-15T13:03:29.156Z",
     "distributionUrls": [
       "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod"
     ],
