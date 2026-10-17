@@ -13,10 +13,10 @@
     "engagementsPrecision": "visible-minimum",
     "reachStatus": "not-visible",
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "notes": "Publication time is a placeholder; the date has day precision.",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "engagements": "2026-10-14T13:02:34.710Z"
     },
@@ -25,7 +25,7 @@
       "comments": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -42,10 +42,10 @@
     "engagementsPrecision": "visible-minimum",
     "reachStatus": "not-visible",
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "notes": "Publication time is a placeholder; the date has day precision.",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "reposts": "2026-10-09T13:03:17.796Z",
       "engagements": "2026-10-14T13:02:34.710Z"
@@ -56,7 +56,7 @@
       "reposts": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -73,10 +73,10 @@
     "engagementsPrecision": "visible-minimum",
     "reachStatus": "not-visible",
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "notes": "Publication time is a placeholder; the date has day precision.",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "reposts": "2026-10-09T03:31:08.013Z",
       "engagements": "2026-10-14T13:02:34.710Z"
@@ -87,7 +87,7 @@
       "reposts": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -163,9 +163,9 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "reposts": "2026-10-09T03:31:08.013Z",
       "engagements": "2026-10-14T13:02:34.710Z"
@@ -176,7 +176,7 @@
       "reposts": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -195,9 +195,9 @@
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "engagements": "2026-10-14T13:02:34.710Z"
     },
@@ -206,7 +206,7 @@
       "comments": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -224,9 +224,9 @@
     "reposts": 5,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "reposts": "2026-10-09T03:31:08.013Z",
       "engagements": "2026-10-14T13:02:34.710Z"
@@ -237,7 +237,7 @@
       "reposts": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -255,9 +255,9 @@
     "reposts": 1,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "reposts": "2026-10-09T03:31:08.013Z",
       "engagements": "2026-10-14T13:02:34.710Z"
@@ -268,7 +268,7 @@
       "reposts": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -319,10 +319,10 @@
     "saves": 5,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-16T13:02:39.892Z",
+      "views": "2026-10-17T13:02:47.448Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -337,7 +337,7 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window",
     "viewsPrecision": "exact-visible"
   },
@@ -356,9 +356,9 @@
     "reposts": null,
     "shares": null,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "metricVerifiedAt": {
-      "reactions": "2026-10-16T13:02:39.892Z",
+      "reactions": "2026-10-17T13:02:47.448Z",
       "comments": "2026-10-14T13:02:34.710Z",
       "engagements": "2026-10-14T13:02:34.710Z"
     },
@@ -367,7 +367,7 @@
       "comments": "browser-verified",
       "engagements": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window"
   },
   {
@@ -434,7 +434,7 @@
     "datePrecision": "relative-hour",
     "title": "Step one to becoming an AI-driven leader: two sticky notes and a Sharpie.",
     "url": "https://www.tiktok.com/@realgeoffwoods/video/7683983538198252814",
-    "views": 188,
+    "views": 189,
     "engagements": 2,
     "engagementsPrecision": "visible-minimum",
     "likes": 1,
@@ -442,10 +442,10 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-16T13:02:39.892Z",
+      "views": "2026-10-17T13:02:47.448Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -460,7 +460,7 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window",
     "viewsPrecision": "exact-visible"
   },
@@ -538,10 +538,10 @@
     "saves": 1,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-16T13:02:39.892Z",
+      "views": "2026-10-17T13:02:47.448Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -556,7 +556,7 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window",
     "viewsPrecision": "exact-visible"
   },
@@ -636,10 +636,10 @@
     "saves": 2,
     "shares": 0,
     "source": "browser-verified",
-    "updatedAt": "2026-10-16T13:02:39.892Z",
+    "updatedAt": "2026-10-17T13:02:47.448Z",
     "viewsVerifiedAt": "2026-10-09T03:31:08.013Z",
     "metricVerifiedAt": {
-      "views": "2026-10-16T13:02:39.892Z",
+      "views": "2026-10-17T13:02:47.448Z",
       "likes": "2026-10-09T03:31:08.013Z",
       "comments": "2026-10-09T03:31:08.013Z",
       "saves": "2026-10-09T03:31:08.013Z",
@@ -654,7 +654,7 @@
       "engagements": "browser-verified",
       "shares": "browser-verified"
     },
-    "lastAttemptAt": "2026-10-16T13:02:39.892Z",
+    "lastAttemptAt": "2026-10-17T13:02:47.448Z",
     "verificationTimePrecision": "collection-window",
     "viewsPrecision": "exact-visible"
   },
