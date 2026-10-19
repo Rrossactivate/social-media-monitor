@@ -370,10 +370,12 @@
     "reachStatus": "not-visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-10T13:03:42.447Z",
+    "verifiedAt": "2026-10-19T13:01:54.790Z",
     "distributionUrls": [
       "https://www.buzzsprout.com/2278116/episodes/19481304-112-ai-driven-leadership-using-the-crit-framework-make-faster-smarter-decisions-with-geoff-woods"
-    ]
+    ],
+    "lastAttemptAt": "2026-10-19T13:01:54.790Z",
+    "sourceUrl": "https://www.buzzsprout.com/2278116/episodes/19481304-112-ai-driven-leadership-using-the-crit-framework-make-faster-smarter-decisions-with-geoff-woods"
   },
   {
     "id": "podcast:beyond-a-million:2026-07-09",
@@ -602,16 +604,16 @@
       "YouTube",
       "Spotify"
     ],
-    "views": 179687,
+    "views": 180436,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-18T13:02:16.793Z",
+    "viewsVerifiedAt": "2026-10-19T13:01:54.790Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-18T13:02:16.793Z",
+    "verifiedAt": "2026-10-19T13:01:54.790Z",
     "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience. Spotify and YouTube are the same July 15 interview; counted once.",
-    "lastAttemptAt": "2026-10-18T13:02:16.793Z",
+    "lastAttemptAt": "2026-10-19T13:01:54.790Z",
     "distributionUrls": [
       "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod"
     ],
