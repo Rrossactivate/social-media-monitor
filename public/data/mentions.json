@@ -390,15 +390,21 @@
       "Apple Podcasts",
       "YouTube"
     ],
-    "views": null,
+    "views": 64,
     "engagements": null,
-    "reachStatus": "not-visible",
+    "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-09T13:03:17.796Z",
+    "verifiedAt": "2026-10-22T13:03:30.721Z",
     "distributionUrls": [
-      "https://beyondamillion.com/audio/geoff-woods-why-most-founders-are-using-ai-all-wrong/"
-    ]
+      "https://beyondamillion.com/audio/geoff-woods-why-most-founders-are-using-ai-all-wrong/",
+      "https://www.youtube.com/watch?v=beMjviX1_B8"
+    ],
+    "lastAttemptAt": "2026-10-22T13:03:30.721Z",
+    "viewsVerifiedAt": "2026-10-22T13:03:30.721Z",
+    "viewsPrecision": "exact-visible",
+    "viewsSourceUrl": "https://www.youtube.com/watch?v=beMjviX1_B8",
+    "verificationMethod": "signed-in-browser"
   },
   {
     "id": "podcast:ceo-com:2026-07-09",
@@ -604,16 +610,16 @@
       "YouTube",
       "Spotify"
     ],
-    "views": 181856,
+    "views": 182633,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-21T13:03:36.319Z",
+    "viewsVerifiedAt": "2026-10-22T13:03:30.721Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-21T13:03:36.319Z",
+    "verifiedAt": "2026-10-22T13:03:30.721Z",
     "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience. Spotify and YouTube are the same July 15 interview; counted once.",
-    "lastAttemptAt": "2026-10-21T13:03:36.319Z",
+    "lastAttemptAt": "2026-10-22T13:03:30.721Z",
     "distributionUrls": [
       "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod"
     ],
