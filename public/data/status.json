@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T15:49:52.188Z",
-  "timezone": "America/Vancouver",
+  "generatedAt": "2026-10-24T13:02:14.506Z",
+  "timezone": "America/Los_Angeles",
   "providers": [
     {
       "id": "youtube",
@@ -50,9 +50,9 @@
       "label": "Earned media search",
       "mode": "search",
       "status": "ready",
-      "detail": "October 23 search covered public web and YouTube-indexed results; no new unique appearance confirmed in this limited search. Reverified Codie video. Franchise Secrets episode 386 confirmed on its original publisher page; existing record retained. LinkedIn comments and reposts were not exposed today and retain prior verification times. Existing appearances retained without duplicates; search is not exhaustive.",
-      "lastAttemptAt": "2026-10-23T13:02:34.203Z",
-      "lastSuccessAt": "2026-10-23T13:02:34.203Z"
+      "detail": "October 24 search covered public web and YouTube-indexed results; no new unique appearance confirmed in this limited search. Reverified Codie video. Franchise Secrets episode 386 confirmed on its original publisher page; existing record retained. LinkedIn comments and reposts were not exposed today and retain prior verification times. Existing appearances retained without duplicates; search is not exhaustive.",
+      "lastAttemptAt": "2026-10-24T13:02:14.506Z",
+      "lastSuccessAt": "2026-10-24T13:02:14.506Z"
     },
     {
       "id": "loops",
@@ -60,7 +60,7 @@
       "mode": "browser",
       "status": "unavailable",
       "detail": "Built-in browser reached the Loops sign-in page. Previous September 27 subscriber observation retained as stale.",
-      "lastAttemptAt": "2026-10-23T13:02:34.203Z",
+      "lastAttemptAt": "2026-10-24T13:02:14.506Z",
       "lastAttemptStatus": "login-required"
     },
     {
@@ -68,40 +68,40 @@
       "label": "LinkedIn browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access and audience verified October 23. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
-      "lastAttemptAt": "2026-10-23T13:02:34.203Z",
+      "detail": "Signed-in browser access and audience verified October 24. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-24T13:02:14.506Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-23T13:02:34.203Z"
+      "lastSuccessAt": "2026-10-24T13:02:14.506Z"
     },
     {
       "id": "instagram-browser",
       "label": "Instagram browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access and audience verified October 23. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
-      "lastAttemptAt": "2026-10-23T13:02:34.203Z",
+      "detail": "Signed-in browser access and audience verified October 24. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-24T13:02:14.506Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-23T13:02:34.203Z"
+      "lastSuccessAt": "2026-10-24T13:02:14.506Z"
     },
     {
       "id": "x-browser",
       "label": "X browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access and audience verified October 23. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
-      "lastAttemptAt": "2026-10-23T13:02:34.203Z",
+      "detail": "Signed-in browser access and audience verified October 24. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-24T13:02:14.506Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-23T13:02:34.203Z"
+      "lastSuccessAt": "2026-10-24T13:02:14.506Z"
     },
     {
       "id": "tiktok-browser",
       "label": "TikTok browser",
       "mode": "browser",
       "status": "ready",
-      "detail": "Signed-in browser access and audience verified October 23. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
-      "lastAttemptAt": "2026-10-23T13:02:34.203Z",
+      "detail": "Signed-in browser access and audience verified October 24. Visible profile activity inspected; company feed sorted Recent. Only observed metrics received new verification times.",
+      "lastAttemptAt": "2026-10-24T13:02:14.506Z",
       "lastAttemptStatus": "ready",
-      "lastSuccessAt": "2026-10-23T13:02:34.203Z"
+      "lastSuccessAt": "2026-10-24T13:02:14.506Z"
     }
   ]
 }
