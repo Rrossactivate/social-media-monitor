@@ -38,7 +38,7 @@
       "Front Row Dads"
     ],
     "engagements": null,
-    "notes": "Published September 7, 2026; republished excerpt of a 2019 members training, not a newly recorded interview. Related website recap published September 11. Counted once across distribution platforms.",
+    "notes": "Published September 7, 2026; republished excerpt of a 2019 members training, not a newly recorded interview. Related website recap published September 11. Counted once across distribution platforms. Publisher article dated September 11, 2026 confirms Geoff Woods and this title; original episode date retained separately from article date. No audience or view metric exposed.",
     "distributionUrls": [
       "https://podcasts.apple.com/ru/podcast/what-does-your-marriage-look-like-twenty-years-from-now/id1344850656?i=1000788305630",
       "https://www.podparadise.com/episodes/27601274/",
@@ -47,7 +47,10 @@
     "views": null,
     "reachStatus": "not-visible",
     "source": "web-verified",
-    "discoveredAt": "2026-09-19T00:00:46.894Z"
+    "discoveredAt": "2026-09-19T00:00:46.894Z",
+    "verifiedAt": "2026-10-25T13:04:40.957Z",
+    "lastAttemptAt": "2026-10-25T13:04:40.957Z",
+    "sourceUrl": "https://frontrowdads.com/lead-domino-marriage/"
   },
   {
     "id": "linkedin:juan-serje:2026-09-05-crit",
@@ -610,16 +613,16 @@
       "YouTube",
       "Spotify"
     ],
-    "views": 183704,
+    "views": 184152,
     "viewsPrecision": "exact-visible",
-    "viewsVerifiedAt": "2026-10-24T13:02:14.506Z",
+    "viewsVerifiedAt": "2026-10-25T13:04:40.957Z",
     "engagements": null,
     "reachStatus": "visible",
     "source": "web-verified",
     "discoveredAt": "2026-07-25T23:50:53.000Z",
-    "verifiedAt": "2026-10-24T13:02:14.506Z",
+    "verifiedAt": "2026-10-25T13:04:40.957Z",
     "notes": "Guest appearance verified on the video page and expanded description. Publication date is day precision; time is a placeholder. Views are video plays, not unique reach. Publisher subscribers are not included in Geoff’s owned audience. Spotify and YouTube are the same July 15 interview; counted once.",
-    "lastAttemptAt": "2026-10-24T13:02:14.506Z",
+    "lastAttemptAt": "2026-10-25T13:04:40.957Z",
     "distributionUrls": [
       "https://open.spotify.com/episode/5bqeSQvESaeaNoT32BPFod"
     ],
