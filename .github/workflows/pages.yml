@@ -66,6 +66,7 @@ jobs:
             echo "No archive changes to commit."
           else
             git commit -m "Update tracker archive for $(date -u +%F)"
+            git pull --rebase origin main
             git push
           fi
 
